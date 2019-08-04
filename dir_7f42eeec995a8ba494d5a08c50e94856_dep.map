@@ -1,0 +1,28 @@
+<map id="applications/mne_analyze/extensions" name="applications/mne_analyze/extensions">
+<area shape="rect" id="node2" href="dir_56df2e5b8ad3b5a6a693f9ef0b61e3b4.html" title="deepcntk" alt="" coords="720,159,793,207"/>
+<area shape="rect" id="node10" href="dir_49cc0c4b290f4d7f58238318a98e5260.html" title="libs" alt="" coords="869,159,941,207"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000003_000018.html" title="1" alt="" coords="847,167,855,182"/>
+<area shape="rect" id="node11" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html" title="libraries" alt="" coords="905,255,977,303"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000003_000136.html" title="2" alt="" coords="887,246,895,260"/>
+<area shape="rect" id="node3" href="dir_5fbe83258690fe0a89757e52cb619f5c.html" title="deepcntknets" alt="" coords="37,63,136,111"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000004_000003.html" title="2" alt="" coords="699,164,707,178"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000004_000136.html" title="4" alt="" coords="890,237,898,251"/>
+<area shape="rect" id="node4" href="dir_e94c1269093899291050c1f3294c473e.html" title="dipolefit" alt="" coords="368,63,440,111"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000007_000018.html" title="1" alt="" coords="851,143,859,157"/>
+<area shape="rect" id="node5" href="dir_bf6d4f003b2e5ceea2c7bc4347578817.html" title="fiffio" alt="" coords="272,63,344,111"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000009_000018.html" title="1" alt="" coords="850,143,858,157"/>
+<area shape="rect" id="node6" href="dir_1b65c94234dd03aad4d69d6752876319.html" title="invmne" alt="" coords="464,63,536,111"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000010_000018.html" title="2" alt="" coords="851,143,859,157"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000010_000136.html" title="5" alt="" coords="963,233,971,248"/>
+<area shape="rect" id="node7" href="dir_b247420525a6ba1e6857ea8c9e75aab9.html" title="music" alt="" coords="560,63,632,111"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000012_000018.html" title="1" alt="" coords="851,143,859,158"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000012_000136.html" title="13" alt="" coords="988,240,1003,255"/>
+<area shape="rect" id="node8" href="dir_6b74c42bc2e9c516d10046a7baa0acca.html" title="stcbrowser" alt="" coords="161,63,247,111"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000014_000018.html" title="1" alt="" coords="850,143,858,157"/>
+<area shape="rect" id="node9" href="dir_e4c6ad6f9e5c35f7de4d016c0a35af2d.html" title="surfer" alt="" coords="656,63,728,111"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000016_000018.html" title="1" alt="" coords="852,143,860,158"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000016_000136.html" title="3" alt="" coords="993,267,1001,281"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000018_000136.html" title="3" alt="" coords="930,227,938,242"/>
+<area shape="rect" id="clust2" href="dir_7f42eeec995a8ba494d5a08c50e94856.html" alt="" coords="27,52,848,217"/>
+<area shape="rect" id="clust1" href="dir_ecc6f6454590ae4640a11977ecc89fdf.html" title="mne_analyze" alt="" coords="16,16,859,228"/>
+</map>

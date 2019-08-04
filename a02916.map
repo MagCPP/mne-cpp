@@ -1,0 +1,20 @@
+<map id="libraries/disp3D/engine/view/view3D.h" name="libraries/disp3D/engine/view/view3D.h">
+<area shape="rect" id="node2" href="$a01495.html" title="View3D class definition. " alt="" coords="5,103,159,145"/>
+<area shape="rect" id="node3" href="$a01501.html" title="AbstractView class definition. " alt="" coords="185,103,345,145"/>
+<area shape="rect" id="node4" href="$a01505.html" title="HpiView class definition. " alt="" coords="370,103,531,145"/>
+<area shape="rect" id="node5" href="$a00714.html" title="Definition of the Music class. " alt="" coords="556,103,748,145"/>
+<area shape="rect" id="node6" href="$a00728.html" title="applications/mne_analyze\l/extensions/surfer/Views\l/view3danalyze.h" alt="" coords="773,96,944,152"/>
+<area shape="rect" id="node10" href="$a00752_source.html" title="examples/ex_clustered\l_inverse_mne/main.cpp" alt="" coords="969,103,1128,145"/>
+<area shape="rect" id="node11" href="$a00753_source.html" title="examples/ex_clustered\l_inverse_mne_raw/main.cpp" alt="" coords="1154,103,1341,145"/>
+<area shape="rect" id="node12" href="$a00754_source.html" title="examples/ex_clustered\l_inverse_pwl_rap_music\l_raw/main.cpp" alt="" coords="1367,96,1531,152"/>
+<area shape="rect" id="node13" href="$a00755_source.html" title="examples/ex_clustered\l_inverse_rap_music_raw\l/main.cpp" alt="" coords="1557,96,1723,152"/>
+<area shape="rect" id="node14" href="$a00763_source.html" title="examples/ex_disp_3D\l/main.cpp" alt="" coords="1747,103,1897,145"/>
+<area shape="rect" id="node15" href="$a00771_source.html" title="examples/ex_inverse\l_mne_raw/main.cpp" alt="" coords="1922,103,2067,145"/>
+<area shape="rect" id="node16" href="$a00772_source.html" title="examples/ex_inverse\l_pwl_rap_music/main.cpp" alt="" coords="2092,103,2265,145"/>
+<area shape="rect" id="node17" href="$a00773_source.html" title="examples/ex_inverse\l_rap_music/main.cpp" alt="" coords="2289,103,2436,145"/>
+<area shape="rect" id="node18" href="$a00783_source.html" title="examples/ex_roi_clustered\l_inverse_pwl_rap_music\l/main.cpp" alt="" coords="2461,96,2637,152"/>
+<area shape="rect" id="node19" href="$a00785_source.html" title="examples/ex_st_clustered\l_inverse_pwl_rap_music\l/main.cpp" alt="" coords="2662,96,2836,152"/>
+<area shape="rect" id="node7" href="$a00723.html" title="Contains the declaration of the Surfer class. " alt="" coords="673,207,847,249"/>
+<area shape="rect" id="node9" href="$a00727.html" title="applications/mne_analyze\l/extensions/surfer/Views\l/view3danalyze.cpp" alt="" coords="871,200,1043,256"/>
+<area shape="rect" id="node8" href="$a00722.html" title="Definition of the Surfer class. " alt="" coords="666,305,853,346"/>
+</map>

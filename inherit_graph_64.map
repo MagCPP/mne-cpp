@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$a00345.html" title="The LayoutScene class provides a reimplemented QGraphicsScene for 2D layout plotting. This class handles all the user interaction features (subclass in order to use). " alt="" coords="202,81,361,108"/>
+<area shape="rect" id="node7" href="$a00257.html" title="The FilterPlotScene class provides the scene where a filter respone can be plotted. " alt="" coords="177,132,386,159"/>
+<area shape="rect" id="node8" href="$a00526.html" title="MNESCAN::PluginScene" alt="" coords="196,183,367,209"/>
+<area shape="rect" id="node9" href="$a00662.html" title="The TMSIImpedanceScene class provides a reimplemented QGraphicsScene. " alt="" coords="177,234,385,275"/>
+<area shape="rect" id="node3" href="$a00056.html" title="The AverageScene class provides a reimplemented QGraphicsScene for 2D layout plotting. " alt="" coords="455,5,622,32"/>
+<area shape="rect" id="node4" href="$a00256.html" title="The FilterPlotScene class provides the scene where a filter response can be plotted. " alt="" coords="453,56,624,83"/>
+<area shape="rect" id="node5" href="$a00613.html" title="The SelectionScene class provides a reimplemented QGraphicsScene for 2D layout plotting. " alt="" coords="452,107,625,133"/>
+<area shape="rect" id="node6" href="$a00088.html" title="The ButterflyScene class provides a reimplemented QGraphicsScene for 2D layout plotting. " alt="" coords="435,157,642,184"/>
+</map>

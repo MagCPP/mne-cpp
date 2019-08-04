@@ -1,0 +1,7 @@
+<map id="applications/mne_scan/plugins/brainamp/brainampdriver.cpp" name="applications/mne_scan/plugins/brainamp/brainampdriver.cpp">
+<area shape="rect" id="node2" href="$a01017.html" title="Contains the declaration of the BrainAMPDriver class. " alt="" coords="290,96,408,123"/>
+<area shape="rect" id="node9" href="$a01019.html" title="Contains the declaration of the BrainAMPProducer class. " alt="" coords="636,96,771,123"/>
+<area shape="rect" id="node5" href="$a01015.html" title="Contains the BrainAMP library export/import macros. " alt="" coords="458,171,584,197"/>
+<area shape="rect" id="node10" href="$a01771.html" title="CircularBuffer class declaration. " alt="" coords="609,171,799,197"/>
+<area shape="rect" id="node11" href="$a01805.html" title="utils library export/import macros. " alt="" coords="542,245,652,272"/>
+</map>

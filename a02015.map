@@ -1,0 +1,20 @@
+<map id="applications/mne_browse/Windows/filterwindow.cpp" name="applications/mne_browse/Windows/filterwindow.cpp">
+<area shape="rect" id="node2" href="$a00836.html" title="Contains the declaration of the FilterWindow class. " alt="" coords="2522,96,2624,123"/>
+<area shape="rect" id="node4" href="$a00792_source.html" title="mainwindow.h" alt="" coords="1655,171,1760,197"/>
+<area shape="rect" id="node47" href="$a01371_source.html" title="../Utils/filterplotscene.h" alt="" coords="3065,171,3223,197"/>
+<area shape="rect" id="node5" href="$a00739_source.html" title="../Utils/info.h" alt="" coords="335,320,432,347"/>
+<area shape="rect" id="node8" href="$a01432_source.html" title="../Utils/types.h" alt="" coords="2602,320,2709,347"/>
+<area shape="rect" id="node11" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="1844,469,1911,496"/>
+<area shape="rect" id="node18" href="$a00822.html" title="In this RawSettings class all mne_browse settings are managed. In order to store settings from the la..." alt="" coords="1561,245,1703,272"/>
+<area shape="rect" id="node23" href="$a00834.html" title="Definition of the EventWindow class. " alt="" coords="1728,245,1837,272"/>
+<area shape="rect" id="node26" href="$a00832.html" title="Definition of the DataWindow class. " alt="" coords="1963,245,2065,272"/>
+<area shape="rect" id="node29" href="$a00826.html" title="Definition of the AboutWindow class. " alt="" coords="2648,245,2757,272"/>
+<area shape="rect" id="node30" href="$a00838.html" title="Definition of the InformationWindow class. " alt="" coords="292,245,432,272"/>
+<area shape="rect" id="node32" href="$a00828.html" title="Contains the declaration of the AverageWindow class. " alt="" coords="2141,245,2264,272"/>
+<area shape="rect" id="node35" href="$a00842.html" title="Contains the declaration of the ScaleWindow class. " alt="" coords="1633,395,1812,421"/>
+<area shape="rect" id="node36" href="$a00830.html" title="Contains the declaration of the ChInfoWindow class. " alt="" coords="1447,395,1557,421"/>
+<area shape="rect" id="node37" href="$a00840.html" title="Contains the declaration of the NoiseReductionWindow class. " alt="" coords="5,245,165,272"/>
+<area shape="rect" id="node39" href="$a01333.html" title="Contains the declaration of the ChannelSelectionView class. " alt="" coords="2389,245,2623,272"/>
+<area shape="rect" id="node14" href="$a00818.html" title="The FilterOperator class represents a derived class from an arbitrary MNEOperator class object..." alt="" coords="2698,395,2803,421"/>
+<area shape="rect" id="node25" href="$a00800.html" title="Contains the declaration of the EventDelegate class. " alt="" coords="1668,320,1857,347"/>
+</map>

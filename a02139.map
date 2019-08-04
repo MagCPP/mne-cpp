@@ -1,0 +1,9 @@
+<map id="applications/mne_scan/libs/scMeas/realtimespectrum.h" name="applications/mne_scan/libs/scMeas/realtimespectrum.h">
+<area shape="rect" id="node2" href="$a00915.html" title="Definition of the RealTimeSpectrumWidget Class. " alt="" coords="4,103,261,145"/>
+<area shape="rect" id="node3" href="$a00920.html" title="Definition of the MeasurementTypes class. " alt="" coords="286,103,521,145"/>
+<area shape="rect" id="node4" href="$a00938.html" title="Definition of the RealTimeSpectrum class. " alt="" coords="546,103,771,145"/>
+<area shape="rect" id="node5" href="$a00945.html" title="Definition of the DisplayManager Class. " alt="" coords="796,96,980,152"/>
+<area shape="rect" id="node6" href="$a01136.html" title="Contains the declaration of the NoiseEstimate class. " alt="" coords="1005,103,1203,145"/>
+<area shape="rect" id="node7" href="$a01133_source.html" title="applications/mne_scan\l/plugins/noise/FormFiles\l/noiseestimatesetupwidget.cpp" alt="" coords="887,200,1089,256"/>
+<area shape="rect" id="node8" href="$a01135.html" title="Definition of the NoiseEstimate class. " alt="" coords="1114,207,1325,249"/>
+</map>

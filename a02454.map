@@ -1,0 +1,18 @@
+<map id="applications/mne_scan/plugins/reference/eegref.h" name="applications/mne_scan/plugins/reference/eegref.h">
+<area shape="rect" id="node2" href="$a01162.html" title="Contains the Reference library export/import macros. " alt="" coords="5,171,133,197"/>
+<area shape="rect" id="node4" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1063,96,1157,123"/>
+<area shape="rect" id="node28" href="$a01781.html" title="IOUtils class declaration. " alt="" coords="2067,320,2161,347"/>
+<area shape="rect" id="node5" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="907,395,996,421"/>
+<area shape="rect" id="node6" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="886,171,996,197"/>
+<area shape="rect" id="node7" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1021,395,1107,421"/>
+<area shape="rect" id="node14" href="$a01549.html" title="FiffId class declaration. " alt="" coords="979,320,1044,347"/>
+<area shape="rect" id="node16" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1302,245,1399,272"/>
+<area shape="rect" id="node19" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1587,320,1693,347"/>
+<area shape="rect" id="node21" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="643,245,752,272"/>
+<area shape="rect" id="node25" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1819,320,1941,347"/>
+<area shape="rect" id="node27" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1073,245,1148,272"/>
+<area shape="rect" id="node8" href="$a01526.html" title="Fiff constants. " alt="" coords="756,469,867,496"/>
+<area shape="rect" id="node17" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1414,320,1511,347"/>
+<area shape="rect" id="node22" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="411,320,548,347"/>
+<area shape="rect" id="node29" href="$a01805.html" title="utils library export/import macros. " alt="" coords="1912,395,2011,421"/>
+</map>

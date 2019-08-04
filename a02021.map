@@ -1,0 +1,15 @@
+<map id="applications/mne_browse/Windows/noisereductionwindow.h" name="applications/mne_browse/Windows/noisereductionwindow.h">
+<area shape="rect" id="node3" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="717,96,811,123"/>
+<area shape="rect" id="node4" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="363,395,452,421"/>
+<area shape="rect" id="node6" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="759,171,869,197"/>
+<area shape="rect" id="node7" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="826,395,912,421"/>
+<area shape="rect" id="node14" href="$a01549.html" title="FiffId class declaration. " alt="" coords="675,320,740,347"/>
+<area shape="rect" id="node16" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="985,245,1081,272"/>
+<area shape="rect" id="node19" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="195,320,301,347"/>
+<area shape="rect" id="node21" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1107,245,1216,272"/>
+<area shape="rect" id="node25" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="477,320,600,347"/>
+<area shape="rect" id="node27" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1309,245,1384,272"/>
+<area shape="rect" id="node8" href="$a01526.html" title="Fiff constants. " alt="" coords="973,469,1084,496"/>
+<area shape="rect" id="node17" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="817,320,913,347"/>
+<area shape="rect" id="node22" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="1486,320,1623,347"/>
+</map>

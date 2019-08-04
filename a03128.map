@@ -1,0 +1,28 @@
+<map id="libraries/mne/c/mne_ctf_comp_data_set.cpp" name="libraries/mne/c/mne_ctf_comp_data_set.cpp">
+<area shape="rect" id="node2" href="$a01650.html" title="MneCTFCompDataSet class declaration. " alt="" coords="768,171,944,197"/>
+<area shape="rect" id="node12" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="3349,560,3448,587"/>
+<area shape="rect" id="node31" href="$a01648.html" title="MneCTFCompData class declaration. " alt="" coords="386,171,536,197"/>
+<area shape="rect" id="node32" href="$a01707_source.html" title="mne_types.h" alt="" coords="1085,96,1181,123"/>
+<area shape="rect" id="node39" href="$a01512.html" title="FiffCoordTransOld class declaration. " alt="" coords="3055,246,3197,287"/>
+<area shape="rect" id="node3" href="$a01729_source.html" title="../mne_global.h" alt="" coords="771,560,881,587"/>
+<area shape="rect" id="node5" href="$a01678.html" title="MNE Named Matrix (MneNamedMatrix) class declaration. " alt="" coords="448,485,595,512"/>
+<area shape="rect" id="node10" href="$a01518.html" title="FiffSparseMatrix class declaration. " alt="" coords="830,246,943,287"/>
+<area shape="rect" id="node11" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1317,560,1419,587"/>
+<area shape="rect" id="node17" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="2008,336,2093,363"/>
+<area shape="rect" id="node13" href="$a01526.html" title="Fiff constants. " alt="" coords="3664,635,3775,661"/>
+<area shape="rect" id="node18" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="3083,560,3155,587"/>
+<area shape="rect" id="node19" href="$a01549.html" title="FiffId class declaration. " alt="" coords="2838,485,2903,512"/>
+<area shape="rect" id="node20" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1493,485,1616,512"/>
+<area shape="rect" id="node22" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="2002,411,2099,437"/>
+<area shape="rect" id="node23" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="2242,485,2339,512"/>
+<area shape="rect" id="node25" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2709,485,2813,512"/>
+<area shape="rect" id="node26" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1261,485,1368,512"/>
+<area shape="rect" id="node33" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="2803,336,2917,363"/>
+<area shape="rect" id="node37" href="$a01698.html" title="MNE SSS Data (MneSssData) class declaration. " alt="" coords="670,485,788,512"/>
+<area shape="rect" id="node38" href="$a01654.html" title="MNE Derivation Set (MneDerivSet) class declaration. " alt="" coords="1691,485,1809,512"/>
+<area shape="rect" id="node40" href="$a01686.html" title="MNEProjItem class declaration. " alt="" coords="865,485,983,512"/>
+<area shape="rect" id="node41" href="$a01688.html" title="MNEProjOp class declaration. " alt="" coords="2135,253,2241,280"/>
+<area shape="rect" id="node42" href="$a01646.html" title="MneCovMatrix class declaration. " alt="" coords="1834,485,1963,512"/>
+<area shape="rect" id="node34" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="3279,411,3383,437"/>
+<area shape="rect" id="node35" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="3232,485,3328,512"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="libraries/disp3D/engine/model/items/sourcedata/mnedatatreeitem.h" name="libraries/disp3D/engine/model/items/sourcedata/mnedatatreeitem.h">
+<area shape="rect" id="node2" href="$a01441.html" title="HemisphereTreeItem class definition. " alt="" coords="5,109,173,165"/>
+<area shape="rect" id="node3" href="$a01443_source.html" title="libraries/disp3D/engine\l/model/items/measurement\l/measurementtreeitem.cpp" alt="" coords="198,109,377,165"/>
+<area shape="rect" id="node4" href="$a01459.html" title="MneDataTreeItem class definition. " alt="" coords="403,109,567,165"/>
+<area shape="rect" id="node5" href="$a01509.html" title="SourceEstimateView class definition. " alt="" coords="593,117,759,158"/>
+<area shape="rect" id="node6" href="$a00714.html" title="Definition of the Music class. " alt="" coords="784,117,976,158"/>
+<area shape="rect" id="node7" href="$a00913.html" title="Definition of the RealTimeSourceEstimateWidget Class. " alt="" coords="1000,117,1293,158"/>
+<area shape="rect" id="node8" href="$a00752_source.html" title="examples/ex_clustered\l_inverse_mne/main.cpp" alt="" coords="1317,117,1476,158"/>
+<area shape="rect" id="node9" href="$a00753_source.html" title="examples/ex_clustered\l_inverse_mne_raw/main.cpp" alt="" coords="1502,117,1689,158"/>
+<area shape="rect" id="node10" href="$a00754_source.html" title="examples/ex_clustered\l_inverse_pwl_rap_music\l_raw/main.cpp" alt="" coords="1715,109,1879,165"/>
+<area shape="rect" id="node11" href="$a00755_source.html" title="examples/ex_clustered\l_inverse_rap_music_raw\l/main.cpp" alt="" coords="1905,109,2071,165"/>
+<area shape="rect" id="node12" href="$a00756_source.html" title="examples/ex_connectivity\l/main.cpp" alt="" coords="2096,117,2269,158"/>
+<area shape="rect" id="node13" href="$a00757_source.html" title="examples/ex_connectivity\l_comparison/main.cpp" alt="" coords="2293,117,2467,158"/>
+<area shape="rect" id="node14" href="$a00763_source.html" title="examples/ex_disp_3D\l/main.cpp" alt="" coords="2491,117,2641,158"/>
+<area shape="rect" id="node15" href="$a00771_source.html" title="examples/ex_inverse\l_mne_raw/main.cpp" alt="" coords="2666,117,2811,158"/>
+<area shape="rect" id="node16" href="$a00772_source.html" title="examples/ex_inverse\l_pwl_rap_music/main.cpp" alt="" coords="2836,117,3009,158"/>
+<area shape="rect" id="node17" href="$a00773_source.html" title="examples/ex_inverse\l_rap_music/main.cpp" alt="" coords="3033,117,3180,158"/>
+</map>

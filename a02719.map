@@ -1,0 +1,23 @@
+<map id="libraries/disp/viewers/filterdesignview.cpp" name="libraries/disp/viewers/filterdesignview.cpp">
+<area shape="rect" id="node2" href="$a01351_source.html" title="filterdesignview.h" alt="" coords="580,171,703,197"/>
+<area shape="rect" id="node13" href="$a01370_source.html" title="helpers/filterplotscene.h" alt="" coords="237,171,396,197"/>
+<area shape="rect" id="node16" href="$a01789.html" title="MNEMath class declaration. " alt="" coords="368,245,483,272"/>
+<area shape="rect" id="node20" href="$a01763.html" title="FilterIO class declaration. " alt="" coords="769,171,927,197"/>
+<area shape="rect" id="node22" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1657,96,1751,123"/>
+<area shape="rect" id="node3" href="$a01301.html" title="disp library export/import macros. " alt="" coords="150,320,260,347"/>
+<area shape="rect" id="node5" href="$a01761.html" title="The FilterData class represents a derived class from an arbitrary MNEOperator class object..." alt="" coords="754,245,925,272"/>
+<area shape="rect" id="node6" href="$a01805.html" title="utils library export/import macros. " alt="" coords="650,320,760,347"/>
+<area shape="rect" id="node14" href="$a01377.html" title="Contains the declaration of the LayoutScene class. " alt="" coords="139,245,241,272"/>
+<area shape="rect" id="node23" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1511,395,1600,421"/>
+<area shape="rect" id="node24" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1942,171,2052,197"/>
+<area shape="rect" id="node25" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="2006,395,2092,421"/>
+<area shape="rect" id="node30" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1818,320,1883,347"/>
+<area shape="rect" id="node31" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1543,245,1640,272"/>
+<area shape="rect" id="node33" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="2161,320,2268,347"/>
+<area shape="rect" id="node35" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1716,245,1825,272"/>
+<area shape="rect" id="node39" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1193,320,1316,347"/>
+<area shape="rect" id="node41" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="2258,245,2333,272"/>
+<area shape="rect" id="node26" href="$a01526.html" title="Fiff constants. " alt="" coords="2305,469,2416,496"/>
+<area shape="rect" id="node32" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1594,320,1691,347"/>
+<area shape="rect" id="node36" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="2445,320,2581,347"/>
+</map>

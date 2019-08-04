@@ -1,0 +1,23 @@
+<map id="applications/mne_scan/plugins/tmsi/tmsi.h" name="applications/mne_scan/plugins/tmsi/tmsi.h">
+<area shape="rect" id="node5" href="$a01212.html" title="Contains the TMSI library export/import macros. " alt="" coords="5,336,104,363"/>
+<area shape="rect" id="node7" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="1043,97,1181,138"/>
+<area shape="rect" id="node10" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="1147,187,1372,213"/>
+<area shape="rect" id="node19" href="$a01785.html" title="LayoutLoader class declaration. " alt="" coords="1447,187,1576,213"/>
+<area shape="rect" id="node29" href="$a01209.html" title="Contains the declaration of the TMSISetupWidget class. " alt="" coords="3054,104,3244,131"/>
+<area shape="rect" id="node33" href="$a01205.html" title="Contains the declaration of the TMSIManualAnnotation class. " alt="" coords="2719,104,2979,131"/>
+<area shape="rect" id="node36" href="$a01203.html" title="Contains the declaration of the TmsiImpedanceWidget class. " alt="" coords="2220,104,2441,131"/>
+<area shape="rect" id="node43" href="$a01207.html" title="Contains the declaration of the TMSISetupProjectWidget class. " alt="" coords="2465,104,2695,131"/>
+<area shape="rect" id="node44" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="439,104,505,131"/>
+<area shape="rect" id="node8" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="899,261,972,288"/>
+<area shape="rect" id="node11" href="$a01805.html" title="utils library export/import macros. " alt="" coords="1397,336,1507,363"/>
+<area shape="rect" id="node12" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="1341,261,1408,288"/>
+<area shape="rect" id="node31" href="$a01220.html" title="Contains the implementation of the TMSIImpedanceView class. " alt="" coords="3311,187,3459,213"/>
+<area shape="rect" id="node32" href="$a01216.html" title="Contains the declaration of the TMSIElectrodeItem class. " alt="" coords="2520,261,2655,288"/>
+<area shape="rect" id="node37" href="$a01218.html" title="Contains the implementation of the TMSIImpedanceScene class. " alt="" coords="2107,187,2275,213"/>
+<area shape="rect" id="node45" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="165,336,253,363"/>
+<area shape="rect" id="node46" href="$a01526.html" title="Fiff constants. " alt="" coords="337,261,448,288"/>
+<area shape="rect" id="node47" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="672,187,795,213"/>
+<area shape="rect" id="node48" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="256,187,360,213"/>
+<area shape="rect" id="node49" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="157,261,261,288"/>
+<area shape="rect" id="node50" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="510,187,647,213"/>
+</map>

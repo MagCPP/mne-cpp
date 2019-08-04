@@ -1,0 +1,30 @@
+<map id="libraries/connectivity/connectivitysettings.h" name="libraries/connectivity/connectivitysettings.h">
+<area shape="rect" id="node2" href="$a01259.html" title="Connectivity class definition. " alt="" coords="837,207,977,249"/>
+<area shape="rect" id="node3" href="$a01271.html" title="Correlation class declaration. " alt="" coords="185,103,329,145"/>
+<area shape="rect" id="node5" href="$a01273.html" title="CrossCorrelation class declaration. " alt="" coords="353,103,529,145"/>
+<area shape="rect" id="node7" href="$a01277_source.html" title="libraries/connectivity\l/metrics/imagcoherence.h" alt="" coords="1886,103,2057,145"/>
+<area shape="rect" id="node9" href="$a01279.html" title="PhaseLagIndex class declaration. " alt="" coords="554,103,720,145"/>
+<area shape="rect" id="node11" href="$a01281.html" title="PhaseLockingValue class declaration. " alt="" coords="745,103,935,145"/>
+<area shape="rect" id="node13" href="$a01285.html" title="WeightedPhaseLagIndex class declaration. " alt="" coords="1011,103,1229,145"/>
+<area shape="rect" id="node15" href="$a01283.html" title="UnbiasedSquaredPhaseLagIndex class declaration. " alt="" coords="1254,103,1519,145"/>
+<area shape="rect" id="node17" href="$a01275.html" title="DebiasedSquaredWeightedPhaseLagIndex class declaration. " alt="" coords="1544,103,1861,145"/>
+<area shape="rect" id="node19" href="$a01262.html" title="ConnectivitySettings class definition. " alt="" coords="2302,103,2468,145"/>
+<area shape="rect" id="node20" href="$a01269.html" title="Coherency class declaration. " alt="" coords="2083,103,2227,145"/>
+<area shape="rect" id="node21" href="$a01266.html" title="Coherence class declaration. " alt="" coords="2313,207,2471,249"/>
+<area shape="rect" id="node23" href="$a01743.html" title="Definition of the RtConnectivity Class. " alt="" coords="2493,103,2635,145"/>
+<area shape="rect" id="node24" href="$a01131.html" title="Contains the declaration of the NeuronalConnectivity class. " alt="" coords="2659,96,2849,152"/>
+<area shape="rect" id="node26" href="$a01243.html" title="Definition of the DraggableFramelessWidget Class. " alt="" coords="2925,103,3128,145"/>
+<area shape="rect" id="node27" href="$a00756_source.html" title="examples/ex_connectivity\l/main.cpp" alt="" coords="2907,207,3080,249"/>
+<area shape="rect" id="node28" href="$a00757_source.html" title="examples/ex_connectivity\l_comparison/main.cpp" alt="" coords="3152,103,3325,145"/>
+<area shape="rect" id="node29" href="$a00758_source.html" title="examples/ex_connectivity\l_performance/main.cpp" alt="" coords="3349,103,3523,145"/>
+<area shape="rect" id="node4" href="$a01270.html" title="Correlation class definition. " alt="" coords="5,207,163,249"/>
+<area shape="rect" id="node6" href="$a01272.html" title="CrossCorrelation class definition. " alt="" coords="187,207,377,249"/>
+<area shape="rect" id="node8" href="$a01276.html" title="Imaginary coherence class declaration. " alt="" coords="1919,207,2105,249"/>
+<area shape="rect" id="node10" href="$a01278.html" title="PhaseLagIndex class definition. " alt="" coords="403,207,584,249"/>
+<area shape="rect" id="node12" href="$a01280.html" title="PhaseLockingValue class definition. " alt="" coords="608,207,813,249"/>
+<area shape="rect" id="node14" href="$a01284.html" title="WeightedPhaseLagIndex class definition. " alt="" coords="1003,207,1236,249"/>
+<area shape="rect" id="node16" href="$a01282_source.html" title="libraries/connectivity\l/metrics/unbiasedsquaredphaselagindex.cpp" alt="" coords="1261,207,1539,249"/>
+<area shape="rect" id="node18" href="$a01274.html" title="DebiasedSquaredWeightedPhaseLagIndex class definition. " alt="" coords="1564,207,1893,249"/>
+<area shape="rect" id="node22" href="$a01268.html" title="Coherency class declaration. " alt="" coords="2130,207,2288,249"/>
+<area shape="rect" id="node25" href="$a01130.html" title="Definition of the NeuronalConnectivity class. " alt="" coords="2659,200,2849,256"/>
+</map>

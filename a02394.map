@@ -1,0 +1,31 @@
+<map id="applications/mne_scan/plugins/natus/natus.cpp" name="applications/mne_scan/plugins/natus/natus.cpp">
+<area shape="rect" id="node2" href="$a01114.html" title="Contains the declaration of the Natus class. " alt="" coords="774,245,839,272"/>
+<area shape="rect" id="node18" href="$a01117.html" title="Contains the declaration of the NatusProducer class. " alt="" coords="320,245,435,272"/>
+<area shape="rect" id="node21" href="$a01112.html" title="Contains the declaration of the NatusSetup class. " alt="" coords="633,96,791,123"/>
+<area shape="rect" id="node24" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="2465,96,2532,123"/>
+<area shape="rect" id="node44" href="$a00931.html" title="Contains the declaration of the RealTimeMultiSampleArray class. " alt="" coords="2909,171,3136,197"/>
+<area shape="rect" id="node3" href="$a01115.html" title="Contains the Natus plugin library export/import macros. " alt="" coords="289,328,396,355"/>
+<area shape="rect" id="node5" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="1069,321,1208,362"/>
+<area shape="rect" id="node8" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="421,328,645,355"/>
+<area shape="rect" id="node6" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="1334,411,1407,437"/>
+<area shape="rect" id="node9" href="$a01805.html" title="utils library export/import macros. " alt="" coords="489,485,599,512"/>
+<area shape="rect" id="node10" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="675,411,741,437"/>
+<area shape="rect" id="node25" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1686,485,1775,512"/>
+<area shape="rect" id="node26" href="$a01526.html" title="Fiff constants. " alt="" coords="3344,560,3455,587"/>
+<area shape="rect" id="node27" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1883,411,2005,437"/>
+<area shape="rect" id="node28" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="3611,485,3697,512"/>
+<area shape="rect" id="node32" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="3948,328,4052,355"/>
+<area shape="rect" id="node33" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2379,411,2484,437"/>
+<area shape="rect" id="node34" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="3219,411,3356,437"/>
+<area shape="rect" id="node35" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="2057,328,2129,355"/>
+<area shape="rect" id="node37" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="3147,328,3223,355"/>
+<area shape="rect" id="node38" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="2809,328,2919,355"/>
+<area shape="rect" id="node39" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="2826,245,2901,272"/>
+<area shape="rect" id="node40" href="$a01561.html" title="FiffRawData class declaration. " alt="" coords="2445,171,2552,197"/>
+<area shape="rect" id="node41" href="$a01563.html" title="FiffRawDir class declaration. " alt="" coords="2387,328,2484,355"/>
+<area shape="rect" id="node42" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="2561,245,2655,272"/>
+<area shape="rect" id="node43" href="$a01544.html" title="FiffEvokedSet class declaration. " alt="" coords="2628,171,2751,197"/>
+<area shape="rect" id="node45" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="1800,485,1920,512"/>
+<area shape="rect" id="node46" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="2993,245,3156,272"/>
+<area shape="rect" id="node49" href="$a00935.html" title="Contains the declaration of the RealTimeSampleArrayChInfo class. " alt="" coords="3381,411,3565,437"/>
+</map>

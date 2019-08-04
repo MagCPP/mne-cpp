@@ -1,0 +1,33 @@
+<map id="libraries/mne/mne_forwardsolution.h" name="libraries/mne/mne_forwardsolution.h">
+<area shape="rect" id="node2" href="$a01729_source.html" title="mne_global.h" alt="" coords="1570,304,1669,331"/>
+<area shape="rect" id="node4" href="$a01738.html" title="MNESourceSpace class declaration. " alt="" coords="3515,80,3654,107"/>
+<area shape="rect" id="node10" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="3471,677,3578,704"/>
+<area shape="rect" id="node11" href="$a01526.html" title="Fiff constants. " alt="" coords="5366,752,5477,779"/>
+<area shape="rect" id="node17" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="2514,603,2637,629"/>
+<area shape="rect" id="node33" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="2403,453,2513,480"/>
+<area shape="rect" id="node40" href="$a01789.html" title="MNEMath class declaration. " alt="" coords="127,528,242,555"/>
+<area shape="rect" id="node43" href="$a01783.html" title="KMeans class declaration. " alt="" coords="549,603,655,629"/>
+<area shape="rect" id="node44" href="$a01572.html" title="AnnotationSet class declaration. " alt="" coords="415,528,541,555"/>
+<area shape="rect" id="node48" href="$a01530.html" title="FiffCov class declaration. " alt="" coords="1299,304,1393,331"/>
+<area shape="rect" id="node5" href="$a01732.html" title="MNEHemisphere class declaration. " alt="" coords="1961,155,2093,181"/>
+<area shape="rect" id="node15" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="3477,229,3543,256"/>
+<area shape="rect" id="node19" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="4655,528,4759,555"/>
+<area shape="rect" id="node6" href="$a01720.html" title="MNEClusterInfo class declaration, which provides cluster information. " alt="" coords="1773,229,1905,256"/>
+<area shape="rect" id="node16" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="2631,677,2719,704"/>
+<area shape="rect" id="node20" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="4221,603,4326,629"/>
+<area shape="rect" id="node23" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="1795,603,1931,629"/>
+<area shape="rect" id="node25" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="3803,528,3875,555"/>
+<area shape="rect" id="node30" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1939,528,2014,555"/>
+<area shape="rect" id="node31" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="2141,528,2250,555"/>
+<area shape="rect" id="node32" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="2857,379,2933,405"/>
+<area shape="rect" id="node34" href="$a01561.html" title="FiffRawData class declaration. " alt="" coords="3456,304,3563,331"/>
+<area shape="rect" id="node35" href="$a01563.html" title="FiffRawDir class declaration. " alt="" coords="3681,528,3778,555"/>
+<area shape="rect" id="node36" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="4152,453,4246,480"/>
+<area shape="rect" id="node21" href="$a01549.html" title="FiffId class declaration. " alt="" coords="4029,603,4094,629"/>
+<area shape="rect" id="node22" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="4706,603,4802,629"/>
+<area shape="rect" id="node26" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="2712,603,2809,629"/>
+<area shape="rect" id="node28" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="2986,603,3093,629"/>
+<area shape="rect" id="node41" href="$a01805.html" title="utils library export/import macros. " alt="" coords="405,677,503,704"/>
+<area shape="rect" id="node45" href="$a01575.html" title="Fs library export/import macros. " alt="" coords="295,677,381,704"/>
+<area shape="rect" id="node46" href="$a01570.html" title="Annotation class declaration. " alt="" coords="431,603,525,629"/>
+</map>

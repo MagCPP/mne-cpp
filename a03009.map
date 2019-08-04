@@ -1,0 +1,21 @@
+<map id="libraries/fiff/fiff_raw_data.h" name="libraries/fiff/fiff_raw_data.h">
+<area shape="rect" id="node2" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="949,395,1037,421"/>
+<area shape="rect" id="node4" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1386,96,1461,123"/>
+<area shape="rect" id="node27" href="$a01563.html" title="FiffRawDir class declaration. " alt="" coords="1969,245,2065,272"/>
+<area shape="rect" id="node29" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="2505,171,2599,197"/>
+<area shape="rect" id="node5" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1369,171,1479,197"/>
+<area shape="rect" id="node6" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1730,395,1816,421"/>
+<area shape="rect" id="node13" href="$a01549.html" title="FiffId class declaration. " alt="" coords="2115,320,2180,347"/>
+<area shape="rect" id="node15" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1137,245,1233,272"/>
+<area shape="rect" id="node18" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="712,320,819,347"/>
+<area shape="rect" id="node20" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="620,245,729,272"/>
+<area shape="rect" id="node24" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1664,320,1787,347"/>
+<area shape="rect" id="node26" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="869,245,944,272"/>
+<area shape="rect" id="node7" href="$a01526.html" title="Fiff constants. " alt="" coords="1835,469,1945,496"/>
+<area shape="rect" id="node16" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="945,320,1041,347"/>
+<area shape="rect" id="node21" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="195,320,332,347"/>
+<area shape="rect" id="node28" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2257,320,2361,347"/>
+<area shape="rect" id="node30" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="2411,245,2515,272"/>
+<area shape="rect" id="node31" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="2589,320,2685,347"/>
+<area shape="rect" id="node32" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="2451,395,2523,421"/>
+</map>

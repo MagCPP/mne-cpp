@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00087.html" title="The Buffer class provides a base class for buffers. " alt="" coords="5,111,139,137"/>
+<area shape="rect" id="node2" href="$a00106.html" title="IOBUFFER::CircularMatrix\lBuffer\&lt; double \&gt;" alt="" coords="207,5,385,46"/>
+<area shape="rect" id="node3" href="$a00105.html" title="The TEMPLATE CIRCULAR BUFFER provides a template for thread safe circular buffers. " alt="" coords="207,70,385,111"/>
+<area shape="rect" id="node4" href="$a00106.html" title="The circular matrix buffer. " alt="" coords="207,135,385,177"/>
+<area shape="rect" id="node5" href="$a00107.html" title="The TEMPLATE CIRCULAR BUFFER provides a template for thread safe circular buffers. " alt="" coords="187,201,405,242"/>
+</map>

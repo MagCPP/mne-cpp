@@ -1,0 +1,18 @@
+<map id="applications/mne_scan/libs/scMeas/realtimespectrum.h" name="applications/mne_scan/libs/scMeas/realtimespectrum.h">
+<area shape="rect" id="node2" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="375,320,495,347"/>
+<area shape="rect" id="node4" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="244,245,355,272"/>
+<area shape="rect" id="node9" href="$a00935.html" title="Contains the declaration of the RealTimeSampleArrayChInfo class. " alt="" coords="562,245,747,272"/>
+<area shape="rect" id="node18" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1578,96,1672,123"/>
+<area shape="rect" id="node10" href="$a01526.html" title="Fiff constants. " alt="" coords="1799,469,1928,496"/>
+<area shape="rect" id="node11" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1684,395,1791,421"/>
+<area shape="rect" id="node19" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1358,395,1447,421"/>
+<area shape="rect" id="node20" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1570,171,1680,197"/>
+<area shape="rect" id="node21" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1370,320,1435,347"/>
+<area shape="rect" id="node22" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="983,245,1080,272"/>
+<area shape="rect" id="node24" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1239,320,1345,347"/>
+<area shape="rect" id="node26" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1864,245,1973,272"/>
+<area shape="rect" id="node30" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1967,320,2089,347"/>
+<area shape="rect" id="node32" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="2099,245,2175,272"/>
+<area shape="rect" id="node23" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="874,320,971,347"/>
+<area shape="rect" id="node27" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="2266,320,2403,347"/>
+</map>

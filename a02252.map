@@ -1,0 +1,18 @@
+<map id="applications/mne_scan/plugins/brainamp/brainamp.h" name="applications/mne_scan/plugins/brainamp/brainamp.h">
+<area shape="rect" id="node2" href="$a01015.html" title="Contains the BrainAMP library export/import macros. " alt="" coords="1455,187,1581,213"/>
+<area shape="rect" id="node5" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="1016,97,1155,138"/>
+<area shape="rect" id="node28" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="327,336,552,363"/>
+<area shape="rect" id="node6" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="1049,187,1121,213"/>
+<area shape="rect" id="node7" href="$a00962_source.html" title="../Management/pluginoutputdata.h" alt="" coords="665,261,884,288"/>
+<area shape="rect" id="node22" href="$a00956.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="1052,261,1261,288"/>
+<area shape="rect" id="node8" href="$a00965.html" title="Contains the scshared library export/import macros. " alt="" coords="1464,485,1603,512"/>
+<area shape="rect" id="node9" href="$a00960.html" title="Contains the declaration of the PluginOutputConnector class. " alt="" coords="1257,336,1416,363"/>
+<area shape="rect" id="node20" href="$a00961.html" title="Contains the declaration of the PluginOutputData class. " alt="" coords="647,336,789,363"/>
+<area shape="rect" id="node10" href="$a00948.html" title="Contains the declaration of the PluginConnector class. " alt="" coords="1234,411,1357,437"/>
+<area shape="rect" id="node16" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="1047,411,1209,437"/>
+<area shape="rect" id="node17" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="833,485,953,512"/>
+<area shape="rect" id="node23" href="$a00954_source.html" title="plugininputconnector.h" alt="" coords="1081,336,1233,363"/>
+<area shape="rect" id="node24" href="$a00955.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="1586,336,1720,363"/>
+<area shape="rect" id="node29" href="$a01805.html" title="utils library export/import macros. " alt="" coords="523,485,633,512"/>
+<area shape="rect" id="node30" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="545,411,612,437"/>
+</map>

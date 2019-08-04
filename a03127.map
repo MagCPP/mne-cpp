@@ -1,0 +1,45 @@
+<map id="libraries/mne/c/mne_ctf_comp_data.h" name="libraries/mne/c/mne_ctf_comp_data.h">
+<area shape="rect" id="node2" href="$a01647.html" title="Definition of the MneCTFCompData Class. " alt="" coords="1757,97,1896,138"/>
+<area shape="rect" id="node3" href="$a01649.html" title="Definition of the MneCTFCompDataSet Class. " alt="" coords="1741,187,1905,229"/>
+<area shape="rect" id="node4" href="$a01707_source.html" title="libraries/mne/c/mne\l_types.h" alt="" coords="2029,97,2164,138"/>
+<area shape="rect" id="node5" href="$a01605_source.html" title="libraries/fwd/fwd_types.h" alt="" coords="2614,467,2780,493"/>
+<area shape="rect" id="node13" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="2187,647,2337,689"/>
+<area shape="rect" id="node17" href="$a01611.html" title="MNE Meas Data (MneMeasData) class declaration. " alt="" coords="2084,369,2217,410"/>
+<area shape="rect" id="node18" href="$a01610.html" title="Definition of the MNE Meas Data (MneMeasData) Class. " alt="" coords="1912,550,2059,591"/>
+<area shape="rect" id="node20" href="$a01702.html" title="MNE Surface or Volume (MneSurfaceOrVolume) class declaration. " alt="" coords="1611,369,1761,410"/>
+<area shape="rect" id="node39" href="$a01652.html" title="MNE Derivation (MneDeriv) class declaration. " alt="" coords="2188,187,2323,229"/>
+<area shape="rect" id="node42" href="$a01692.html" title="MneRawData class declaration. " alt="" coords="2083,278,2217,319"/>
+<area shape="rect" id="node44" href="$a01685.html" title="Definition of the MNEProjItem Class. " alt="" coords="2568,187,2703,229"/>
+<area shape="rect" id="node6" href="$a01595.html" title="FwdCompData class declaration. " alt="" coords="2545,550,2700,591"/>
+<area shape="rect" id="node10" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="2547,647,2697,689"/>
+<area shape="rect" id="node11" href="$a01604.html" title="Fwd Thread Argument (FwdThreadArg) class declaration. " alt="" coords="2360,550,2519,591"/>
+<area shape="rect" id="node12" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="2083,550,2233,591"/>
+<area shape="rect" id="node7" href="$a01586.html" title="Definition of the FwdBemModel Class. " alt="" coords="2013,647,2161,689"/>
+<area shape="rect" id="node8" href="$a01594.html" title="Definition of the FwdCompData Class. " alt="" coords="2722,647,2877,689"/>
+<area shape="rect" id="node9" href="$a01603.html" title="Definition of the Forward Thread Argument (FwdThreadArg) Class. " alt="" coords="2363,647,2521,689"/>
+<area shape="rect" id="node16" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="1467,647,1617,689"/>
+<area shape="rect" id="node14" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="2097,745,2247,786"/>
+<area shape="rect" id="node15" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="2271,745,2432,786"/>
+<area shape="rect" id="node19" href="$a01614_source.html" title="libraries/inverse/dipole\lFit/analyze_types.h" alt="" coords="2033,459,2183,501"/>
+<area shape="rect" id="node21" href="$a01505.html" title="HpiView class definition. " alt="" coords="1606,459,1767,501"/>
+<area shape="rect" id="node22" href="$a01608_source.html" title="libraries/inverse/c\l/mne_inverse_operator.h" alt="" coords="1792,459,1956,501"/>
+<area shape="rect" id="node24" href="$a01696.html" title="MneSourceSpaceOld class declaration. " alt="" coords="894,550,1039,591"/>
+<area shape="rect" id="node30" href="$a01701.html" title="Definition of the MNE Surface or Volume (MneSurfaceOrVolume) Class. " alt="" coords="1347,745,1511,786"/>
+<area shape="rect" id="node36" href="$a01700.html" title="MneSurfaceOld class declaration. " alt="" coords="1461,550,1596,591"/>
+<area shape="rect" id="node23" href="$a01606_source.html" title="libraries/inverse/c\l/mne_inverse_operator.cpp" alt="" coords="1709,550,1888,591"/>
+<area shape="rect" id="node25" href="$a01583.html" title="Compute Forward Setting class declaration. " alt="" coords="77,647,248,689"/>
+<area shape="rect" id="node26" href="$a01582_source.html" title="libraries/fwd/computeFwd\l/compute_fwd.cpp" alt="" coords="200,745,371,786"/>
+<area shape="rect" id="node28" href="$a01644.html" title="Filter Thread Argument (FilterThreadArg) class declaration. " alt="" coords="1256,647,1391,689"/>
+<area shape="rect" id="node31" href="$a01665.html" title="Definition of the MneMshDisplaySurface Class. " alt="" coords="878,647,1055,689"/>
+<area shape="rect" id="node32" href="$a01667.html" title="Definition of the MneMshDisplaySurfaceSet Class. " alt="" coords="1080,640,1232,696"/>
+<area shape="rect" id="node33" href="$a01681.html" title="Definition of the MNE Patch Information (MnePatchInfo) Class. " alt="" coords="323,647,457,689"/>
+<area shape="rect" id="node34" href="$a01695_source.html" title="libraries/mne/c/mne\l_source_space_old.cpp" alt="" coords="483,647,641,689"/>
+<area shape="rect" id="node35" href="$a01703.html" title="Definition of the MneSurfacePatch Class. " alt="" coords="667,647,801,689"/>
+<area shape="rect" id="node27" href="$a00744_source.html" title="applications/mne_forward\l_solution/main.cpp" alt="" coords="5,745,176,786"/>
+<area shape="rect" id="node29" href="$a01643.html" title="Definition of the MNE Derivation (MneDeriv) Class. " alt="" coords="1187,745,1321,786"/>
+<area shape="rect" id="node37" href="$a01683.html" title="Definition of the MneProjData Class. " alt="" coords="1643,647,1777,689"/>
+<area shape="rect" id="node38" href="$a01699.html" title="Definition of the MneSurfaceOld Class. " alt="" coords="1803,647,1937,689"/>
+<area shape="rect" id="node40" href="$a01651.html" title="Definition of the MNE Derivation (MneDeriv) Class. " alt="" coords="2403,278,2537,319"/>
+<area shape="rect" id="node41" href="$a01653.html" title="Definition of the MNE Derivation Set (MneDerivSet) Class. " alt="" coords="2243,278,2377,319"/>
+<area shape="rect" id="node43" href="$a01691.html" title="Definition of the MneRawData Class. " alt="" coords="2241,369,2376,410"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="libraries/fwd/fwd_eeg_sphere_layer.h" name="libraries/fwd/fwd_eeg_sphere_layer.h">
+<area shape="rect" id="node2" href="$a01599.html" title="FwdEegSphereModel class declaration. " alt="" coords="563,97,708,138"/>
+<area shape="rect" id="node16" href="$a01596.html" title="Definition of the FwdEegSphereLayer Class. " alt="" coords="733,97,877,138"/>
+<area shape="rect" id="node3" href="$a01601.html" title="FwdEegSphereModelSet class declaration. " alt="" coords="329,187,476,229"/>
+<area shape="rect" id="node7" href="$a01598.html" title="Definition of the FwdEegSphereModel Class. " alt="" coords="507,278,652,319"/>
+<area shape="rect" id="node9" href="$a01586.html" title="Definition of the FwdBemModel Class. " alt="" coords="617,187,765,229"/>
+<area shape="rect" id="node10" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="821,187,971,229"/>
+<area shape="rect" id="node4" href="$a01583.html" title="Compute Forward Setting class declaration. " alt="" coords="128,278,299,319"/>
+<area shape="rect" id="node5" href="$a01582_source.html" title="libraries/fwd/computeFwd\l/compute_fwd.cpp" alt="" coords="5,369,176,410"/>
+<area shape="rect" id="node8" href="$a01600.html" title="Definition of the FwdEegSphereModelSet Class. " alt="" coords="323,278,481,319"/>
+<area shape="rect" id="node6" href="$a00744_source.html" title="applications/mne_forward\l_solution/main.cpp" alt="" coords="200,369,371,410"/>
+<area shape="rect" id="node11" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="677,278,827,319"/>
+<area shape="rect" id="node14" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="851,278,1001,319"/>
+<area shape="rect" id="node15" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="1026,278,1176,319"/>
+<area shape="rect" id="node12" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="586,369,736,410"/>
+<area shape="rect" id="node13" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="761,369,921,410"/>
+</map>

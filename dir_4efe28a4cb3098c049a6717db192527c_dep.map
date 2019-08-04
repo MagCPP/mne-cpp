@@ -1,0 +1,16 @@
+<map id="libraries/disp3D/engine/model/items/sensordata" name="libraries/disp3D/engine/model/items/sensordata">
+<area shape="rect" id="node1" href="dir_4efe28a4cb3098c049a6717db192527c.html" title="sensordata" alt="" coords="114,52,200,100"/>
+<area shape="rect" id="node2" href="dir_815cb9f418c9a2e2717521764b2f48dc.html" title="common" alt="" coords="217,148,289,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000164_000157.html" title="3" alt="" coords="219,122,227,136"/>
+<area shape="rect" id="node3" href="dir_ebd1b25cb9cfeddfea31f0aaa8a32c6a.html" title="workers" alt="" coords="25,148,97,196"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000164_000170.html" title="1" alt="" coords="100,134,108,149"/>
+<area shape="rect" id="node4" href="dir_aa6379af2b15fd11fd62ea4f7f68d7d3.html" title="mne" alt="" coords="121,148,193,196"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000164_000185.html" title="1" alt="" coords="162,122,170,137"/>
+<area shape="rect" id="node5" href="dir_0b119313d49d4bcd170b91485e6a878c.html" title="3dhelpers" alt="" coords="67,244,145,292"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000164_000154.html" title="1" alt="" coords="52,224,60,238"/>
+<area shape="rect" id="node6" href="dir_fc47ad50a06576419f62bc0ea59ab67f.html" title="materials" alt="" coords="252,244,325,292"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000164_000169.html" title="1" alt="" coords="309,222,317,237"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000157_000154.html" title="3" alt="" coords="159,234,167,248"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000157_000169.html" title="4" alt="" coords="278,217,286,231"/>
+<area shape="rect" id="clust1" href="dir_7ec6738ac847a2be021a8cfd2fa763ef.html" title="items" alt="" coords="103,16,212,111"/>
+</map>

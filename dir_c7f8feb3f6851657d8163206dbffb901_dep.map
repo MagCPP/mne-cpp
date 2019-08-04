@@ -1,0 +1,11 @@
+<map id="applications/mne_scan/plugins/babymeg" name="applications/mne_scan/plugins/babymeg">
+<area shape="rect" id="node2" href="dir_101596d4a3e6cf81ee7758d41a9b33e4.html" title="FormFiles" alt="" coords="37,159,116,207"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000090_000091.html" title="2" alt="" coords="83,133,91,148"/>
+<area shape="rect" id="node3" href="dir_71c19bfa9075c55da61e7290ef0e2565.html" title="libs" alt="" coords="149,159,221,207"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000090_000082.html" title="2" alt="" coords="148,133,156,148"/>
+<area shape="rect" id="node4" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html" title="libraries" alt="" coords="185,255,257,303"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000090_000136.html" title="11" alt="" coords="238,233,253,247"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000082_000136.html" title="61" alt="" coords="207,227,221,242"/>
+<area shape="rect" id="clust2" href="dir_c7f8feb3f6851657d8163206dbffb901.html" alt="" coords="27,52,128,217"/>
+<area shape="rect" id="clust1" href="dir_dff0cf57900fd280f21b02b063bc8d88.html" title="plugins" alt="" coords="16,16,139,228"/>
+</map>

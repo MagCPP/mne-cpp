@@ -1,0 +1,7 @@
+<map id="applications/mne_scan/plugins/ecgsimulator/ecgsimchannel.h" name="applications/mne_scan/plugins/ecgsimulator/ecgsimchannel.h">
+<area shape="rect" id="node2" href="$a01049.html" title="Contains the declaration of the ECGSimulator class. " alt="" coords="184,109,337,165"/>
+<area shape="rect" id="node6" href="$a01046.html" title="Definition of the ECGChannel class. " alt="" coords="363,109,516,165"/>
+<area shape="rect" id="node3" href="$a01044.html" title="Definition of the ECGProducer class. " alt="" coords="5,213,159,269"/>
+<area shape="rect" id="node4" href="$a01048.html" title="Definition of the ECGSimulator class. " alt="" coords="184,213,337,269"/>
+<area shape="rect" id="node5" href="$a01053.html" title="Definition of the ECGSetupWidget class. " alt="" coords="363,213,567,269"/>
+</map>

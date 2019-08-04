@@ -1,0 +1,27 @@
+<map id="applications/mne_rt_server/mne_rt_server/mne_rt_server.h" name="applications/mne_rt_server/mne_rt_server/mne_rt_server.h">
+<area shape="rect" id="node2" href="$a01254_source.html" title="communication/rtCommand\l/commandmanager.h" alt="" coords="2758,259,2940,301"/>
+<area shape="rect" id="node24" href="$a00866.html" title="Declaration of the ConnectorManager Class. " alt="" coords="1679,109,1819,136"/>
+<area shape="rect" id="node47" href="$a00862.html" title="Definition of the CommandServer Class. " alt="" coords="2947,184,3073,211"/>
+<area shape="rect" id="node49" href="$a00868.html" title="Declaration of the FiffStreamServer Class. " alt="" coords="2687,184,2811,211"/>
+<area shape="rect" id="node3" href="$a01244.html" title="realtime library export/import macros. " alt="" coords="3167,499,3341,525"/>
+<area shape="rect" id="node5" href="$a01252.html" title="Declaration of the Command Class. " alt="" coords="2621,424,2712,451"/>
+<area shape="rect" id="node17" href="$a01256.html" title="Declaration of the CommandParser Class. " alt="" coords="3139,349,3265,376"/>
+<area shape="rect" id="node19" href="$a01778.html" title="Contains declarations of the observer design pattern: Subject class and IObserver interface..." alt="" coords="2742,424,2945,451"/>
+<area shape="rect" id="node6" href="$a01776.html" title="Contains declarations of the command design pattern: ICommand interface. " alt="" coords="2831,499,3040,525"/>
+<area shape="rect" id="node7" href="$a01805.html" title="utils library export/import macros. " alt="" coords="2930,573,3040,600"/>
+<area shape="rect" id="node18" href="$a01258.html" title="Declaration of the RawCommand Class. " alt="" coords="3195,424,3305,451"/>
+<area shape="rect" id="node25" href="$a00871.html" title="The connector interface. " alt="" coords="365,184,461,211"/>
+<area shape="rect" id="node26" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1186,267,1280,293"/>
+<area shape="rect" id="node27" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1217,573,1305,600"/>
+<area shape="rect" id="node28" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1178,349,1288,376"/>
+<area shape="rect" id="node29" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1006,573,1092,600"/>
+<area shape="rect" id="node32" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1107,499,1172,525"/>
+<area shape="rect" id="node33" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1513,424,1609,451"/>
+<area shape="rect" id="node35" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1635,424,1741,451"/>
+<area shape="rect" id="node36" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="631,424,740,451"/>
+<area shape="rect" id="node40" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="808,499,931,525"/>
+<area shape="rect" id="node42" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="530,424,605,451"/>
+<area shape="rect" id="node30" href="$a01526.html" title="Fiff constants. " alt="" coords="717,648,828,675"/>
+<area shape="rect" id="node34" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1299,499,1396,525"/>
+<area shape="rect" id="node37" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="393,499,529,525"/>
+</map>

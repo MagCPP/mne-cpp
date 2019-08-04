@@ -1,0 +1,13 @@
+<map id="libraries/fiff/c/fiff_digitizer_data.h" name="libraries/fiff/c/fiff_digitizer_data.h">
+<area shape="rect" id="node2" href="$a01505.html" title="HpiView class definition. " alt="" coords="6,97,167,138"/>
+<area shape="rect" id="node3" href="$a01515.html" title="Definition of the FiffDigitizerData Class. " alt="" coords="191,97,320,138"/>
+<area shape="rect" id="node4" href="$a01564.html" title="Definition of the FiffStream Class. " alt="" coords="345,97,449,138"/>
+<area shape="rect" id="node5" href="$a01614_source.html" title="libraries/inverse/dipole\lFit/analyze_types.h" alt="" coords="474,97,624,138"/>
+<area shape="rect" id="node12" href="$a01701.html" title="Definition of the MNE Surface or Volume (MneSurfaceOrVolume) Class. " alt="" coords="649,97,812,138"/>
+<area shape="rect" id="node6" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="474,187,624,229"/>
+<area shape="rect" id="node7" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="299,278,449,319"/>
+<area shape="rect" id="node10" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="474,278,624,319"/>
+<area shape="rect" id="node11" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="649,278,799,319"/>
+<area shape="rect" id="node8" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="210,369,360,410"/>
+<area shape="rect" id="node9" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="385,369,545,410"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="libraries/disp/viewers/helpers/layoutscene.h" name="libraries/disp/viewers/helpers/layoutscene.h">
+<area shape="rect" id="node2" href="$a01355.html" title="Contains the declaration of the AverageScene class. " alt="" coords="397,97,560,138"/>
+<area shape="rect" id="node16" href="$a01381.html" title="Contains the declaration of the SelectionScene class. " alt="" coords="943,97,1113,138"/>
+<area shape="rect" id="node19" href="$a01370_source.html" title="libraries/disp/viewers\l/helpers/filterplotscene.h" alt="" coords="1238,97,1401,138"/>
+<area shape="rect" id="node22" href="$a01376.html" title="Definition of the LayoutScene class. " alt="" coords="1426,97,1592,138"/>
+<area shape="rect" id="node23" href="$a00810.html" title="Contains the declaration of the ButterflyScene class. " alt="" coords="698,97,867,138"/>
+<area shape="rect" id="node3" href="$a01320.html" title="Definition of the AverageLayoutView Class. " alt="" coords="102,187,260,229"/>
+<area shape="rect" id="node4" href="$a01354.html" title="Definition of the AverageScene class. " alt="" coords="285,187,464,229"/>
+<area shape="rect" id="node5" href="$a00828.html" title="Contains the declaration of the AverageWindow class. " alt="" coords="489,187,673,229"/>
+<area shape="rect" id="node6" href="$a00792_source.html" title="applications/mne_browse\l/Windows/mainwindow.h" alt="" coords="393,278,561,319"/>
+<area shape="rect" id="node15" href="$a00827.html" title="Definition of the AverageWindow class. " alt="" coords="586,278,784,319"/>
+<area shape="rect" id="node7" href="$a00742_source.html" title="applications/mne_browse\l/main.cpp" alt="" coords="5,369,173,410"/>
+<area shape="rect" id="node8" href="$a00836.html" title="Contains the declaration of the FilterWindow class. " alt="" coords="198,369,367,410"/>
+<area shape="rect" id="node10" href="$a00834.html" title="Definition of the EventWindow class. " alt="" coords="392,369,563,410"/>
+<area shape="rect" id="node12" href="$a00832.html" title="Definition of the DataWindow class. " alt="" coords="587,369,756,410"/>
+<area shape="rect" id="node14" href="$a00788_source.html" title="applications/mne_browse\l/Windows/mainwindow.cpp" alt="" coords="781,369,963,410"/>
+<area shape="rect" id="node9" href="$a00835.html" title="Definition of the FilterWindow class. " alt="" coords="181,459,360,501"/>
+<area shape="rect" id="node11" href="$a00833_source.html" title="applications/mne_browse\l/Windows/eventwindow.cpp" alt="" coords="385,459,569,501"/>
+<area shape="rect" id="node13" href="$a00831_source.html" title="applications/mne_browse\l/Windows/datawindow.cpp" alt="" coords="595,459,773,501"/>
+<area shape="rect" id="node17" href="$a01332.html" title="Definition of the ChannelSelectionView class. " alt="" coords="891,187,1065,229"/>
+<area shape="rect" id="node18" href="$a01380.html" title="Definition of the SelectionScene class. " alt="" coords="1091,187,1275,229"/>
+<area shape="rect" id="node20" href="$a01350.html" title="Definition of the FilterDesignView class. " alt="" coords="1299,187,1443,229"/>
+<area shape="rect" id="node21" href="$a01368_source.html" title="libraries/disp/viewers\l/helpers/filterplotscene.cpp" alt="" coords="1467,187,1645,229"/>
+<area shape="rect" id="node24" href="$a00809.html" title="Definition of the ButterflyScene class. " alt="" coords="698,187,867,229"/>
+</map>

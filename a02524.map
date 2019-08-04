@@ -1,0 +1,6 @@
+<map id="applications/mne_scan/plugins/tmsi/FormFiles/tmsiimpedancewidget.h" name="applications/mne_scan/plugins/tmsi/FormFiles/tmsiimpedancewidget.h">
+<area shape="rect" id="node2" href="$a01785.html" title="LayoutLoader class declaration. " alt="" coords="376,109,505,136"/>
+<area shape="rect" id="node11" href="$a01216.html" title="Contains the declaration of the TMSIElectrodeItem class. " alt="" coords="778,184,925,211"/>
+<area shape="rect" id="node17" href="$a01218.html" title="Contains the implementation of the TMSIImpedanceScene class. " alt="" coords="940,109,1108,136"/>
+<area shape="rect" id="node3" href="$a01805.html" title="utils library export/import macros. " alt="" coords="203,184,301,211"/>
+</map>

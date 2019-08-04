@@ -1,0 +1,32 @@
+<map id="libraries/mne/c/mne_patch_info.cpp" name="libraries/mne/c/mne_patch_info.cpp">
+<area shape="rect" id="node2" href="$a01682.html" title="MNE Patch Information (MnePatchInfo) class declaration. " alt="" coords="2945,635,3071,661"/>
+<area shape="rect" id="node7" href="$a01696.html" title="MneSourceSpaceOld class declaration. " alt="" coords="4101,96,4272,123"/>
+<area shape="rect" id="node46" href="$a01706.html" title="MneTriangle class declaration. " alt="" coords="3967,635,4113,661"/>
+<area shape="rect" id="node3" href="$a01729_source.html" title="../mne_global.h" alt="" coords="2698,709,2808,736"/>
+<area shape="rect" id="node8" href="$a01702.html" title="MNE Surface or Volume (MneSurfaceOrVolume) class declaration. " alt="" coords="4034,171,4208,197"/>
+<area shape="rect" id="node9" href="$a01707_source.html" title="mne/c/mne_types.h" alt="" coords="3318,245,3455,272"/>
+<area shape="rect" id="node10" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="772,709,879,736"/>
+<area shape="rect" id="node16" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="1141,485,1256,512"/>
+<area shape="rect" id="node28" href="$a01698.html" title="MNE SSS Data (MneSssData) class declaration. " alt="" coords="4290,635,4408,661"/>
+<area shape="rect" id="node30" href="$a01678.html" title="MNE Named Matrix (MneNamedMatrix) class declaration. " alt="" coords="3551,635,3697,661"/>
+<area shape="rect" id="node31" href="$a01654.html" title="MNE Derivation Set (MneDerivSet) class declaration. " alt="" coords="2394,635,2512,661"/>
+<area shape="rect" id="node32" href="$a01518.html" title="FiffSparseMatrix class declaration. " alt="" coords="3362,395,3475,437"/>
+<area shape="rect" id="node40" href="$a01512.html" title="FiffCoordTransOld class declaration. " alt="" coords="1127,395,1269,437"/>
+<area shape="rect" id="node41" href="$a01686.html" title="MNEProjItem class declaration. " alt="" coords="3722,635,3840,661"/>
+<area shape="rect" id="node42" href="$a01688.html" title="MNEProjOp class declaration. " alt="" coords="2472,403,2579,429"/>
+<area shape="rect" id="node43" href="$a01646.html" title="MneCovMatrix class declaration. " alt="" coords="2791,635,2920,661"/>
+<area shape="rect" id="node44" href="$a01648.html" title="MneCTFCompData class declaration. " alt="" coords="3551,320,3701,347"/>
+<area shape="rect" id="node45" href="$a01650.html" title="MneCTFCompDataSet class declaration. " alt="" coords="3236,320,3412,347"/>
+<area shape="rect" id="node11" href="$a01526.html" title="Fiff constants. " alt="" coords="596,784,707,811"/>
+<area shape="rect" id="node17" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1429,709,1517,736"/>
+<area shape="rect" id="node18" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1126,635,1191,661"/>
+<area shape="rect" id="node19" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="701,560,805,587"/>
+<area shape="rect" id="node20" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="1215,635,1320,661"/>
+<area shape="rect" id="node21" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="803,635,899,661"/>
+<area shape="rect" id="node22" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="1309,709,1381,736"/>
+<area shape="rect" id="node33" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="1853,485,1939,512"/>
+<area shape="rect" id="node34" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1964,635,2087,661"/>
+<area shape="rect" id="node35" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1934,560,2031,587"/>
+<area shape="rect" id="node36" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1791,635,1888,661"/>
+<area shape="rect" id="node37" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="2161,635,2268,661"/>
+</map>

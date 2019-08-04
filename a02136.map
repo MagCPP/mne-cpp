@@ -1,0 +1,27 @@
+<map id="applications/mne_scan/libs/scMeas/realtimesourceestimate.h" name="applications/mne_scan/libs/scMeas/realtimesourceestimate.h">
+<area shape="rect" id="node2" href="$a00913.html" title="Definition of the RealTimeSourceEstimateWidget Class. " alt="" coords="5,103,299,145"/>
+<area shape="rect" id="node3" href="$a00920.html" title="Definition of the MeasurementTypes class. " alt="" coords="323,103,559,145"/>
+<area shape="rect" id="node4" href="$a00936.html" title="Definition of the RealTimeSourceEstimate class. " alt="" coords="583,103,843,145"/>
+<area shape="rect" id="node5" href="$a00945.html" title="Definition of the DisplayManager Class. " alt="" coords="868,96,1052,152"/>
+<area shape="rect" id="node6" href="$a00949.html" title="Contains the declaration of the PluginConnectorConnection class. " alt="" coords="1076,96,1281,152"/>
+<area shape="rect" id="node7" href="$a01005.html" title="Contains the declaration of the BCI class. " alt="" coords="1305,103,1459,145"/>
+<area shape="rect" id="node11" href="$a01712_source.html" title="applications/mne_scan\l/plugins/mne/mne.cpp" alt="" coords="1484,103,1637,145"/>
+<area shape="rect" id="node12" href="$a01130.html" title="Definition of the NeuronalConnectivity class. " alt="" coords="1663,96,1853,152"/>
+<area shape="rect" id="node13" href="$a01150.html" title="Contains the declaration of the RapMusicToolbox class. " alt="" coords="1878,96,2044,152"/>
+<area shape="rect" id="node16" href="$a01194.html" title="Contains the declaration of the ssvepBCI class. " alt="" coords="2573,103,2763,145"/>
+<area shape="rect" id="node8" href="$a01004.html" title="Contains the implementation of the BCI class. " alt="" coords="1468,207,1621,249"/>
+<area shape="rect" id="node9" href="$a01009.html" title="Contains the implementation of the BCIAboutWidget class. " alt="" coords="1111,200,1264,256"/>
+<area shape="rect" id="node10" href="$a01011.html" title="Contains the implementation of the BCISetupWidget class. " alt="" coords="1289,200,1443,256"/>
+<area shape="rect" id="node14" href="$a01147.html" title="Definition of the RapMusicToolboxSetupWidget class. " alt="" coords="1838,200,2116,256"/>
+<area shape="rect" id="node15" href="$a01149.html" title="Definition of the RapMusicToolbox class. " alt="" coords="1647,200,1813,256"/>
+<area shape="rect" id="node17" href="$a01185.html" title="Definition of the ssvepBCIConfigurationWidget class. " alt="" coords="2554,603,2768,659"/>
+<area shape="rect" id="node18" href="$a01188.html" title="Contains the declaration of the ssvepbcisetupstimulus class. " alt="" coords="2897,200,3105,256"/>
+<area shape="rect" id="node19" href="$a01187.html" title="Definition of the ssvepBCISetupStimulusWidget class. " alt="" coords="2730,304,2952,360"/>
+<area shape="rect" id="node20" href="$a01199_source.html" title="applications/mne_scan\l/plugins/ssvepbci/ssvepbciscreen.h" alt="" coords="2887,409,3116,450"/>
+<area shape="rect" id="node22" href="$a01192.html" title="Contains the declaration of the ssvepscreenkeyboard class. " alt="" coords="3051,311,3281,353"/>
+<area shape="rect" id="node25" href="$a01189.html" title="Definition of the ssvepBCISetupWidget class. " alt="" coords="2141,200,2325,256"/>
+<area shape="rect" id="node26" href="$a01193.html" title="Definition of the BCI class. " alt="" coords="2350,207,2553,249"/>
+<area shape="rect" id="node21" href="$a01186.html" title="Contains the declaration of the ssvepBCIConfiguration class. " alt="" coords="2630,499,2831,555"/>
+<area shape="rect" id="node24" href="$a01198.html" title="Definition of the ssvepBCIScreen class. " alt="" coords="2880,506,3123,547"/>
+<area shape="rect" id="node23" href="$a01191.html" title="Definition of the ScreenKeyboard class. " alt="" coords="3141,409,3384,450"/>
+</map>

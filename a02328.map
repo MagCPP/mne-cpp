@@ -1,0 +1,7 @@
+<map id="applications/mne_scan/plugins/eegosports/FormFiles/eegosportssetupwidget.h" name="applications/mne_scan/plugins/eegosports/FormFiles/eegosportssetupwidget.h">
+<area shape="rect" id="node2" href="$a01056.html" title="Contains the declaration of the EEGoSports class. " alt="" coords="379,110,593,151"/>
+<area shape="rect" id="node3" href="$a01055.html" title="Contains the implementation of the EEGoSports class. " alt="" coords="5,207,232,249"/>
+<area shape="rect" id="node6" href="$a01066.html" title="Contains the implementation of the EEGoSportsSetupWidget class. " alt="" coords="808,200,1005,256"/>
+<area shape="rect" id="node4" href="$a01060.html" title="Contains the implementation of the EEGoSportsProducer class. " alt="" coords="257,207,535,249"/>
+<area shape="rect" id="node5" href="$a01064.html" title="Contains the implementation of the EEGoSportsSetupProjectWidget class. " alt="" coords="560,200,783,256"/>
+</map>

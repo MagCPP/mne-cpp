@@ -1,0 +1,30 @@
+<map id="libraries/mne/c/mne_surface_or_volume.h" name="libraries/mne/c/mne_surface_or_volume.h">
+<area shape="rect" id="node2" href="$a01505.html" title="HpiView class definition. " alt="" coords="234,97,395,138"/>
+<area shape="rect" id="node3" href="$a01608_source.html" title="libraries/inverse/c\l/mne_inverse_operator.h" alt="" coords="420,97,584,138"/>
+<area shape="rect" id="node6" href="$a01614_source.html" title="libraries/inverse/dipole\lFit/analyze_types.h" alt="" coords="847,97,997,138"/>
+<area shape="rect" id="node13" href="$a01696.html" title="MneSourceSpaceOld class declaration. " alt="" coords="1245,97,1389,138"/>
+<area shape="rect" id="node21" href="$a01701.html" title="Definition of the MNE Surface or Volume (MneSurfaceOrVolume) Class. " alt="" coords="2529,291,2692,333"/>
+<area shape="rect" id="node27" href="$a01700.html" title="MneSurfaceOld class declaration. " alt="" coords="2112,97,2247,138"/>
+<area shape="rect" id="node4" href="$a01606_source.html" title="libraries/inverse/c\l/mne_inverse_operator.cpp" alt="" coords="176,194,355,235"/>
+<area shape="rect" id="node5" href="$a01610.html" title="Definition of the MNE Meas Data (MneMeasData) Class. " alt="" coords="5,194,152,235"/>
+<area shape="rect" id="node7" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="625,194,775,235"/>
+<area shape="rect" id="node8" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="661,291,811,333"/>
+<area shape="rect" id="node11" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="1742,291,1892,333"/>
+<area shape="rect" id="node12" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="1242,291,1392,333"/>
+<area shape="rect" id="node9" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="571,382,721,423"/>
+<area shape="rect" id="node10" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="746,382,907,423"/>
+<area shape="rect" id="node14" href="$a01583.html" title="Compute Forward Setting class declaration. " alt="" coords="429,194,600,235"/>
+<area shape="rect" id="node15" href="$a01582_source.html" title="libraries/fwd/computeFwd\l/compute_fwd.cpp" alt="" coords="271,291,441,333"/>
+<area shape="rect" id="node17" href="$a01586.html" title="Definition of the FwdBemModel Class. " alt="" coords="1968,194,2116,235"/>
+<area shape="rect" id="node18" href="$a01603.html" title="Definition of the Forward Thread Argument (FwdThreadArg) Class. " alt="" coords="1355,194,1513,235"/>
+<area shape="rect" id="node19" href="$a01644.html" title="Filter Thread Argument (FilterThreadArg) class declaration. " alt="" coords="2243,194,2377,235"/>
+<area shape="rect" id="node22" href="$a01665.html" title="Definition of the MneMshDisplaySurface Class. " alt="" coords="1590,194,1767,235"/>
+<area shape="rect" id="node23" href="$a01667.html" title="Definition of the MneMshDisplaySurfaceSet Class. " alt="" coords="1792,187,1944,243"/>
+<area shape="rect" id="node24" href="$a01681.html" title="Definition of the MNE Patch Information (MnePatchInfo) Class. " alt="" coords="800,194,935,235"/>
+<area shape="rect" id="node25" href="$a01695_source.html" title="libraries/mne/c/mne\l_source_space_old.cpp" alt="" coords="961,194,1119,235"/>
+<area shape="rect" id="node26" href="$a01703.html" title="Definition of the MneSurfacePatch Class. " alt="" coords="1144,194,1279,235"/>
+<area shape="rect" id="node16" href="$a00744_source.html" title="applications/mne_forward\l_solution/main.cpp" alt="" coords="465,291,636,333"/>
+<area shape="rect" id="node20" href="$a01643.html" title="Definition of the MNE Derivation (MneDeriv) Class. " alt="" coords="2243,291,2377,333"/>
+<area shape="rect" id="node28" href="$a01683.html" title="Definition of the MneProjData Class. " alt="" coords="2403,194,2537,235"/>
+<area shape="rect" id="node29" href="$a01699.html" title="Definition of the MneSurfaceOld Class. " alt="" coords="2563,194,2697,235"/>
+</map>

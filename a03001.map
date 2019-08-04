@@ -1,0 +1,18 @@
+<map id="libraries/fiff/fiff_io.h" name="libraries/fiff/fiff_io.h">
+<area shape="rect" id="node2" href="$a01554.html" title="Definition of a generic Fiff IO interface. " alt="" coords="166,81,271,122"/>
+<area shape="rect" id="node3" href="$a00808.html" title="This class represents the model of the model/view framework of mne_browse application. It is derived from QAbstractTableModel so the virtual functions rowCount(),columnCount() and data() needed to be reimplemented. The delegate requests the data for any individual table cell by invoking data(QModelIndex index, int role) and a certain role. DisplayRole is the standard role for requesting the plain data. Other roles such as BackgroundRole are requested to fill a cell with a certain background color with respect to the individual index. For further information see [1]. " alt="" coords="295,81,464,122"/>
+<area shape="rect" id="node16" href="$a00803.html" title="This class represents the average model of the model/view framework of mne_browse application..." alt="" coords="489,81,668,122"/>
+<area shape="rect" id="node17" href="$a00765_source.html" title="examples/ex_fiff_io\l/main.cpp" alt="" coords="693,81,827,122"/>
+<area shape="rect" id="node4" href="$a00802.html" title="This class represents the delegate of the model/view framework of mne_browse application. Since it is derived from the QAbstractItemDelegate class [1], the virtual functions paint() und sizeHint() need to be reimplemented. The paint() function is invoked from the connected QTableView for each table cell for any individual item with a certain QModelIndex. The task of this function is to paint this cell with the data that is requested by index.model()&#45;&gt;data(index,Qt::DisplayRole); with the corresponding QModelIndex. " alt="" coords="172,171,343,213"/>
+<area shape="rect" id="node6" href="$a00832.html" title="Definition of the DataWindow class. " alt="" coords="295,262,464,303"/>
+<area shape="rect" id="node15" href="$a00807.html" title="This class represents the model of the model/view framework of mne_browse application. " alt="" coords="418,171,587,213"/>
+<area shape="rect" id="node5" href="$a00801.html" title="Definition of delegate of mne_browse. " alt="" coords="87,262,271,303"/>
+<area shape="rect" id="node7" href="$a00792_source.html" title="applications/mne_browse\l/Windows/mainwindow.h" alt="" coords="295,353,464,394"/>
+<area shape="rect" id="node14" href="$a00831_source.html" title="applications/mne_browse\l/Windows/datawindow.cpp" alt="" coords="489,353,668,394"/>
+<area shape="rect" id="node8" href="$a00742_source.html" title="applications/mne_browse\l/main.cpp" alt="" coords="5,443,173,485"/>
+<area shape="rect" id="node9" href="$a00836.html" title="Contains the declaration of the FilterWindow class. " alt="" coords="198,443,367,485"/>
+<area shape="rect" id="node11" href="$a00834.html" title="Definition of the EventWindow class. " alt="" coords="392,443,563,485"/>
+<area shape="rect" id="node13" href="$a00788_source.html" title="applications/mne_browse\l/Windows/mainwindow.cpp" alt="" coords="587,443,768,485"/>
+<area shape="rect" id="node10" href="$a00835.html" title="Definition of the FilterWindow class. " alt="" coords="188,534,367,575"/>
+<area shape="rect" id="node12" href="$a00833_source.html" title="applications/mne_browse\l/Windows/eventwindow.cpp" alt="" coords="391,534,576,575"/>
+</map>

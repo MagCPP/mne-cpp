@@ -1,0 +1,17 @@
+<map id="libraries/inverse/rapMusic/dipole.h" name="libraries/inverse/rapMusic/dipole.h">
+<area shape="rect" id="node2" href="$a01637.html" title="ToDo Documentation... " alt="" coords="501,97,672,138"/>
+<area shape="rect" id="node3" href="$a01642.html" title="RapMusic algorithm class declaration. " alt="" coords="783,97,953,138"/>
+<area shape="rect" id="node4" href="$a01640.html" title="PwlRapMusic algorithm class declaration. " alt="" coords="485,194,656,235"/>
+<area shape="rect" id="node13" href="$a01641.html" title="Definition of the RapMusic Algorithm Class. " alt="" coords="680,194,851,235"/>
+<area shape="rect" id="node14" href="$a00714.html" title="Definition of the Music class. " alt="" coords="875,194,1067,235"/>
+<area shape="rect" id="node15" href="$a00755_source.html" title="examples/ex_clustered\l_inverse_rap_music_raw\l/main.cpp" alt="" coords="1091,187,1257,243"/>
+<area shape="rect" id="node16" href="$a00773_source.html" title="examples/ex_inverse\l_rap_music/main.cpp" alt="" coords="1283,194,1429,235"/>
+<area shape="rect" id="node5" href="$a01639.html" title="Definition of the PwlRapMusic Algorithm Class. " alt="" coords="5,298,176,339"/>
+<area shape="rect" id="node6" href="$a01150.html" title="Contains the declaration of the RapMusicToolbox class. " alt="" coords="201,291,367,347"/>
+<area shape="rect" id="node9" href="$a00754_source.html" title="examples/ex_clustered\l_inverse_pwl_rap_music\l_raw/main.cpp" alt="" coords="392,291,556,347"/>
+<area shape="rect" id="node10" href="$a00772_source.html" title="examples/ex_inverse\l_pwl_rap_music/main.cpp" alt="" coords="581,298,755,339"/>
+<area shape="rect" id="node11" href="$a00783_source.html" title="examples/ex_roi_clustered\l_inverse_pwl_rap_music\l/main.cpp" alt="" coords="779,291,956,347"/>
+<area shape="rect" id="node12" href="$a00785_source.html" title="examples/ex_st_clustered\l_inverse_pwl_rap_music\l/main.cpp" alt="" coords="981,291,1155,347"/>
+<area shape="rect" id="node7" href="$a01147.html" title="Definition of the RapMusicToolboxSetupWidget class. " alt="" coords="22,395,300,451"/>
+<area shape="rect" id="node8" href="$a01149.html" title="Definition of the RapMusicToolbox class. " alt="" coords="325,395,491,451"/>
+</map>

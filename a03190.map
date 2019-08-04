@@ -1,0 +1,32 @@
+<map id="libraries/mne/c/mne_raw_data.cpp" name="libraries/mne/c/mne_raw_data.cpp">
+<area shape="rect" id="node2" href="$a01692.html" title="MneRawData class declaration. " alt="" coords="1647,96,1765,123"/>
+<area shape="rect" id="node3" href="$a01729_source.html" title="../mne_global.h" alt="" coords="1259,560,1369,587"/>
+<area shape="rect" id="node5" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="3957,560,4080,587"/>
+<area shape="rect" id="node19" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="3601,485,3716,512"/>
+<area shape="rect" id="node25" href="$a01694.html" title="MneRawInfo class declaration. " alt="" coords="2557,320,2672,347"/>
+<area shape="rect" id="node27" href="$a01690.html" title="MneRawBufDef class declaration. " alt="" coords="2643,485,2777,512"/>
+<area shape="rect" id="node28" href="$a01688.html" title="MNEProjOp class declaration. " alt="" coords="1732,403,1839,429"/>
+<area shape="rect" id="node31" href="$a01698.html" title="MNE SSS Data (MneSssData) class declaration. " alt="" coords="643,485,761,512"/>
+<area shape="rect" id="node32" href="$a01650.html" title="MneCTFCompDataSet class declaration. " alt="" coords="795,320,971,347"/>
+<area shape="rect" id="node41" href="$a01652.html" title="MNE Derivation (MneDeriv) class declaration. " alt="" coords="1440,171,1533,197"/>
+<area shape="rect" id="node42" href="$a01707_source.html" title="mne_types.h" alt="" coords="1242,245,1339,272"/>
+<area shape="rect" id="node6" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="2751,709,2840,736"/>
+<area shape="rect" id="node7" href="$a01526.html" title="Fiff constants. " alt="" coords="3808,784,3919,811"/>
+<area shape="rect" id="node8" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="3295,709,3381,736"/>
+<area shape="rect" id="node14" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="3055,635,3160,661"/>
+<area shape="rect" id="node16" href="$a01549.html" title="FiffId class declaration. " alt="" coords="3185,635,3249,661"/>
+<area shape="rect" id="node17" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="3731,635,3827,661"/>
+<area shape="rect" id="node18" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="3575,709,3647,736"/>
+<area shape="rect" id="node26" href="$a01512.html" title="FiffCoordTransOld class declaration. " alt="" coords="2550,395,2692,437"/>
+<area shape="rect" id="node29" href="$a01678.html" title="MNE Named Matrix (MneNamedMatrix) class declaration. " alt="" coords="1041,485,1188,512"/>
+<area shape="rect" id="node33" href="$a01518.html" title="FiffSparseMatrix class declaration. " alt="" coords="1226,395,1339,437"/>
+<area shape="rect" id="node34" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="2509,485,2595,512"/>
+<area shape="rect" id="node35" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="2329,635,2452,661"/>
+<area shape="rect" id="node36" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="2478,560,2575,587"/>
+<area shape="rect" id="node37" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="2679,635,2776,661"/>
+<area shape="rect" id="node38" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="2043,560,2149,587"/>
+<area shape="rect" id="node43" href="$a01654.html" title="MNE Derivation Set (MneDerivSet) class declaration. " alt="" coords="1618,485,1736,512"/>
+<area shape="rect" id="node44" href="$a01686.html" title="MNEProjItem class declaration. " alt="" coords="449,485,567,512"/>
+<area shape="rect" id="node45" href="$a01646.html" title="MneCovMatrix class declaration. " alt="" coords="786,485,915,512"/>
+<area shape="rect" id="node46" href="$a01648.html" title="MneCTFCompData class declaration. " alt="" coords="1102,320,1252,347"/>
+</map>

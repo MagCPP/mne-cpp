@@ -1,0 +1,16 @@
+<map id="libraries/disp3D/engine/model/items/common/metatreeitem.h" name="libraries/disp3D/engine/model/items/common/metatreeitem.h">
+<area shape="rect" id="node2" href="$a01417.html" title="BemSurfaceTreeItem class definition. " alt="" coords="5,103,275,145"/>
+<area shape="rect" id="node3" href="$a01421.html" title="Abstract3DTreeItem class definition. " alt="" coords="299,96,508,152"/>
+<area shape="rect" id="node4" href="$a01423.html" title="AbstractMeshTreeItem class definition. " alt="" coords="533,103,839,145"/>
+<area shape="rect" id="node5" href="$a01429.html" title="MetaTreeItem class definition. " alt="" coords="864,103,1120,145"/>
+<area shape="rect" id="node6" href="$a01435.html" title="DigitizerTreeItem class definition. " alt="" coords="1144,96,1297,152"/>
+<area shape="rect" id="node7" href="$a01437.html" title="FsAnnotationTreeItem class definition. " alt="" coords="1323,96,1492,152"/>
+<area shape="rect" id="node8" href="$a01439.html" title="FsSurfaceTreeItem class definition. " alt="" coords="1517,96,1672,152"/>
+<area shape="rect" id="node9" href="$a01447.html" title="NetworkTreeItem class definition. " alt="" coords="1697,103,1967,145"/>
+<area shape="rect" id="node10" href="$a01449.html" title="SensorDataTreeItem class definition. " alt="" coords="1991,96,2155,152"/>
+<area shape="rect" id="node11" href="$a01451.html" title="SensorPositionTreeItem class definition. " alt="" coords="2181,96,2363,152"/>
+<area shape="rect" id="node12" href="$a01455.html" title="SensorSurfaceTreeItem class definition. " alt="" coords="2387,96,2567,152"/>
+<area shape="rect" id="node13" href="$a01457.html" title="EcdDataTreeItem class definition. " alt="" coords="2592,96,2756,152"/>
+<area shape="rect" id="node14" href="$a01459.html" title="MneDataTreeItem class definition. " alt="" coords="2781,96,2945,152"/>
+<area shape="rect" id="node15" href="$a01461.html" title="SourceSpaceTreeItem class definition. " alt="" coords="2971,96,3145,152"/>
+</map>

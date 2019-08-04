@@ -1,0 +1,27 @@
+<map id="applications/mne_scan/libs/scDisp/realtimecovwidget.cpp" name="applications/mne_scan/libs/scDisp/realtimecovwidget.cpp">
+<area shape="rect" id="node2" href="$a00906.html" title="Declaration of the RealTimeCovWidget Class. " alt="" coords="143,245,281,272"/>
+<area shape="rect" id="node16" href="$a00927.html" title="Contains the declaration of the RealTimeCov class. " alt="" coords="1433,96,1583,123"/>
+<area shape="rect" id="node30" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="2675,245,2751,272"/>
+<area shape="rect" id="node42" href="$a01387.html" title="Declaration of the ModalitySelectionView Class. " alt="" coords="393,320,631,347"/>
+<area shape="rect" id="node44" href="$a01309.html" title="ImageSc class declaration. " alt="" coords="675,245,817,272"/>
+<area shape="rect" id="node3" href="$a00917_source.html" title="scdisp_global.h" alt="" coords="88,395,199,421"/>
+<area shape="rect" id="node5" href="$a00902.html" title="Declaration of the MeasurementWidget Class. " alt="" coords="69,320,219,347"/>
+<area shape="rect" id="node6" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="1049,395,1212,421"/>
+<area shape="rect" id="node7" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="1320,469,1440,496"/>
+<area shape="rect" id="node17" href="$a00935.html" title="Contains the declaration of the RealTimeSampleArrayChInfo class. " alt="" coords="1617,395,1801,421"/>
+<area shape="rect" id="node25" href="$a01530.html" title="FiffCov class declaration. " alt="" coords="1843,171,1937,197"/>
+<area shape="rect" id="node18" href="$a01526.html" title="Fiff constants. " alt="" coords="3076,619,3205,645"/>
+<area shape="rect" id="node19" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="3205,544,3312,571"/>
+<area shape="rect" id="node26" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="2737,544,2825,571"/>
+<area shape="rect" id="node27" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="3145,395,3220,421"/>
+<area shape="rect" id="node28" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="3181,469,3317,496"/>
+<area shape="rect" id="node31" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="2983,320,3093,347"/>
+<area shape="rect" id="node32" href="$a01549.html" title="FiffId class declaration. " alt="" coords="2791,469,2856,496"/>
+<area shape="rect" id="node33" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="2295,395,2392,421"/>
+<area shape="rect" id="node35" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="3505,395,3612,421"/>
+<area shape="rect" id="node37" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="2111,395,2220,421"/>
+<area shape="rect" id="node38" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="2983,469,3105,496"/>
+<area shape="rect" id="node34" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="2670,469,2767,496"/>
+<area shape="rect" id="node43" href="$a01301.html" title="disp library export/import macros. " alt="" coords="533,395,643,421"/>
+<area shape="rect" id="node45" href="$a01305.html" title="Graph class declaration. " alt="" coords="707,320,772,347"/>
+</map>

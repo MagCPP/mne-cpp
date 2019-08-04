@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$a00059.html" title="The AverageWindow class provides a dock window for plotting averages. " alt="" coords="166,5,381,32"/>
+<area shape="rect" id="node3" href="$a00098.html" title="The ChInfoWindow class provides a dock window for informations about every loaded channel..." alt="" coords="170,56,377,83"/>
+<area shape="rect" id="node4" href="$a00210.html" title="The EventWindow class provides the event dock window. " alt="" coords="173,107,374,133"/>
+<area shape="rect" id="node5" href="$a00260.html" title="The FilterWindow class provides the filter window. " alt="" coords="175,157,371,184"/>
+<area shape="rect" id="node6" href="$a00327.html" title="The InformationWindow class provides a dockable InformationWindow window. " alt="" coords="157,208,389,235"/>
+<area shape="rect" id="node7" href="$a00502.html" title="The NoiseReductionWindow class provides a dock window for managing SSP operator projcetions and compe..." alt="" coords="167,259,380,301"/>
+<area shape="rect" id="node8" href="$a00609.html" title="The ScaleWindow class provides the scale window. " alt="" coords="173,325,373,352"/>
+</map>

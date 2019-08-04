@@ -1,0 +1,17 @@
+<map id="applications/mne_scan/mne_scan/pluginscene.h" name="applications/mne_scan/mne_scan/pluginscene.h">
+<area shape="rect" id="node2" href="$a00973.html" title="PluginItem class declaration. " alt="" coords="291,104,383,131"/>
+<area shape="rect" id="node29" href="$a00958.html" title="Contains the declaration of the PluginManager class. " alt="" coords="1595,97,1751,138"/>
+<area shape="rect" id="node32" href="$a00964.html" title="Contains declaration of PluginSceneManager class. " alt="" coords="1087,97,1243,138"/>
+<area shape="rect" id="node3" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="468,262,607,303"/>
+<area shape="rect" id="node4" href="$a00962_source.html" title="../Management/pluginoutputdata.h" alt="" coords="428,352,647,379"/>
+<area shape="rect" id="node20" href="$a00956.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="817,352,1027,379"/>
+<area shape="rect" id="node5" href="$a00965.html" title="Contains the scshared library export/import macros. " alt="" coords="1401,576,1540,603"/>
+<area shape="rect" id="node7" href="$a00960.html" title="Contains the declaration of the PluginOutputConnector class. " alt="" coords="1143,427,1301,453"/>
+<area shape="rect" id="node18" href="$a00961.html" title="Contains the declaration of the PluginOutputData class. " alt="" coords="373,427,515,453"/>
+<area shape="rect" id="node8" href="$a00948.html" title="Contains the declaration of the PluginConnector class. " alt="" coords="1106,501,1229,528"/>
+<area shape="rect" id="node14" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="908,501,1071,528"/>
+<area shape="rect" id="node15" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="769,576,889,603"/>
+<area shape="rect" id="node21" href="$a00954_source.html" title="plugininputconnector.h" alt="" coords="967,427,1119,453"/>
+<area shape="rect" id="node22" href="$a00955.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="807,427,941,453"/>
+<area shape="rect" id="node33" href="$a00950.html" title="Contains the declaration of the PluginConnectorConnection class. " alt="" coords="1072,187,1259,213"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="applications/mne_scan/plugins/tmsi/tmsiproducer.cpp" name="applications/mne_scan/plugins/tmsi/tmsiproducer.cpp">
+<area shape="rect" id="node2" href="$a01222.html" title="Contains the declaration of the TMSIProducer class. " alt="" coords="382,96,489,123"/>
+<area shape="rect" id="node10" href="$a01211.html" title="Contains the declaration of the TMSI class. " alt="" coords="1600,96,1657,123"/>
+<area shape="rect" id="node40" href="$a01214.html" title="Contains the declaration of the tmsidriver class. This class implements the basic communication betwe..." alt="" coords="2832,261,2923,288"/>
+<area shape="rect" id="node3" href="$a01771.html" title="CircularBuffer class declaration. " alt="" coords="341,179,531,205"/>
+<area shape="rect" id="node4" href="$a01805.html" title="utils library export/import macros. " alt="" coords="539,336,649,363"/>
+<area shape="rect" id="node14" href="$a01212.html" title="Contains the TMSI library export/import macros. " alt="" coords="5,179,104,205"/>
+<area shape="rect" id="node15" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="179,171,317,213"/>
+<area shape="rect" id="node17" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="555,179,780,205"/>
+<area shape="rect" id="node23" href="$a01785.html" title="LayoutLoader class declaration. " alt="" coords="952,261,1081,288"/>
+<area shape="rect" id="node33" href="$a01209.html" title="Contains the declaration of the TMSISetupWidget class. " alt="" coords="2457,179,2647,205"/>
+<area shape="rect" id="node36" href="$a01205.html" title="Contains the declaration of the TMSIManualAnnotation class. " alt="" coords="1869,179,2128,205"/>
+<area shape="rect" id="node37" href="$a01203.html" title="Contains the declaration of the TmsiImpedanceWidget class. " alt="" coords="855,179,1076,205"/>
+<area shape="rect" id="node38" href="$a01207.html" title="Contains the declaration of the TMSISetupProjectWidget class. " alt="" coords="2203,179,2432,205"/>
+<area shape="rect" id="node39" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="1435,261,1501,288"/>
+<area shape="rect" id="node16" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="179,261,252,288"/>
+<area shape="rect" id="node18" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="725,261,792,288"/>
+<area shape="rect" id="node35" href="$a01220.html" title="Contains the implementation of the TMSIImpedanceView class. " alt="" coords="2478,261,2625,288"/>
+</map>

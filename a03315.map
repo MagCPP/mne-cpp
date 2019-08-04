@@ -1,0 +1,27 @@
+<map id="libraries/utils/layoutloader.h" name="libraries/utils/layoutloader.h">
+<area shape="rect" id="node2" href="$a01332.html" title="Definition of the ChannelSelectionView class. " alt="" coords="70,87,244,129"/>
+<area shape="rect" id="node3" href="$a01784.html" title="Definition of the LayoutLoader class. " alt="" coords="269,95,464,121"/>
+<area shape="rect" id="node4" href="$a00828.html" title="Contains the declaration of the AverageWindow class. " alt="" coords="489,87,673,129"/>
+<area shape="rect" id="node15" href="$a01022.html" title="Contains the implementation of the BrainAMPSetupProjectWidget class. " alt="" coords="699,80,912,136"/>
+<area shape="rect" id="node16" href="$a01055.html" title="Contains the implementation of the EEGoSports class. " alt="" coords="937,87,1164,129"/>
+<area shape="rect" id="node17" href="$a01064.html" title="Contains the implementation of the EEGoSportsSetupProjectWidget class. " alt="" coords="1189,80,1412,136"/>
+<area shape="rect" id="node18" href="$a01203.html" title="Contains the declaration of the TmsiImpedanceWidget class. " alt="" coords="1437,80,1600,136"/>
+<area shape="rect" id="node20" href="$a01211.html" title="Contains the declaration of the TMSI class. " alt="" coords="1560,185,1713,226"/>
+<area shape="rect" id="node26" href="$a00775_source.html" title="examples/ex_make_layout\l/main.cpp" alt="" coords="1675,87,1852,129"/>
+<area shape="rect" id="node5" href="$a00792_source.html" title="applications/mne_browse\l/Windows/mainwindow.h" alt="" coords="393,185,561,226"/>
+<area shape="rect" id="node14" href="$a00827.html" title="Definition of the AverageWindow class. " alt="" coords="586,185,784,226"/>
+<area shape="rect" id="node6" href="$a00742_source.html" title="applications/mne_browse\l/main.cpp" alt="" coords="5,282,173,323"/>
+<area shape="rect" id="node7" href="$a00836.html" title="Contains the declaration of the FilterWindow class. " alt="" coords="198,282,367,323"/>
+<area shape="rect" id="node9" href="$a00834.html" title="Definition of the EventWindow class. " alt="" coords="392,282,563,323"/>
+<area shape="rect" id="node11" href="$a00832.html" title="Definition of the DataWindow class. " alt="" coords="587,282,756,323"/>
+<area shape="rect" id="node13" href="$a00788_source.html" title="applications/mne_browse\l/Windows/mainwindow.cpp" alt="" coords="781,282,963,323"/>
+<area shape="rect" id="node8" href="$a00835.html" title="Definition of the FilterWindow class. " alt="" coords="181,379,360,421"/>
+<area shape="rect" id="node10" href="$a00833_source.html" title="applications/mne_browse\l/Windows/eventwindow.cpp" alt="" coords="385,379,569,421"/>
+<area shape="rect" id="node12" href="$a00831_source.html" title="applications/mne_browse\l/Windows/datawindow.cpp" alt="" coords="595,379,773,421"/>
+<area shape="rect" id="node19" href="$a01202.html" title="Contains the declaration of the TMSIImpedanceWidget class. " alt="" coords="1102,275,1279,331"/>
+<area shape="rect" id="node21" href="$a01204.html" title="Contains the implementation of the TMSISetupWidget class. " alt="" coords="1304,275,1520,331"/>
+<area shape="rect" id="node22" href="$a01206.html" title="Contains the implementation of the TMSISetupProjectWidget class. " alt="" coords="1545,275,1729,331"/>
+<area shape="rect" id="node23" href="$a01208.html" title="Contains the implementation of the TMSISetupWidget class. " alt="" coords="1754,275,1912,331"/>
+<area shape="rect" id="node24" href="$a01210.html" title="Contains the implementation of the TMSI class. " alt="" coords="1937,282,2091,323"/>
+<area shape="rect" id="node25" href="$a01221.html" title="Contains the implementation of the TMSIProducer class. " alt="" coords="2116,282,2315,323"/>
+</map>

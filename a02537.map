@@ -1,0 +1,8 @@
+<map id="applications/mne_scan/plugins/tmsi/tmsi.h" name="applications/mne_scan/plugins/tmsi/tmsi.h">
+<area shape="rect" id="node2" href="$a01202.html" title="Contains the declaration of the TMSIImpedanceWidget class. " alt="" coords="5,96,181,152"/>
+<area shape="rect" id="node3" href="$a01204.html" title="Contains the implementation of the TMSISetupWidget class. " alt="" coords="207,96,423,152"/>
+<area shape="rect" id="node4" href="$a01206.html" title="Contains the implementation of the TMSISetupProjectWidget class. " alt="" coords="447,96,632,152"/>
+<area shape="rect" id="node5" href="$a01208.html" title="Contains the implementation of the TMSISetupWidget class. " alt="" coords="657,96,815,152"/>
+<area shape="rect" id="node6" href="$a01210.html" title="Contains the implementation of the TMSI class. " alt="" coords="840,103,993,145"/>
+<area shape="rect" id="node7" href="$a01221.html" title="Contains the implementation of the TMSIProducer class. " alt="" coords="1019,103,1217,145"/>
+</map>

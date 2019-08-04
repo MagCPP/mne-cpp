@@ -1,0 +1,20 @@
+<map id="applications/mne_scan/plugins/neuronalconnectivity/neuronalconnectivity.h" name="applications/mne_scan/plugins/neuronalconnectivity/neuronalconnectivity.h">
+<area shape="rect" id="node2" href="$a01132.html" title="Contains the NeuronalConnectivity library export/import macros. " alt="" coords="285,425,425,466"/>
+<area shape="rect" id="node4" href="$a00941.html" title="Contains declaration of IAlgorithm interface class. " alt="" coords="1295,110,1433,151"/>
+<area shape="rect" id="node27" href="$a01771.html" title="CircularBuffer class declaration. " alt="" coords="72,432,261,459"/>
+<area shape="rect" id="node31" href="$a01263.html" title="ConnectivitySettings class declaration. " alt="" coords="1675,117,1897,144"/>
+<area shape="rect" id="node36" href="$a01288_source.html" title="connectivity/network\l/network.h" alt="" coords="1509,110,1651,151"/>
+<area shape="rect" id="node5" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="1261,200,1333,227"/>
+<area shape="rect" id="node6" href="$a00962_source.html" title="../Management/pluginoutputdata.h" alt="" coords="769,275,988,301"/>
+<area shape="rect" id="node21" href="$a00956.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="1027,275,1236,301"/>
+<area shape="rect" id="node7" href="$a00965.html" title="Contains the scshared library export/import macros. " alt="" coords="1024,515,1163,541"/>
+<area shape="rect" id="node8" href="$a00960.html" title="Contains the declaration of the PluginOutputConnector class. " alt="" coords="784,349,943,376"/>
+<area shape="rect" id="node19" href="$a00961.html" title="Contains the declaration of the PluginOutputData class. " alt="" coords="502,349,644,376"/>
+<area shape="rect" id="node9" href="$a00948.html" title="Contains the declaration of the PluginConnector class. " alt="" coords="802,432,925,459"/>
+<area shape="rect" id="node15" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="615,432,777,459"/>
+<area shape="rect" id="node16" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="524,515,644,541"/>
+<area shape="rect" id="node22" href="$a00954_source.html" title="plugininputconnector.h" alt="" coords="1019,349,1171,376"/>
+<area shape="rect" id="node23" href="$a00955.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="1297,349,1431,376"/>
+<area shape="rect" id="node28" href="$a01805.html" title="utils library export/import macros. " alt="" coords="207,515,317,541"/>
+<area shape="rect" id="node32" href="$a01261.html" title="connectivity library export/import macros. " alt="" coords="1659,200,1803,227"/>
+</map>

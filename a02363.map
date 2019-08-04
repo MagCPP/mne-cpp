@@ -1,0 +1,29 @@
+<map id="applications/mne_scan/plugins/gusbamp/gusbamp.cpp" name="applications/mne_scan/plugins/gusbamp/gusbamp.cpp">
+<area shape="rect" id="node2" href="$a01094.html" title="Contains the declaration of the GUSBAmp class. " alt="" coords="3499,96,3585,123"/>
+<area shape="rect" id="node46" href="$a01099.html" title="Contains the declaration of the GUSBAmpProducer class. " alt="" coords="4125,411,4260,437"/>
+<area shape="rect" id="node3" href="$a01095.html" title="Contains the GUSBAmp library export/import macros. " alt="" coords="4013,485,4139,512"/>
+<area shape="rect" id="node5" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="3248,321,3387,362"/>
+<area shape="rect" id="node9" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="3329,411,3553,437"/>
+<area shape="rect" id="node18" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="1371,171,1437,197"/>
+<area shape="rect" id="node38" href="$a01092.html" title="Contains the declaration of the GUSBAmpSetupWidget class. " alt="" coords="3580,171,3799,197"/>
+<area shape="rect" id="node41" href="$a01090.html" title="Contains the declaration of the GUSBAmpSetupProjectWidget class. " alt="" coords="3823,171,4080,197"/>
+<area shape="rect" id="node6" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="3231,411,3304,437"/>
+<area shape="rect" id="node10" href="$a01805.html" title="utils library export/import macros. " alt="" coords="3529,560,3639,587"/>
+<area shape="rect" id="node11" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="3377,485,3444,512"/>
+<area shape="rect" id="node19" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1929,560,2017,587"/>
+<area shape="rect" id="node20" href="$a01526.html" title="Fiff constants. " alt="" coords="823,635,933,661"/>
+<area shape="rect" id="node21" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1687,485,1809,512"/>
+<area shape="rect" id="node22" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1175,560,1261,587"/>
+<area shape="rect" id="node26" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="1231,411,1335,437"/>
+<area shape="rect" id="node27" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2341,485,2445,512"/>
+<area shape="rect" id="node28" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="917,485,1053,512"/>
+<area shape="rect" id="node29" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="2777,411,2849,437"/>
+<area shape="rect" id="node31" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="978,411,1053,437"/>
+<area shape="rect" id="node32" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1636,411,1745,437"/>
+<area shape="rect" id="node33" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1155,328,1231,355"/>
+<area shape="rect" id="node34" href="$a01561.html" title="FiffRawData class declaration. " alt="" coords="2085,245,2192,272"/>
+<area shape="rect" id="node35" href="$a01563.html" title="FiffRawDir class declaration. " alt="" coords="2207,411,2304,437"/>
+<area shape="rect" id="node36" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="1426,328,1520,355"/>
+<area shape="rect" id="node37" href="$a01544.html" title="FiffEvokedSet class declaration. " alt="" coords="469,245,592,272"/>
+<area shape="rect" id="node47" href="$a01771.html" title="CircularBuffer class declaration. " alt="" coords="3799,485,3988,512"/>
+</map>

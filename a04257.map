@@ -1,0 +1,9 @@
+<map id="SCDISPLIB::MeasurementWidget" name="SCDISPLIB::MeasurementWidget">
+<area shape="rect" id="node3" href="$a00544.html" title="The RealTimeConnectivityEstimateWidget class provides a real&#45;time network display. " alt="" coords="5,373,235,685"/>
+<area shape="rect" id="node4" href="$a00546.html" title="The RealTimeCovWidget class provides a real&#45;time covariance display. " alt="" coords="259,381,481,678"/>
+<area shape="rect" id="node5" href="$a00548.html" title="The RealTimeEvokedSetWidget class provides a real&#45;time display for multiple averages. " alt="" coords="505,454,715,605"/>
+<area shape="rect" id="node6" href="$a00550.html" title="The RealTimeMultiSampleArrayWidget class provides a real&#45;time curve display. " alt="" coords="741,447,941,612"/>
+<area shape="rect" id="node7" href="$a00553.html" title="The RealTimeSampleArrayWidget class provides a real&#45;time curve display. " alt="" coords="966,410,1188,649"/>
+<area shape="rect" id="node8" href="$a00555.html" title="The RealTimeSourceEstimateWidget class provides a real&#45;time 3D source estimate display. " alt="" coords="1213,410,1453,649"/>
+<area shape="rect" id="node9" href="$a00557.html" title="The RealTimeSpectrumWidget class provides a equalizer display. " alt="" coords="1477,439,1691,619"/>
+</map>

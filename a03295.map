@@ -1,0 +1,32 @@
+<map id="libraries/utils/generics/circularbuffer.h" name="libraries/utils/generics/circularbuffer.h">
+<area shape="rect" id="node2" href="$a01770.html" title="Contains implementations of the CircularBuffer Class. " alt="" coords="333,103,480,145"/>
+<area shape="rect" id="node3" href="$a01019.html" title="Contains the declaration of the BrainAMPProducer class. " alt="" coords="505,103,748,145"/>
+<area shape="rect" id="node7" href="$a01045.html" title="Contains the declaration of the ECGProducer class. " alt="" coords="957,96,1111,152"/>
+<area shape="rect" id="node10" href="$a01049.html" title="Contains the declaration of the ECGSimulator class. " alt="" coords="1149,96,1303,152"/>
+<area shape="rect" id="node12" href="$a01099.html" title="Contains the declaration of the GUSBAmpProducer class. " alt="" coords="1593,103,1836,145"/>
+<area shape="rect" id="node16" href="$a01131.html" title="Contains the declaration of the NeuronalConnectivity class. " alt="" coords="2001,96,2191,152"/>
+<area shape="rect" id="node18" href="$a01177.html" title="Contains the declaration of the RTSSS class. " alt="" coords="2452,103,2605,145"/>
+<area shape="rect" id="node22" href="$a01222.html" title="Contains the declaration of the TMSIProducer class. " alt="" coords="2992,103,3179,145"/>
+<area shape="rect" id="node26" href="$a01232.html" title="Contains the declaration of the TriggerControl class. " alt="" coords="3509,96,3663,152"/>
+<area shape="rect" id="node4" href="$a01013.html" title="Contains the implementation of the BrainAMP class. " alt="" coords="5,207,211,249"/>
+<area shape="rect" id="node5" href="$a01016.html" title="Contains the implementation of the BrainAMPDriver class. " alt="" coords="235,207,473,249"/>
+<area shape="rect" id="node6" href="$a01018_source.html" title="applications/mne_scan\l/plugins/brainamp/brainampproducer.cpp" alt="" coords="499,207,755,249"/>
+<area shape="rect" id="node8" href="$a01044.html" title="Definition of the ECGProducer class. " alt="" coords="779,200,932,256"/>
+<area shape="rect" id="node9" href="$a01048.html" title="Definition of the ECGSimulator class. " alt="" coords="957,200,1111,256"/>
+<area shape="rect" id="node11" href="$a01053.html" title="Definition of the ECGSetupWidget class. " alt="" coords="1137,200,1340,256"/>
+<area shape="rect" id="node13" href="$a01093.html" title="Contains the implementation of the GUSBAmp class. " alt="" coords="1365,207,1571,249"/>
+<area shape="rect" id="node14" href="$a01096.html" title="Contains the implementation of the GUSBAmpDriver class. " alt="" coords="1595,207,1833,249"/>
+<area shape="rect" id="node15" href="$a01098.html" title="Contains the implementation of the GUSBAmpProducer class. " alt="" coords="1859,207,2115,249"/>
+<area shape="rect" id="node17" href="$a01130.html" title="Definition of the NeuronalConnectivity class. " alt="" coords="2139,200,2329,256"/>
+<area shape="rect" id="node19" href="$a01172_source.html" title="applications/mne_scan\l/plugins/rtsss/FormFiles\l/rtsssrunwidget.cpp" alt="" coords="2355,200,2517,256"/>
+<area shape="rect" id="node20" href="$a01174.html" title="Definition of the ECGSetupWidget class. " alt="" coords="2541,200,2704,256"/>
+<area shape="rect" id="node21" href="$a01176.html" title="Definition of the RtSss class. " alt="" coords="2729,207,2887,249"/>
+<area shape="rect" id="node23" href="$a01210.html" title="Contains the implementation of the TMSI class. " alt="" coords="2912,207,3065,249"/>
+<area shape="rect" id="node24" href="$a01213.html" title="Contains the implementation of the TMSIDriver class. " alt="" coords="3091,207,3273,249"/>
+<area shape="rect" id="node25" href="$a01221.html" title="Contains the implementation of the TMSIProducer class. " alt="" coords="3299,207,3497,249"/>
+<area shape="rect" id="node27" href="$a01223_source.html" title="applications/mne_scan\l/plugins/triggercontrol\l/FormFiles/settingswidget.cpp" alt="" coords="3236,304,3433,360"/>
+<area shape="rect" id="node28" href="$a01227.html" title="Definition of the TriggerControlSetupWidget class. " alt="" coords="3457,304,3715,360"/>
+<area shape="rect" id="node29" href="$a01230.html" title="Contains the declaration of the SerialPort class. " alt="" coords="3624,200,3777,256"/>
+<area shape="rect" id="node31" href="$a01231.html" title="Definition of the SettingsWidget class. " alt="" coords="3919,304,4072,360"/>
+<area shape="rect" id="node30" href="$a01229.html" title="Definition of the SerialPort class. " alt="" coords="3740,304,3893,360"/>
+</map>

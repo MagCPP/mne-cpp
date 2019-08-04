@@ -1,0 +1,20 @@
+<map id="libraries/disp/plots/helpers/colormap.h" name="libraries/disp/plots/helpers/colormap.h">
+<area shape="rect" id="node2" href="$a01306.html" title="Definition of the ColorMap class. " alt="" coords="5,103,155,145"/>
+<area shape="rect" id="node3" href="$a01308.html" title="Definition of the ImageSc class. " alt="" coords="179,103,305,145"/>
+<area shape="rect" id="node4" href="$a01314.html" title="Definition of spline class. " alt="" coords="330,103,456,145"/>
+<area shape="rect" id="node5" href="$a01316.html" title="TFplot class definition. " alt="" coords="481,103,607,145"/>
+<area shape="rect" id="node6" href="$a01447.html" title="NetworkTreeItem class definition. " alt="" coords="632,103,901,145"/>
+<area shape="rect" id="node7" href="$a01482.html" title="RtSensorDataWorker class declaration. " alt="" coords="925,96,1117,152"/>
+<area shape="rect" id="node10" href="$a01488.html" title="RtSourceDataWorker class declaration. " alt="" coords="1142,96,1327,152"/>
+<area shape="rect" id="node13" href="$a00793_source.html" title="applications/mne_matching\l_pursuit/mainwindow.h" alt="" coords="1969,103,2148,145"/>
+<area shape="rect" id="node8" href="$a01479.html" title="RtSensorDataController class definition. " alt="" coords="709,200,901,256"/>
+<area shape="rect" id="node9" href="$a01481.html" title="RtSensorDataWorker class definition. " alt="" coords="925,200,1117,256"/>
+<area shape="rect" id="node11" href="$a01485.html" title="RtSourceDataController class definition. " alt="" coords="1142,200,1327,256"/>
+<area shape="rect" id="node12" href="$a01487.html" title="RtSourceDataWorker class definition. " alt="" coords="1351,200,1536,256"/>
+<area shape="rect" id="node14" href="$a00849.html" title="Definition of the EditorWindow class. " alt="" coords="1561,207,1740,249"/>
+<area shape="rect" id="node15" href="$a00853.html" title="Definition of FormulaEditor class. " alt="" coords="1765,207,1944,249"/>
+<area shape="rect" id="node16" href="$a00746_source.html" title="applications/mne_matching\l_pursuit/main.cpp" alt="" coords="1969,207,2148,249"/>
+<area shape="rect" id="node17" href="$a00789_source.html" title="applications/mne_matching\l_pursuit/mainwindow.cpp" alt="" coords="2173,207,2352,249"/>
+<area shape="rect" id="node18" href="$a00857_source.html" title="applications/mne_matching\l_pursuit/settingwindow.cpp" alt="" coords="2377,207,2556,249"/>
+<area shape="rect" id="node19" href="$a00859_source.html" title="applications/mne_matching\l_pursuit/treebaseddictwindow.cpp" alt="" coords="2581,207,2800,249"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="libraries/disp3D/engine/model/data3Dtreemodel.h" name="libraries/disp3D/engine/model/data3Dtreemodel.h">
+<area shape="rect" id="node2" href="$a01407.html" title="Data3DTreeDelegate class definition. " alt="" coords="5,103,221,145"/>
+<area shape="rect" id="node3" href="$a01415.html" title="Data3DTreeModel class definition. " alt="" coords="247,103,436,145"/>
+<area shape="rect" id="node4" href="$a01495.html" title="View3D class definition. " alt="" coords="460,103,613,145"/>
+<area shape="rect" id="node5" href="$a01501.html" title="AbstractView class definition. " alt="" coords="639,103,800,145"/>
+<area shape="rect" id="node6" href="$a01503.html" title="ECDView class definition. " alt="" coords="825,103,985,145"/>
+<area shape="rect" id="node7" href="$a01505.html" title="HpiView class definition. " alt="" coords="1010,103,1171,145"/>
+<area shape="rect" id="node8" href="$a01507.html" title="NetworkView class definition. " alt="" coords="1195,103,1356,145"/>
+<area shape="rect" id="node9" href="$a01509.html" title="SourceEstimateView class definition. " alt="" coords="1381,103,1547,145"/>
+<area shape="rect" id="node10" href="$a00714.html" title="Definition of the Music class. " alt="" coords="1572,103,1764,145"/>
+<area shape="rect" id="node11" href="$a00728.html" title="applications/mne_analyze\l/extensions/surfer/Views\l/view3danalyze.h" alt="" coords="1789,96,1960,152"/>
+<area shape="rect" id="node15" href="$a00903.html" title="Definition of the RealTimeConnectivityEstimateWidget Class. " alt="" coords="1985,103,2308,145"/>
+<area shape="rect" id="node16" href="$a00752_source.html" title="examples/ex_clustered\l_inverse_mne/main.cpp" alt="" coords="2333,103,2492,145"/>
+<area shape="rect" id="node17" href="$a00753_source.html" title="examples/ex_clustered\l_inverse_mne_raw/main.cpp" alt="" coords="2518,103,2705,145"/>
+<area shape="rect" id="node18" href="$a00754_source.html" title="examples/ex_clustered\l_inverse_pwl_rap_music\l_raw/main.cpp" alt="" coords="2731,96,2895,152"/>
+<area shape="rect" id="node19" href="$a00755_source.html" title="examples/ex_clustered\l_inverse_rap_music_raw\l/main.cpp" alt="" coords="2921,96,3087,152"/>
+<area shape="rect" id="node20" href="$a00756_source.html" title="examples/ex_connectivity\l/main.cpp" alt="" coords="3112,103,3285,145"/>
+<area shape="rect" id="node21" href="$a00757_source.html" title="examples/ex_connectivity\l_comparison/main.cpp" alt="" coords="3309,103,3483,145"/>
+<area shape="rect" id="node22" href="$a00763_source.html" title="examples/ex_disp_3D\l/main.cpp" alt="" coords="3507,103,3657,145"/>
+<area shape="rect" id="node23" href="$a00767_source.html" title="examples/ex_fs_surface\l/main.cpp" alt="" coords="3682,103,3845,145"/>
+<area shape="rect" id="node24" href="$a00771_source.html" title="examples/ex_inverse\l_mne_raw/main.cpp" alt="" coords="3870,103,4015,145"/>
+<area shape="rect" id="node25" href="$a00772_source.html" title="examples/ex_inverse\l_pwl_rap_music/main.cpp" alt="" coords="4040,103,4213,145"/>
+<area shape="rect" id="node26" href="$a00773_source.html" title="examples/ex_inverse\l_rap_music/main.cpp" alt="" coords="4237,103,4384,145"/>
+<area shape="rect" id="node27" href="$a00780_source.html" title="examples/ex_read_fwd\l_disp_3D/main.cpp" alt="" coords="4409,103,4564,145"/>
+<area shape="rect" id="node28" href="$a00783_source.html" title="examples/ex_roi_clustered\l_inverse_pwl_rap_music\l/main.cpp" alt="" coords="4589,96,4765,152"/>
+<area shape="rect" id="node29" href="$a00785_source.html" title="examples/ex_st_clustered\l_inverse_pwl_rap_music\l/main.cpp" alt="" coords="4790,96,4964,152"/>
+<area shape="rect" id="node12" href="$a00723.html" title="Contains the declaration of the Surfer class. " alt="" coords="1689,207,1863,249"/>
+<area shape="rect" id="node14" href="$a00727.html" title="applications/mne_analyze\l/extensions/surfer/Views\l/view3danalyze.cpp" alt="" coords="1887,200,2059,256"/>
+<area shape="rect" id="node13" href="$a00722.html" title="Definition of the Surfer class. " alt="" coords="1682,305,1869,346"/>
+</map>

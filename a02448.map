@@ -1,0 +1,33 @@
+<map id="applications/mne_scan/plugins/rapmusictoolbox/rapmusictoolbox.cpp" name="applications/mne_scan/plugins/rapmusictoolbox/rapmusictoolbox.cpp">
+<area shape="rect" id="node2" href="$a01150.html" title="Contains the declaration of the RapMusicToolbox class. " alt="" coords="2400,109,2528,136"/>
+<area shape="rect" id="node47" href="$a01148.html" title="Contains the declaration of the RapMusicToolboxSetupWidget class. " alt="" coords="3277,109,3536,136"/>
+<area shape="rect" id="node3" href="$a01151.html" title="Contains the RapMusicToolbox library export/import macros. " alt="" coords="3265,259,3433,285"/>
+<area shape="rect" id="node5" href="$a00941.html" title="Contains declaration of IAlgorithm interface class. " alt="" coords="2341,334,2480,375"/>
+<area shape="rect" id="node8" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="3126,341,3351,368"/>
+<area shape="rect" id="node16" href="$a01572.html" title="AnnotationSet class declaration. " alt="" coords="1798,341,1924,368"/>
+<area shape="rect" id="node21" href="$a01581.html" title="SurfaceSet class declaration. " alt="" coords="2208,341,2317,368"/>
+<area shape="rect" id="node23" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="922,259,1016,285"/>
+<area shape="rect" id="node37" href="$a01542.html" title="FiffEvoked class declaration. " alt="" coords="238,184,353,211"/>
+<area shape="rect" id="node39" href="$a01728.html" title="MNEForwardSolution class declaration, which provides the forward solution including the source space ..." alt="" coords="1899,259,2081,285"/>
+<area shape="rect" id="node42" href="$a01736.html" title="MNESourceEstimate class declaration. " alt="" coords="2661,259,2843,285"/>
+<area shape="rect" id="node43" href="$a01640.html" title="PwlRapMusic algorithm class declaration. " alt="" coords="2503,184,2712,211"/>
+<area shape="rect" id="node44" href="$a00937.html" title="Contains the declaration of the RealTimeSourceEstimate class. " alt="" coords="2157,184,2376,211"/>
+<area shape="rect" id="node45" href="$a00929.html" title="Contains the declaration of the RealTimeEvokedSet class. " alt="" coords="2840,424,3029,451"/>
+<area shape="rect" id="node6" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="2337,424,2409,451"/>
+<area shape="rect" id="node9" href="$a01805.html" title="utils library export/import macros. " alt="" coords="3183,499,3293,525"/>
+<area shape="rect" id="node10" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="3205,424,3272,451"/>
+<area shape="rect" id="node17" href="$a01575.html" title="Fs library export/import macros. " alt="" coords="2256,499,2341,525"/>
+<area shape="rect" id="node18" href="$a01570.html" title="Annotation class declaration. " alt="" coords="1680,424,1773,451"/>
+<area shape="rect" id="node22" href="$a01579.html" title="Surface class declaration. " alt="" coords="2537,424,2612,451"/>
+<area shape="rect" id="node24" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="911,499,1000,525"/>
+<area shape="rect" id="node25" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1058,341,1168,368"/>
+<area shape="rect" id="node26" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="629,499,715,525"/>
+<area shape="rect" id="node30" href="$a01549.html" title="FiffId class declaration. " alt="" coords="958,424,1023,451"/>
+<area shape="rect" id="node31" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="499,424,596,451"/>
+<area shape="rect" id="node32" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1397,424,1504,451"/>
+<area shape="rect" id="node34" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="773,424,883,451"/>
+<area shape="rect" id="node35" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1200,424,1323,451"/>
+<area shape="rect" id="node36" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="347,424,423,451"/>
+<area shape="rect" id="node38" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="296,259,368,285"/>
+<area shape="rect" id="node40" href="$a01729_source.html" title="mne_global.h" alt="" coords="2789,341,2888,368"/>
+</map>

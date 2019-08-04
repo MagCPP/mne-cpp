@@ -1,0 +1,17 @@
+<map id="libraries/disp/viewers/helpers/frequencyspectrummodel.cpp" name="libraries/disp/viewers/helpers/frequencyspectrummodel.cpp">
+<area shape="rect" id="node2" href="$a01375.html" title="Declaration of the FrequencySpectrumModel Class. " alt="" coords="5,320,184,347"/>
+<area shape="rect" id="node14" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="958,96,1052,123"/>
+<area shape="rect" id="node3" href="$a01301.html" title="disp library export/import macros. " alt="" coords="8,395,131,421"/>
+<area shape="rect" id="node5" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1288,395,1395,421"/>
+<area shape="rect" id="node6" href="$a01526.html" title="Fiff constants. " alt="" coords="1477,469,1588,496"/>
+<area shape="rect" id="node15" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="379,395,468,421"/>
+<area shape="rect" id="node16" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="950,171,1060,197"/>
+<area shape="rect" id="node17" href="$a01549.html" title="FiffId class declaration. " alt="" coords="790,320,855,347"/>
+<area shape="rect" id="node18" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1046,245,1143,272"/>
+<area shape="rect" id="node21" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="461,320,568,347"/>
+<area shape="rect" id="node23" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1465,245,1575,272"/>
+<area shape="rect" id="node27" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="592,320,715,347"/>
+<area shape="rect" id="node29" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1271,245,1347,272"/>
+<area shape="rect" id="node19" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="982,320,1079,347"/>
+<area shape="rect" id="node24" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="1702,320,1839,347"/>
+</map>

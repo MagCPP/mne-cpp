@@ -1,0 +1,19 @@
+<map id="applications/mne_scan/plugins/tmsi/FormFiles/tmsisetupwidget.cpp" name="applications/mne_scan/plugins/tmsi/FormFiles/tmsisetupwidget.cpp">
+<area shape="rect" id="node2" href="$a01209.html" title="Contains the declaration of the TMSISetupWidget class. " alt="" coords="249,192,377,219"/>
+<area shape="rect" id="node11" href="$a01201.html" title="Contains the declaration of the TMSIAboutWidget class. " alt="" coords="97,109,225,136"/>
+<area shape="rect" id="node13" href="$a01211.html" title="Contains the declaration of the TMSI class. " alt="" coords="1439,109,1509,136"/>
+<area shape="rect" id="node5" href="$a01220.html" title="Contains the implementation of the TMSIImpedanceView class. " alt="" coords="413,275,560,301"/>
+<area shape="rect" id="node7" href="$a01216.html" title="Contains the declaration of the TMSIElectrodeItem class. " alt="" coords="1215,349,1349,376"/>
+<area shape="rect" id="node16" href="$a01212.html" title="Contains the TMSI library export/import macros. " alt="" coords="2579,349,2677,376"/>
+<area shape="rect" id="node18" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="2940,185,3079,226"/>
+<area shape="rect" id="node21" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="2591,192,2816,219"/>
+<area shape="rect" id="node30" href="$a01785.html" title="LayoutLoader class declaration. " alt="" coords="2243,275,2372,301"/>
+<area shape="rect" id="node38" href="$a01205.html" title="Contains the declaration of the TMSIManualAnnotation class. " alt="" coords="402,192,661,219"/>
+<area shape="rect" id="node41" href="$a01203.html" title="Contains the declaration of the TmsiImpedanceWidget class. " alt="" coords="1839,192,2060,219"/>
+<area shape="rect" id="node48" href="$a01207.html" title="Contains the declaration of the TMSISetupProjectWidget class. " alt="" coords="687,192,916,219"/>
+<area shape="rect" id="node49" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="2101,275,2168,301"/>
+<area shape="rect" id="node19" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="3071,275,3144,301"/>
+<area shape="rect" id="node22" href="$a01805.html" title="utils library export/import macros. " alt="" coords="2761,349,2871,376"/>
+<area shape="rect" id="node23" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="2929,275,2996,301"/>
+<area shape="rect" id="node42" href="$a01218.html" title="Contains the implementation of the TMSIImpedanceScene class. " alt="" coords="1231,275,1399,301"/>
+</map>

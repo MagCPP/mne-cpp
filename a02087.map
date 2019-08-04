@@ -1,0 +1,34 @@
+<map id="applications/mne_scan/libs/scDisp/realtimeconnectivityestimatewidget.cpp" name="applications/mne_scan/libs/scDisp/realtimeconnectivityestimatewidget.cpp">
+<area shape="rect" id="node2" href="$a00904.html" title="Declaration of the RealTimeConnectivityEstimateWidget Class. " alt="" coords="529,285,765,312"/>
+<area shape="rect" id="node23" href="$a00925.html" title="Contains the declaration of the RealTimeConnectivityEstimate class. " alt="" coords="5,368,253,395"/>
+<area shape="rect" id="node24" href="$a01288_source.html" title="connectivity/network\l/network.h" alt="" coords="1115,278,1257,319"/>
+<area shape="rect" id="node26" href="$a01393.html" title="Declaration of the QuickControlView Class. " alt="" coords="791,285,997,312"/>
+<area shape="rect" id="node30" href="$a01508.html" title="NetworkView class declaration. " alt="" coords="2969,195,3168,221"/>
+<area shape="rect" id="node33" href="$a01448.html" title="NetworkTreeItem class declaration. " alt="" coords="1597,97,1813,138"/>
+<area shape="rect" id="node44" href="$a01416.html" title="Data3DTreeModel class declaration. " alt="" coords="1451,187,1595,229"/>
+<area shape="rect" id="node49" href="$a01440.html" title="FsSurfaceTreeItem class declaration. " alt="" coords="1838,97,2071,138"/>
+<area shape="rect" id="node3" href="$a00917_source.html" title="scdisp_global.h" alt="" coords="416,451,527,477"/>
+<area shape="rect" id="node5" href="$a00902.html" title="Declaration of the MeasurementWidget Class. " alt="" coords="422,368,572,395"/>
+<area shape="rect" id="node13" href="$a01581.html" title="SurfaceSet class declaration. " alt="" coords="1136,368,1245,395"/>
+<area shape="rect" id="node18" href="$a01572.html" title="AnnotationSet class declaration. " alt="" coords="1393,368,1519,395"/>
+<area shape="rect" id="node6" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="229,451,392,477"/>
+<area shape="rect" id="node7" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="101,533,221,560"/>
+<area shape="rect" id="node14" href="$a01575.html" title="Fs library export/import macros. " alt="" coords="1065,533,1151,560"/>
+<area shape="rect" id="node15" href="$a01579.html" title="Surface class declaration. " alt="" coords="1190,451,1265,477"/>
+<area shape="rect" id="node19" href="$a01570.html" title="Annotation class declaration. " alt="" coords="1443,451,1536,477"/>
+<area shape="rect" id="node25" href="$a01261.html" title="connectivity library export/import macros. " alt="" coords="773,533,928,560"/>
+<area shape="rect" id="node27" href="$a01301.html" title="disp library export/import macros. " alt="" coords="553,451,663,477"/>
+<area shape="rect" id="node28" href="$a01365.html" title="Definition of the DraggableFramelessWidget Class. " alt="" coords="779,368,1009,395"/>
+<area shape="rect" id="node29" href="$a01327.html" title="Declaration of the ButterflyView class. " alt="" coords="648,368,755,395"/>
+<area shape="rect" id="node31" href="$a01406.html" title="disp3D library export/import macros. " alt="" coords="2767,368,2893,395"/>
+<area shape="rect" id="node32" href="$a01502.html" title="AbstractView class declaration. " alt="" coords="2401,285,2508,312"/>
+<area shape="rect" id="node34" href="$a01424_source.html" title="../common/abstractmeshtreeitem.h" alt="" coords="1913,195,2137,221"/>
+<area shape="rect" id="node36" href="$a01431_source.html" title="types.h" alt="" coords="1965,368,2029,395"/>
+<area shape="rect" id="node35" href="$a01422.html" title="Abstract3DTreeItem class declaration. " alt="" coords="2532,285,2741,312"/>
+<area shape="rect" id="node37" href="$a01577.html" title="Label class declaration. " alt="" coords="1091,451,1164,477"/>
+<area shape="rect" id="node38" href="$a01626.html" title="FiffDigPointSet class declaration. " alt="" coords="1814,443,1956,485"/>
+<area shape="rect" id="node39" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="2271,451,2365,477"/>
+<area shape="rect" id="node45" href="$a01728.html" title="MNEForwardSolution class declaration, which provides the forward solution including the source space ..." alt="" coords="1282,285,1464,312"/>
+<area shape="rect" id="node47" href="$a01716.html" title="MNEBem class declaration. " alt="" coords="2015,285,2133,312"/>
+<area shape="rect" id="node46" href="$a01729_source.html" title="mne_global.h" alt="" coords="2055,368,2153,395"/>
+</map>

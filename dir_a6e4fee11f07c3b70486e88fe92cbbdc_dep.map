@@ -1,0 +1,22 @@
+<map id="applications" name="applications">
+<area shape="rect" id="node2" href="dir_ecc6f6454590ae4640a11977ecc89fdf.html" title="mne_analyze" alt="" coords="1331,27,1429,75"/>
+<area shape="rect" id="node12" href="dir_bc0718b08fb2015b8e59c47b2805f60c.html" title="libraries" alt="" coords="799,123,871,171"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000001_000136.html" title="30" alt="" coords="882,146,896,161"/>
+<area shape="rect" id="node3" href="dir_231b202184fda09f8274a17b0bfdc48b.html" title="mne_browse" alt="" coords="1211,27,1307,75"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000023_000136.html" title="25" alt="" coords="882,143,897,158"/>
+<area shape="rect" id="node4" href="dir_e5ef1d3369567514d1cc4c534bde3aef.html" title="mne_dipole_fit" alt="" coords="1080,27,1187,75"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000027_000136.html" title="7" alt="" coords="886,136,894,150"/>
+<area shape="rect" id="node5" href="dir_f0034f001ee7bb5c01efdc85f210dbd1.html" title="mne_forward_solution" alt="" coords="907,27,1055,75"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000028_000136.html" title="2" alt="" coords="887,112,895,127"/>
+<area shape="rect" id="node6" href="dir_976f89a9e661ffbe8ab85c76998b6b01.html" title="mne_launch" alt="" coords="790,27,881,75"/>
+<area shape="rect" id="node7" href="dir_ffa8a54a6e7e86b98127b9c4013d0cd0.html" title="mne_matching_pursuit" alt="" coords="613,27,765,75"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000030_000136.html" title="10" alt="" coords="781,98,796,113"/>
+<area shape="rect" id="node8" href="dir_3fc6cad31a2db84661533e4890f7449f.html" title="mne_rt_server" alt="" coords="483,27,588,75"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000031_000136.html" title="19" alt="" coords="775,119,790,134"/>
+<area shape="rect" id="node9" href="dir_0d64339df265c4de5f2826cd198e4064.html" title="mne_sample_set_downloader" alt="" coords="264,27,459,75"/>
+<area shape="rect" id="node10" href="dir_e446c6e1cb3fc1a93d99e5b33bb756bc.html" title="mne_scan" alt="" coords="157,27,239,75"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000025_000136.html" title="200" alt="" coords="770,127,791,142"/>
+<area shape="rect" id="node11" href="dir_2bbf04c729ee8003d9915ccfb6c3395c.html" title="mne_show_fiff" alt="" coords="27,27,133,75"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000034_000136.html" title="2" alt="" coords="777,128,785,142"/>
+<area shape="rect" id="clust1" href="dir_a6e4fee11f07c3b70486e88fe92cbbdc.html" alt="" coords="16,16,1555,85"/>
+</map>

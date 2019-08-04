@@ -1,0 +1,11 @@
+<map id="libraries/fiff/c/fiff_coord_trans_set.h" name="libraries/fiff/c/fiff_coord_trans_set.h">
+<area shape="rect" id="node2" href="$a01513.html" title="Definition of the FiffCoordTransSet Class. " alt="" coords="99,103,245,145"/>
+<area shape="rect" id="node3" href="$a01614_source.html" title="libraries/inverse/dipole\lFit/analyze_types.h" alt="" coords="270,103,420,145"/>
+<area shape="rect" id="node10" href="$a01667.html" title="Definition of the MneMshDisplaySurfaceSet Class. " alt="" coords="445,96,597,152"/>
+<area shape="rect" id="node4" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="270,201,420,242"/>
+<area shape="rect" id="node5" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="95,291,245,333"/>
+<area shape="rect" id="node8" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="270,291,420,333"/>
+<area shape="rect" id="node9" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="445,291,595,333"/>
+<area shape="rect" id="node6" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="6,382,156,423"/>
+<area shape="rect" id="node7" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="181,382,341,423"/>
+</map>

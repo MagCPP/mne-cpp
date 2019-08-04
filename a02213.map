@@ -1,0 +1,27 @@
+<map id="applications/mne_scan/plugins/babymeg/babymeg.h" name="applications/mne_scan/plugins/babymeg/babymeg.h">
+<area shape="rect" id="node2" href="$a00989.html" title="Contains the BabyMEG library export/import macros. " alt="" coords="5,179,131,205"/>
+<area shape="rect" id="node4" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1070,96,1164,123"/>
+<area shape="rect" id="node27" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="2684,179,2799,205"/>
+<area shape="rect" id="node34" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="3521,171,3660,213"/>
+<area shape="rect" id="node41" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="3985,261,4209,288"/>
+<area shape="rect" id="node5" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1127,411,1216,437"/>
+<area shape="rect" id="node6" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1062,179,1172,205"/>
+<area shape="rect" id="node7" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1435,411,1521,437"/>
+<area shape="rect" id="node14" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1975,336,2040,363"/>
+<area shape="rect" id="node16" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1425,261,1521,288"/>
+<area shape="rect" id="node19" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="825,336,932,363"/>
+<area shape="rect" id="node21" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="969,261,1079,288"/>
+<area shape="rect" id="node24" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1209,336,1332,363"/>
+<area shape="rect" id="node26" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="686,261,761,288"/>
+<area shape="rect" id="node8" href="$a01526.html" title="Fiff constants. " alt="" coords="1340,485,1451,512"/>
+<area shape="rect" id="node17" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1357,336,1453,363"/>
+<area shape="rect" id="node22" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="461,336,597,363"/>
+<area shape="rect" id="node28" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="2377,261,2481,288"/>
+<area shape="rect" id="node29" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2338,336,2443,363"/>
+<area shape="rect" id="node30" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="2116,336,2212,363"/>
+<area shape="rect" id="node35" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="3502,261,3575,288"/>
+<area shape="rect" id="node36" href="$a00962_source.html" title="../Management/pluginoutputdata.h" alt="" coords="2873,336,3092,363"/>
+<area shape="rect" id="node37" href="$a00956.html" title="Contains the declaration of the PluginInputData class. " alt="" coords="3268,336,3477,363"/>
+<area shape="rect" id="node42" href="$a01805.html" title="utils library export/import macros. " alt="" coords="3921,411,4031,437"/>
+<area shape="rect" id="node43" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="3943,336,4009,363"/>
+</map>

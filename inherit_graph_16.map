@@ -1,0 +1,31 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$a00061.html" title="The AveragingAboutWidget class provides the about dialog for the AveragingToolbox. " alt="" coords="169,5,388,46"/>
+<area shape="rect" id="node3" href="$a00066.html" title="The BabyMEGAboutWidget class provides the about dialog for the BabyMEG. " alt="" coords="159,70,399,111"/>
+<area shape="rect" id="node4" href="$a00070.html" title="The BabyMEGSQUIDControlDgl class provides the SQUID control dialog. " alt="" coords="123,136,434,163"/>
+<area shape="rect" id="node5" href="$a00074.html" title="The BCIAboutWidget class provides the about dialog for the BCI. " alt="" coords="178,187,379,213"/>
+<area shape="rect" id="node6" href="$a00082.html" title="The BrainAMPAboutWidget class provides the about dialog for the BrainAMP. " alt="" coords="157,238,401,279"/>
+<area shape="rect" id="node7" href="$a00137.html" title="The CovarianceAboutWidget class provides the about dialog for the CovarianceToolbox. " alt="" coords="161,303,397,345"/>
+<area shape="rect" id="node8" href="$a00161.html" title="DeleteMessageBox" alt="" coords="211,369,347,396"/>
+<area shape="rect" id="node9" href="$a00531.html" title="The ProjectSettingsView class provides a viewer to setup and manage the file name before the acquisit..." alt="" coords="179,420,379,447"/>
+<area shape="rect" id="node10" href="$a00181.html" title="The DummyAboutWidget class provides the about dialog for the DummyToolbox. " alt="" coords="185,471,372,513"/>
+<area shape="rect" id="node11" href="$a00189.html" title="The ECGAboutWidget class provides the about dialog for the ECGSimulator. " alt="" coords="189,537,368,578"/>
+<area shape="rect" id="node12" href="$a00197.html" title="The EEGoSportsAboutWidget class provides the about dialog for the EEGoSports. " alt="" coords="155,602,402,643"/>
+<area shape="rect" id="node13" href="$a00205.html" title="The EpidetectAboutWidget class provides the about dialog for the EpidetectToolbox. " alt="" coords="173,667,384,709"/>
+<area shape="rect" id="node14" href="$a00243.html" title="The FiffSimulatorAboutWidget class provides the about dialog for the FiffSimulator. " alt="" coords="189,733,368,774"/>
+<area shape="rect" id="node15" href="$a00307.html" title="The GUSBAmpAboutWidget class provides the about dialog for the GUSBAmp. " alt="" coords="155,798,402,839"/>
+<area shape="rect" id="node16" href="$a00365.html" title="The MNEAboutWidget class provides the about dialog for the MNE. " alt="" coords="171,864,386,891"/>
+<area shape="rect" id="node17" href="$a00490.html" title="The NeuromagAboutWidget class provides the about dialog for the Neuromag. " alt="" coords="169,915,388,957"/>
+<area shape="rect" id="node18" href="$a00494.html" title="The NeuronalConnectivityAboutWidget class provides the about dialog for the NeuronalConnectivity plug..." alt="" coords="155,981,403,1022"/>
+<area shape="rect" id="node19" href="$a00500.html" title="The NoiseReductionAboutWidget class provides the about dialog for the NoiseReduction. " alt="" coords="179,1046,378,1087"/>
+<area shape="rect" id="node20" href="$a00529.html" title="processdurationmessagebox" alt="" coords="185,1112,373,1139"/>
+<area shape="rect" id="node21" href="$a00536.html" title="The RapMusicToolboxAboutWidget class provides the about dialog for the RapMusicToolbox. " alt="" coords="173,1163,384,1205"/>
+<area shape="rect" id="node22" href="$a00559.html" title="The ReferenceAboutWidget class provides the about dialog for the Reference class. ..." alt="" coords="167,1229,391,1270"/>
+<area shape="rect" id="node23" href="$a00587.html" title="The RtHpiAboutWidget class provides the about dialog for the RtHpi. " alt="" coords="163,1295,394,1321"/>
+<area shape="rect" id="node24" href="$a00602.html" title="The RtSssAboutWidget class provides the about dialog for the RtSss. " alt="" coords="160,1345,397,1372"/>
+<area shape="rect" id="node25" href="$a00639.html" title="The BCIAboutWidget class provides the about dialog for the BCI. " alt="" coords="177,1397,381,1438"/>
+<area shape="rect" id="node26" href="$a00640.html" title="The SsvepBciConfigurationWidget class provides the EEGoSportsSetupStimulusWidget configuration window..." alt="" coords="177,1462,381,1503"/>
+<area shape="rect" id="node27" href="$a00643.html" title="The SsvepBciSetupStimulusWidget class provides the SsvepBciSetupStimulusWidget configuration window..." alt="" coords="177,1527,381,1569"/>
+<area shape="rect" id="node28" href="$a00659.html" title="The TMSIAboutWidget class provides the about dialog for the TMSI. " alt="" coords="169,1593,388,1620"/>
+<area shape="rect" id="node29" href="$a00622.html" title="The TriggerControlSetupWidget class provides the TriggerControlToolbox configuration window..." alt="" coords="179,1645,378,1686"/>
+<area shape="rect" id="node30" href="$a00672.html" title="The TriggercontrolAboutWidget class provides the about dialog for the TriggercontrolToolbox. " alt="" coords="179,1710,378,1751"/>
+</map>

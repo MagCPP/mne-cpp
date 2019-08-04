@@ -1,0 +1,13 @@
+<map id="DISP3DLIB::Abstract3DTreeItem" name="DISP3DLIB::Abstract3DTreeItem">
+<area shape="rect" id="node5" href="$a00035.html" title="Provides a generic mesh tree item. " alt="" coords="359,1007,591,1260"/>
+<area shape="rect" id="node10" href="$a00165.html" title="DigitizerTreeItem provides a generic tree item to hold and visualize digitizer data. " alt="" coords="615,1080,813,1187"/>
+<area shape="rect" id="node11" href="$a00186.html" title="Provides a generic brain tree item to hold real time data. " alt="" coords="839,1073,1041,1194"/>
+<area shape="rect" id="node12" href="$a00299.html" title="This item is used for signal interpolation with GPU support. " alt="" coords="1066,985,1285,1282"/>
+<area shape="rect" id="node13" href="$a00486.html" title="Provides a generic brain tree item to hold real time data. " alt="" coords="1311,1080,1509,1187"/>
+<area shape="rect" id="node14" href="$a00617.html" title="SensorPositionTreeItem provides a tree item to visualize sensor position data. " alt="" coords="1535,1021,1721,1245"/>
+<area shape="rect" id="node2" href="$a00566.html" title="Base class for renederable 3D QEntities. " alt="" coords="849,131,1072,546"/>
+<area shape="rect" id="node6" href="$a00078.html" title="BemSurfaceTreeItem provides a generic brain tree item to hold BEM surfaces. " alt="" coords="5,1375,227,1481"/>
+<area shape="rect" id="node7" href="$a00282.html" title="Provides a generic brain tree item. " alt="" coords="252,1331,471,1525"/>
+<area shape="rect" id="node8" href="$a00619.html" title="SensorSurfaceTreeItem provides a generic brain tree item to hold sensor surfaces. ..." alt="" coords="495,1367,680,1489"/>
+<area shape="rect" id="node9" href="$a00628.html" title="Provides a generic brain tree item. " alt="" coords="705,1367,935,1489"/>
+</map>

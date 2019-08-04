@@ -1,0 +1,25 @@
+<map id="applications/mne_scan/plugins/babymeg/FormFiles/babymegsquidcontroldgl.cpp" name="applications/mne_scan/plugins/babymeg/FormFiles/babymegsquidcontroldgl.cpp">
+<area shape="rect" id="node2" href="$a00988.html" title="BabyMEG class declaration. " alt="" coords="2294,109,2393,136"/>
+<area shape="rect" id="node40" href="$a00999.html" title="BabyMEGSQUIDControlDGL class declaration. " alt="" coords="2994,275,3167,301"/>
+<area shape="rect" id="node3" href="$a00989.html" title="Contains the BabyMEG library export/import macros. " alt="" coords="2903,424,3029,451"/>
+<area shape="rect" id="node5" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1119,192,1213,219"/>
+<area shape="rect" id="node22" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="1629,192,1743,219"/>
+<area shape="rect" id="node28" href="$a00944.html" title="Contains declaration of IIinverseAlgorithm interface class. " alt="" coords="587,185,726,226"/>
+<area shape="rect" id="node30" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="2271,275,2495,301"/>
+<area shape="rect" id="node6" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1500,424,1589,451"/>
+<area shape="rect" id="node7" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1111,275,1221,301"/>
+<area shape="rect" id="node8" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1128,424,1214,451"/>
+<area shape="rect" id="node13" href="$a01549.html" title="FiffId class declaration. " alt="" coords="836,349,901,376"/>
+<area shape="rect" id="node15" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1596,349,1693,376"/>
+<area shape="rect" id="node17" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1027,349,1134,376"/>
+<area shape="rect" id="node18" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1209,349,1318,376"/>
+<area shape="rect" id="node19" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1718,349,1841,376"/>
+<area shape="rect" id="node21" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1393,349,1469,376"/>
+<area shape="rect" id="node23" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="662,275,766,301"/>
+<area shape="rect" id="node24" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="707,349,811,376"/>
+<area shape="rect" id="node29" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="252,275,325,301"/>
+<area shape="rect" id="node31" href="$a01805.html" title="utils library export/import macros. " alt="" coords="2419,424,2529,451"/>
+<area shape="rect" id="node32" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="2118,349,2185,376"/>
+<area shape="rect" id="node41" href="$a01001.html" title="Global varables definitions. " alt="" coords="2764,349,2847,376"/>
+<area shape="rect" id="node43" href="$a01003.html" title="Plotter class definition. " alt="" coords="3390,349,3459,376"/>
+</map>

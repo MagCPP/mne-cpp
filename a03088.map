@@ -1,0 +1,10 @@
+<map id="libraries/inverse/dipoleFit/dipole_forward.h" name="libraries/inverse/dipoleFit/dipole_forward.h">
+<area shape="rect" id="node2" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="123,97,273,138"/>
+<area shape="rect" id="node7" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="411,187,561,229"/>
+<area shape="rect" id="node8" href="$a01628.html" title="GuessData class declaration. " alt="" coords="298,97,448,138"/>
+<area shape="rect" id="node9" href="$a01621.html" title="Definition of the DipoleForward Class. " alt="" coords="525,97,675,138"/>
+<area shape="rect" id="node3" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="10,187,160,229"/>
+<area shape="rect" id="node6" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="185,187,335,229"/>
+<area shape="rect" id="node4" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="243,278,393,319"/>
+<area shape="rect" id="node5" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="5,278,165,319"/>
+</map>

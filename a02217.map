@@ -1,0 +1,18 @@
+<map id="applications/mne_scan/plugins/babymeg/babymegclient.cpp" name="applications/mne_scan/plugins/babymeg/babymegclient.cpp">
+<area shape="rect" id="node2" href="$a00991.html" title="BabyMEGClient class declaration. " alt="" coords="1004,96,1120,123"/>
+<area shape="rect" id="node3" href="$a00993.html" title="BabyMEGInfo class declaration. " alt="" coords="1073,171,1180,197"/>
+<area shape="rect" id="node4" href="$a00989.html" title="Contains the BabyMEG library export/import macros. " alt="" coords="1293,245,1419,272"/>
+<area shape="rect" id="node6" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1079,245,1173,272"/>
+<area shape="rect" id="node7" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1551,544,1640,571"/>
+<area shape="rect" id="node8" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1165,320,1275,347"/>
+<area shape="rect" id="node9" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1261,544,1347,571"/>
+<area shape="rect" id="node16" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1634,469,1699,496"/>
+<area shape="rect" id="node18" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1171,395,1268,421"/>
+<area shape="rect" id="node21" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1820,395,1927,421"/>
+<area shape="rect" id="node23" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="615,395,724,421"/>
+<area shape="rect" id="node27" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="767,469,889,496"/>
+<area shape="rect" id="node29" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="853,395,928,421"/>
+<area shape="rect" id="node10" href="$a01526.html" title="Fiff constants. " alt="" coords="1009,619,1120,645"/>
+<area shape="rect" id="node19" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1258,469,1355,496"/>
+<area shape="rect" id="node24" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="351,469,488,496"/>
+</map>

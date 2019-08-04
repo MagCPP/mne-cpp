@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$a00036.html" title="This class provides basic functionalities for all implemented metrics. " alt="" coords="5,238,205,279"/>
+<area shape="rect" id="node2" href="$a00108.html" title="This class computes the coherence connectivity metric. " alt="" coords="271,5,486,32"/>
+<area shape="rect" id="node3" href="$a00109.html" title="This class computes the coherency connectivity metric. " alt="" coords="271,56,486,83"/>
+<area shape="rect" id="node4" href="$a00134.html" title="This class computes the correlation metric. " alt="" coords="271,107,486,133"/>
+<area shape="rect" id="node5" href="$a00140.html" title="This class computes the cross correlation connectivity metric. " alt="" coords="254,157,503,184"/>
+<area shape="rect" id="node6" href="$a00154.html" title="This class computes the weighted phase lag index connectivity metric. " alt="" coords="271,209,486,250"/>
+<area shape="rect" id="node7" href="$a00325.html" title="This class computes the imaginary coherence connectivity metric. " alt="" coords="257,275,500,301"/>
+<area shape="rect" id="node8" href="$a00511.html" title="This class computes the phase lag index connectivity metric. " alt="" coords="274,326,483,367"/>
+<area shape="rect" id="node9" href="$a00512.html" title="This class computes the phase locking value connectivity metric. " alt="" coords="262,391,495,433"/>
+<area shape="rect" id="node10" href="$a00676.html" title="This class computes the phase lag index connectivity metric. " alt="" coords="275,457,482,498"/>
+<area shape="rect" id="node11" href="$a00684.html" title="This class computes the phase lag index connectivity metric. " alt="" coords="275,522,482,563"/>
+</map>

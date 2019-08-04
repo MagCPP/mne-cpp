@@ -1,0 +1,23 @@
+<map id="applications/mne_scan/plugins/neuromag/neuromagproducer.h" name="applications/mne_scan/plugins/neuromag/neuromagproducer.h">
+<area shape="rect" id="node2" href="$a01250.html" title="declaration of the RtDataClient Class. " alt="" coords="1566,97,1721,138"/>
+<area shape="rect" id="node3" href="$a01244.html" title="realtime library export/import macros. " alt="" coords="58,187,232,213"/>
+<area shape="rect" id="node5" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="1891,261,2005,288"/>
+<area shape="rect" id="node25" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1447,187,1541,213"/>
+<area shape="rect" id="node37" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="2929,261,3020,288"/>
+<area shape="rect" id="node6" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="558,485,647,512"/>
+<area shape="rect" id="node7" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="2338,485,2424,512"/>
+<area shape="rect" id="node14" href="$a01549.html" title="FiffId class declaration. " alt="" coords="1999,411,2064,437"/>
+<area shape="rect" id="node16" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="2265,336,2369,363"/>
+<area shape="rect" id="node17" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2141,411,2245,437"/>
+<area shape="rect" id="node8" href="$a01526.html" title="Fiff constants. " alt="" coords="2435,560,2545,587"/>
+<area shape="rect" id="node18" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="2873,411,2969,437"/>
+<area shape="rect" id="node19" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="2999,485,3071,512"/>
+<area shape="rect" id="node26" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1337,261,1447,288"/>
+<area shape="rect" id="node27" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1223,336,1320,363"/>
+<area shape="rect" id="node29" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="2444,336,2551,363"/>
+<area shape="rect" id="node31" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1089,336,1199,363"/>
+<area shape="rect" id="node35" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1433,336,1556,363"/>
+<area shape="rect" id="node36" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="507,336,583,363"/>
+<area shape="rect" id="node28" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1563,411,1660,437"/>
+<area shape="rect" id="node32" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="894,411,1031,437"/>
+</map>

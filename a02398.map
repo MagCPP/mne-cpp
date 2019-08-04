@@ -1,0 +1,7 @@
+<map id="applications/mne_scan/plugins/natus/natus_global.h" name="applications/mne_scan/plugins/natus/natus_global.h">
+<area shape="rect" id="node2" href="$a01114.html" title="Contains the declaration of the Natus class. " alt="" coords="105,110,259,151"/>
+<area shape="rect" id="node5" href="$a01117.html" title="Contains the declaration of the NatusProducer class. " alt="" coords="284,110,483,151"/>
+<area shape="rect" id="node3" href="$a01111.html" title="Contains the implementation of the NatusSetup class. " alt="" coords="5,200,169,256"/>
+<area shape="rect" id="node4" href="$a01113.html" title="Contains the definition of the Natus class. " alt="" coords="195,207,359,249"/>
+<area shape="rect" id="node6" href="$a01116.html" title="Contains the definition of the NatusProducer class. " alt="" coords="383,207,597,249"/>
+</map>

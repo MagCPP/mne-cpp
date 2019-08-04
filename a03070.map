@@ -1,0 +1,34 @@
+<map id="libraries/fwd/fwd_global.h" name="libraries/fwd/fwd_global.h">
+<area shape="rect" id="node2" href="$a01583.html" title="Compute Forward Setting class declaration. " alt="" coords="233,443,403,485"/>
+<area shape="rect" id="node5" href="$a01585.html" title="Compute Forward Setting class declaration. " alt="" coords="51,353,222,394"/>
+<area shape="rect" id="node7" href="$a01593.html" title="FwdCoilSet class declaration. " alt="" coords="1045,171,1189,213"/>
+<area shape="rect" id="node8" href="$a01599.html" title="FwdEegSphereModel class declaration. " alt="" coords="663,262,807,303"/>
+<area shape="rect" id="node9" href="$a01601.html" title="FwdEegSphereModelSet class declaration. " alt="" coords="551,353,698,394"/>
+<area shape="rect" id="node19" href="$a01587.html" title="FwdBemModel class declaration. " alt="" coords="933,262,1081,303"/>
+<area shape="rect" id="node23" href="$a01595.html" title="FwdCompData class declaration. " alt="" coords="1499,353,1654,394"/>
+<area shape="rect" id="node25" href="$a01604.html" title="Fwd Thread Argument (FwdThreadArg) class declaration. " alt="" coords="1781,353,1939,394"/>
+<area shape="rect" id="node28" href="$a01591.html" title="FwdCoil class declaration. " alt="" coords="1173,88,1326,115"/>
+<area shape="rect" id="node30" href="$a01597.html" title="FwdEegSphereLayer class declaration. " alt="" coords="824,81,969,122"/>
+<area shape="rect" id="node32" href="$a01589.html" title="Forward BEM Solution (FwdBemSolution) class declaration. " alt="" coords="1794,81,1942,122"/>
+<area shape="rect" id="node3" href="$a01582_source.html" title="libraries/fwd/computeFwd\l/compute_fwd.cpp" alt="" coords="650,534,821,575"/>
+<area shape="rect" id="node4" href="$a00744_source.html" title="applications/mne_forward\l_solution/main.cpp" alt="" coords="67,534,238,575"/>
+<area shape="rect" id="node6" href="$a01584_source.html" title="libraries/fwd/computeFwd\l/compute_fwd_settings.cpp" alt="" coords="25,443,207,485"/>
+<area shape="rect" id="node21" href="$a01603.html" title="Definition of the Forward Thread Argument (FwdThreadArg) Class. " alt="" coords="1459,443,1618,485"/>
+<area shape="rect" id="node22" href="$a01605_source.html" title="libraries/fwd/fwd_types.h" alt="" coords="1333,269,1499,296"/>
+<area shape="rect" id="node26" href="$a01592.html" title="Definition of the FwdCoilSet Class. " alt="" coords="1525,262,1669,303"/>
+<area shape="rect" id="node27" href="$a01614_source.html" title="libraries/inverse/dipole\lFit/analyze_types.h" alt="" coords="1107,262,1257,303"/>
+<area shape="rect" id="node10" href="$a01598.html" title="Definition of the FwdEegSphereModel Class. " alt="" coords="663,443,807,485"/>
+<area shape="rect" id="node12" href="$a01586.html" title="Definition of the FwdBemModel Class. " alt="" coords="1825,443,1973,485"/>
+<area shape="rect" id="node13" href="$a01618.html" title="Dipole Fit Data class declaration. " alt="" coords="1120,353,1270,394"/>
+<area shape="rect" id="node11" href="$a01600.html" title="Definition of the FwdEegSphereModelSet Class. " alt="" coords="427,443,586,485"/>
+<area shape="rect" id="node14" href="$a01616.html" title="Dipole Fit class declaration. " alt="" coords="1109,443,1259,485"/>
+<area shape="rect" id="node17" href="$a01617_source.html" title="libraries/inverse/dipole\lFit/dipole_fit_data.cpp" alt="" coords="1284,443,1434,485"/>
+<area shape="rect" id="node18" href="$a01627.html" title="Definition of the GuessData Class. " alt="" coords="935,443,1085,485"/>
+<area shape="rect" id="node15" href="$a01615_source.html" title="libraries/inverse/dipole\lFit/dipole_fit.cpp" alt="" coords="1019,534,1169,575"/>
+<area shape="rect" id="node16" href="$a00743_source.html" title="applications/mne_dipole\l_fit/main.cpp" alt="" coords="1193,534,1354,575"/>
+<area shape="rect" id="node20" href="$a01505.html" title="HpiView class definition. " alt="" coords="935,353,1095,394"/>
+<area shape="rect" id="node24" href="$a01594.html" title="Definition of the FwdCompData Class. " alt="" coords="1644,443,1799,485"/>
+<area shape="rect" id="node29" href="$a01590.html" title="Definition of the FwdCoil Class. " alt="" coords="1213,179,1382,205"/>
+<area shape="rect" id="node31" href="$a01596.html" title="Definition of the FwdEegSphereLayer Class. " alt="" coords="824,171,969,213"/>
+<area shape="rect" id="node33" href="$a01588.html" title="Definition of the FwdBemSolution Class. " alt="" coords="1794,171,1942,213"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="libraries/utils/mp/adaptivemp.h" name="libraries/utils/mp/adaptivemp.h">
+<area shape="rect" id="node2" href="$a01790.html" title="Implemetation of the Matching Pursuit Algorithm introduced by Stephane Mallat and Zhifeng Zhang..." alt="" coords="225,97,343,138"/>
+<area shape="rect" id="node3" href="$a01795_source.html" title="libraries/utils/mp\l/fixdictmp.h" alt="" coords="367,97,483,138"/>
+<area shape="rect" id="node5" href="$a00793_source.html" title="applications/mne_matching\l_pursuit/mainwindow.h" alt="" coords="453,278,632,319"/>
+<area shape="rect" id="node8" href="$a00746_source.html" title="applications/mne_matching\l_pursuit/main.cpp" alt="" coords="1065,369,1244,410"/>
+<area shape="rect" id="node4" href="$a01794.html" title="Implemetation of the Matching Pursuit Algorithm using static atom dictionaries to find best matching ..." alt="" coords="152,187,268,229"/>
+<area shape="rect" id="node11" href="$a00859_source.html" title="applications/mne_matching\l_pursuit/treebaseddictwindow.cpp" alt="" coords="5,369,224,410"/>
+<area shape="rect" id="node12" href="$a00850.html" title="Editorwindow class declaration which enables the generation of individual dictionaries. Gaussian atoms (with parameters scale, modulation and phase) or chirp atoms could be created and saved as part dictionaries. For using the atoms for decompostion it&#39;s necessary to build an entire dictionary from serveral (minimum one) part dictionaries. " alt="" coords="294,187,473,229"/>
+<area shape="rect" id="node6" href="$a00849.html" title="Definition of the EditorWindow class. " alt="" coords="249,369,428,410"/>
+<area shape="rect" id="node7" href="$a00853.html" title="Definition of FormulaEditor class. " alt="" coords="453,369,632,410"/>
+<area shape="rect" id="node9" href="$a00789_source.html" title="applications/mne_matching\l_pursuit/mainwindow.cpp" alt="" coords="657,369,836,410"/>
+<area shape="rect" id="node10" href="$a00857_source.html" title="applications/mne_matching\l_pursuit/settingwindow.cpp" alt="" coords="861,369,1040,410"/>
+</map>

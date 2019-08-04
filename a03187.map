@@ -1,0 +1,12 @@
+<map id="libraries/mne/c/mne_raw_buf_def.cpp" name="libraries/mne/c/mne_raw_buf_def.cpp">
+<area shape="rect" id="node2" href="$a01690.html" title="MneRawBufDef class declaration. " alt="" coords="189,96,324,123"/>
+<area shape="rect" id="node3" href="$a01729_source.html" title="../mne_global.h" alt="" coords="839,171,949,197"/>
+<area shape="rect" id="node5" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="343,171,465,197"/>
+<area shape="rect" id="node6" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="478,320,567,347"/>
+<area shape="rect" id="node7" href="$a01526.html" title="Fiff constants. " alt="" coords="215,395,325,421"/>
+<area shape="rect" id="node8" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="342,320,428,347"/>
+<area shape="rect" id="node14" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="467,245,572,272"/>
+<area shape="rect" id="node16" href="$a01549.html" title="FiffId class declaration. " alt="" coords="597,245,661,272"/>
+<area shape="rect" id="node17" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="245,245,341,272"/>
+<area shape="rect" id="node18" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="245,320,317,347"/>
+</map>

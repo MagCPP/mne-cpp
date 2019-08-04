@@ -1,0 +1,42 @@
+<map id="libraries/utils/filterTools/filterdata.h" name="libraries/utils/filterTools/filterdata.h">
+<area shape="rect" id="node2" href="$a01367.html" title="Declaration of the EvokedSetModel Class. " alt="" coords="363,103,541,145"/>
+<area shape="rect" id="node6" href="$a00907.html" title="Definition of the RealTimeEvokedSetWidget Class. " alt="" coords="572,207,836,249"/>
+<area shape="rect" id="node7" href="$a01361.html" title="Declaration of the ChannelDataModel Class. " alt="" coords="2491,103,2679,145"/>
+<area shape="rect" id="node8" href="$a01330.html" title="Definition of the ChannelDataView Class. " alt="" coords="2511,207,2659,249"/>
+<area shape="rect" id="node11" href="$a01351_source.html" title="libraries/disp/viewers\l/filterdesignview.h" alt="" coords="1475,103,1619,145"/>
+<area shape="rect" id="node14" href="$a00909.html" title="Definition of the RealTimeMultiSampleArrayWidget Class. " alt="" coords="1637,207,1939,249"/>
+<area shape="rect" id="node16" href="$a01370_source.html" title="libraries/disp/viewers\l/helpers/filterplotscene.h" alt="" coords="1049,103,1212,145"/>
+<area shape="rect" id="node18" href="$a01748.html" title="RtFilter class definition. " alt="" coords="1983,103,2125,145"/>
+<area shape="rect" id="node20" href="$a01760.html" title="Contains all FilterData. " alt="" coords="2703,103,2859,145"/>
+<area shape="rect" id="node21" href="$a01763.html" title="FilterIO class declaration. " alt="" coords="1237,103,1392,145"/>
+<area shape="rect" id="node23" href="$a01005.html" title="Contains the declaration of the BCI class. " alt="" coords="3151,207,3304,249"/>
+<area shape="rect" id="node27" href="$a01012.html" title="Contains the declaration of the BCISetupWidget class. " alt="" coords="3151,96,3304,152"/>
+<area shape="rect" id="node28" href="$a01143.html" title="Contains the declaration of the NoiseReduction class. " alt="" coords="2151,96,2304,152"/>
+<area shape="rect" id="node31" href="$a01194.html" title="Contains the declaration of the ssvepBCI class. " alt="" coords="3877,103,4067,145"/>
+<area shape="rect" id="node3" href="$a01320.html" title="Definition of the AverageLayoutView Class. " alt="" coords="5,207,163,249"/>
+<area shape="rect" id="node4" href="$a01326.html" title="Definition of the ButterflyView class. " alt="" coords="188,207,332,249"/>
+<area shape="rect" id="node5" href="$a01366.html" title="Definition of the EvokedSetModel Class. " alt="" coords="356,207,548,249"/>
+<area shape="rect" id="node9" href="$a01358.html" title="Definition of the ChannelDataDelegate Class. " alt="" coords="2684,207,2900,249"/>
+<area shape="rect" id="node10" href="$a01360.html" title="Definition of the ChannelDataModel Class. " alt="" coords="2924,207,3127,249"/>
+<area shape="rect" id="node12" href="$a01350.html" title="Definition of the FilterDesignView class. " alt="" coords="1063,207,1207,249"/>
+<area shape="rect" id="node13" href="$a01352.html" title="Definition of the FilterSettingsView Class. " alt="" coords="1412,207,1560,249"/>
+<area shape="rect" id="node15" href="$a01142.html" title="Definition of the NoiseReduction class. " alt="" coords="1973,304,2127,360"/>
+<area shape="rect" id="node17" href="$a01368_source.html" title="libraries/disp/viewers\l/helpers/filterplotscene.cpp" alt="" coords="860,207,1039,249"/>
+<area shape="rect" id="node19" href="$a01747_source.html" title="libraries/rtprocessing\l/rtfilter.cpp" alt="" coords="2015,207,2157,249"/>
+<area shape="rect" id="node22" href="$a01762.html" title="Definition of the FilterIO class. " alt="" coords="1231,207,1387,249"/>
+<area shape="rect" id="node24" href="$a01004.html" title="Contains the implementation of the BCI class. " alt="" coords="2908,311,3061,353"/>
+<area shape="rect" id="node25" href="$a01009.html" title="Contains the implementation of the BCIAboutWidget class. " alt="" coords="3087,304,3240,360"/>
+<area shape="rect" id="node26" href="$a01011.html" title="Contains the implementation of the BCISetupWidget class. " alt="" coords="3265,304,3419,360"/>
+<area shape="rect" id="node29" href="$a01141.html" title="Contains the declaration of the NoiseReductionSetupWidget class. " alt="" coords="2233,200,2487,256"/>
+<area shape="rect" id="node30" href="$a01140.html" title="Definition of the NoiseReductionSetupWidget class. " alt="" coords="2227,304,2493,360"/>
+<area shape="rect" id="node32" href="$a01185.html" title="Definition of the ssvepBCIConfigurationWidget class. " alt="" coords="3693,603,3907,659"/>
+<area shape="rect" id="node33" href="$a01188.html" title="Contains the declaration of the ssvepbcisetupstimulus class. " alt="" coords="3984,200,4192,256"/>
+<area shape="rect" id="node34" href="$a01187.html" title="Definition of the ssvepBCISetupStimulusWidget class. " alt="" coords="4069,304,4291,360"/>
+<area shape="rect" id="node35" href="$a01199_source.html" title="applications/mne_scan\l/plugins/ssvepbci/ssvepbciscreen.h" alt="" coords="3905,409,4135,450"/>
+<area shape="rect" id="node37" href="$a01192.html" title="Contains the declaration of the ssvepscreenkeyboard class. " alt="" coords="3739,311,3969,353"/>
+<area shape="rect" id="node40" href="$a01189.html" title="Definition of the ssvepBCISetupWidget class. " alt="" coords="3546,200,3731,256"/>
+<area shape="rect" id="node41" href="$a01193.html" title="Definition of the BCI class. " alt="" coords="3755,207,3959,249"/>
+<area shape="rect" id="node36" href="$a01186.html" title="Contains the declaration of the ssvepBCIConfiguration class. " alt="" coords="4042,499,4243,555"/>
+<area shape="rect" id="node39" href="$a01198.html" title="Definition of the ssvepBCIScreen class. " alt="" coords="3775,506,4017,547"/>
+<area shape="rect" id="node38" href="$a01191.html" title="Definition of the ScreenKeyboard class. " alt="" coords="3637,409,3880,450"/>
+</map>

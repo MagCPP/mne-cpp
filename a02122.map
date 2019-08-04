@@ -1,0 +1,9 @@
+<map id="applications/mne_scan/libs/scMeas/realtimecov.h" name="applications/mne_scan/libs/scMeas/realtimecov.h">
+<area shape="rect" id="node2" href="$a00905.html" title="Definition of the RealTimeCovWidget Class. " alt="" coords="5,103,229,145"/>
+<area shape="rect" id="node3" href="$a00920.html" title="Definition of the MeasurementTypes class. " alt="" coords="254,103,489,145"/>
+<area shape="rect" id="node4" href="$a00926.html" title="Definition of the RealTimeCov class. " alt="" coords="515,103,707,145"/>
+<area shape="rect" id="node5" href="$a00945.html" title="Definition of the DisplayManager Class. " alt="" coords="731,96,915,152"/>
+<area shape="rect" id="node6" href="$a00949.html" title="Contains the declaration of the PluginConnectorConnection class. " alt="" coords="939,96,1144,152"/>
+<area shape="rect" id="node7" href="$a01026.html" title="Definition of the Covariance class. " alt="" coords="1168,103,1395,145"/>
+<area shape="rect" id="node8" href="$a01712_source.html" title="applications/mne_scan\l/plugins/mne/mne.cpp" alt="" coords="1419,103,1572,145"/>
+</map>

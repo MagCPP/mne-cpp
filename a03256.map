@@ -1,0 +1,18 @@
+<map id="libraries/rtprocessing/rtcov.cpp" name="libraries/rtprocessing/rtcov.cpp">
+<area shape="rect" id="node2" href="$a01746.html" title="RtCov class declaration. " alt="" coords="1405,96,1467,123"/>
+<area shape="rect" id="node30" href="$a01530.html" title="FiffCov class declaration. " alt="" coords="2027,96,2121,123"/>
+<area shape="rect" id="node3" href="$a01755.html" title="realtime library export/import macros. " alt="" coords="5,245,149,272"/>
+<area shape="rect" id="node5" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1167,171,1261,197"/>
+<area shape="rect" id="node6" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="518,469,607,496"/>
+<area shape="rect" id="node7" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="1105,245,1215,272"/>
+<area shape="rect" id="node8" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1158,469,1244,496"/>
+<area shape="rect" id="node15" href="$a01549.html" title="FiffId class declaration. " alt="" coords="925,395,989,421"/>
+<area shape="rect" id="node17" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1235,320,1332,347"/>
+<area shape="rect" id="node20" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="833,320,940,347"/>
+<area shape="rect" id="node22" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1357,320,1467,347"/>
+<area shape="rect" id="node26" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="676,395,799,421"/>
+<area shape="rect" id="node28" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1826,320,1901,347"/>
+<area shape="rect" id="node9" href="$a01526.html" title="Fiff constants. " alt="" coords="1421,544,1532,571"/>
+<area shape="rect" id="node18" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1066,395,1163,421"/>
+<area shape="rect" id="node23" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="1847,395,1984,421"/>
+</map>

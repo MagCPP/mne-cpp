@@ -1,0 +1,32 @@
+<map id="libraries/mne/mne_bem.cpp" name="libraries/mne/mne_bem.cpp">
+<area shape="rect" id="node2" href="$a01716.html" title="MNEBem class declaration. " alt="" coords="2550,80,2641,107"/>
+<area shape="rect" id="node43" href="$a01789.html" title="MNEMath class declaration. " alt="" coords="122,379,237,405"/>
+<area shape="rect" id="node46" href="$a01807.html" title="Warp class declaration. " alt="" coords="472,528,561,555"/>
+<area shape="rect" id="node47" href="$a01577.html" title="Label class declaration. " alt="" coords="322,528,396,555"/>
+<area shape="rect" id="node3" href="$a01729_source.html" title="mne_global.h" alt="" coords="2365,229,2464,256"/>
+<area shape="rect" id="node5" href="$a01718.html" title="MNEBemSurface class declaration. " alt="" coords="4080,155,4220,181"/>
+<area shape="rect" id="node6" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="3072,603,3178,629"/>
+<area shape="rect" id="node13" href="$a01521.html" title="FIFF class declaration, which provides static wrapper functions to stay consistent with mne matlab to..." alt="" coords="2488,229,2554,256"/>
+<area shape="rect" id="node18" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="3981,453,4085,480"/>
+<area shape="rect" id="node7" href="$a01526.html" title="Fiff constants. " alt="" coords="4417,677,4528,704"/>
+<area shape="rect" id="node14" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="2172,603,2261,629"/>
+<area shape="rect" id="node15" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1713,453,1836,480"/>
+<area shape="rect" id="node19" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="3308,528,3413,555"/>
+<area shape="rect" id="node23" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="1155,528,1292,555"/>
+<area shape="rect" id="node26" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="3806,379,3878,405"/>
+<area shape="rect" id="node34" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="1363,453,1438,480"/>
+<area shape="rect" id="node35" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="1580,453,1689,480"/>
+<area shape="rect" id="node36" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1848,379,1924,405"/>
+<area shape="rect" id="node37" href="$a01561.html" title="FiffRawData class declaration. " alt="" coords="2467,304,2574,331"/>
+<area shape="rect" id="node38" href="$a01563.html" title="FiffRawDir class declaration. " alt="" coords="2310,453,2406,480"/>
+<area shape="rect" id="node39" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="2880,379,2974,405"/>
+<area shape="rect" id="node40" href="$a01544.html" title="FiffEvokedSet class declaration. " alt="" coords="1005,304,1128,331"/>
+<area shape="rect" id="node20" href="$a01549.html" title="FiffId class declaration. " alt="" coords="3490,528,3554,555"/>
+<area shape="rect" id="node21" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="3985,528,4081,555"/>
+<area shape="rect" id="node22" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="4212,603,4284,629"/>
+<area shape="rect" id="node27" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="2651,453,2748,480"/>
+<area shape="rect" id="node28" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="2686,528,2782,555"/>
+<area shape="rect" id="node29" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="2874,453,2981,480"/>
+<area shape="rect" id="node44" href="$a01805.html" title="utils library export/import macros. " alt="" coords="18,603,117,629"/>
+<area shape="rect" id="node48" href="$a01575.html" title="Fs library export/import macros. " alt="" coords="242,603,328,629"/>
+</map>

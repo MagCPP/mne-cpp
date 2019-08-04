@@ -1,0 +1,30 @@
+<map id="applications/mne_scan/plugins/reference/FormFiles/referencetoolbarwidget.h" name="applications/mne_scan/plugins/reference/FormFiles/referencetoolbarwidget.h">
+<area shape="rect" id="node2" href="$a01162.html" title="Contains the Reference library export/import macros. " alt="" coords="330,333,458,360"/>
+<area shape="rect" id="node4" href="$a01161.html" title="Contains the declaration of the Reference class. " alt="" coords="727,109,826,136"/>
+<area shape="rect" id="node28" href="$a01551.html" title="FiffInfo class declaration. " alt="" coords="1902,259,1996,285"/>
+<area shape="rect" id="node5" href="$a00941.html" title="Contains declaration of IAlgorithm interface class. " alt="" coords="2728,409,2867,450"/>
+<area shape="rect" id="node8" href="$a01774.html" title="CircularMatrixBuffer class declaration. " alt="" coords="333,416,558,443"/>
+<area shape="rect" id="node16" href="$a00931.html" title="Contains the declaration of the RealTimeMultiSampleArray class. " alt="" coords="844,184,1071,211"/>
+<area shape="rect" id="node41" href="$a01153.html" title="EEGRef class declaration. " alt="" coords="1096,184,1166,211"/>
+<area shape="rect" id="node44" href="$a01157.html" title="Contains the declaration of the ReferenceSetupWidget class. " alt="" coords="230,184,448,211"/>
+<area shape="rect" id="node6" href="$a00943.html" title="Contains declaration of IPlugin interface class. " alt="" coords="2686,499,2759,525"/>
+<area shape="rect" id="node9" href="$a01805.html" title="utils library export/import macros. " alt="" coords="544,573,654,600"/>
+<area shape="rect" id="node10" href="$a01769.html" title="Contains the declaration of the Buffer base class. " alt="" coords="534,499,600,525"/>
+<area shape="rect" id="node17" href="$a00940.html" title="Contains the scMeas library export/import macros. " alt="" coords="726,499,846,525"/>
+<area shape="rect" id="node18" href="$a00919.html" title="MeasurementTreeItem class declaration. " alt="" coords="735,259,898,285"/>
+<area shape="rect" id="node21" href="$a00935.html" title="Contains the declaration of the RealTimeSampleArrayChInfo class. " alt="" coords="1193,416,1378,443"/>
+<area shape="rect" id="node22" href="$a01526.html" title="Fiff constants. " alt="" coords="2063,648,2192,675"/>
+<area shape="rect" id="node23" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="2139,573,2246,600"/>
+<area shape="rect" id="node29" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="1916,573,2004,600"/>
+<area shape="rect" id="node30" href="$a01553.html" title="FiffInfoBase class declaration. " alt="" coords="2196,333,2306,360"/>
+<area shape="rect" id="node31" href="$a01549.html" title="FiffId class declaration. " alt="" coords="2089,499,2154,525"/>
+<area shape="rect" id="node32" href="$a01523.html" title="FiffChInfo class declaration. " alt="" coords="1782,416,1879,443"/>
+<area shape="rect" id="node34" href="$a01534.html" title="FiffDigPoint class declaration. " alt="" coords="1907,499,2014,525"/>
+<area shape="rect" id="node36" href="$a01532.html" title="FiffCtfComp class declaration. " alt="" coords="2400,416,2510,443"/>
+<area shape="rect" id="node38" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1395,499,1518,525"/>
+<area shape="rect" id="node39" href="$a01559.html" title="FiffProj class declaration. " alt="" coords="2534,416,2610,443"/>
+<area shape="rect" id="node33" href="$a01525.html" title="FiffChPos class declaration. " alt="" coords="1593,499,1690,525"/>
+<area shape="rect" id="node37" href="$a01557.html" title="FiffNamedMatrix class declaration. " alt="" coords="2836,499,2972,525"/>
+<area shape="rect" id="node42" href="$a01781.html" title="IOUtils class declaration. " alt="" coords="921,499,1015,525"/>
+<area shape="rect" id="node46" href="$a01155.html" title="Contains the declaration of the ReferenceAboutWidget class. " alt="" coords="250,259,407,285"/>
+</map>

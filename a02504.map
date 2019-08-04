@@ -1,0 +1,12 @@
+<map id="applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbcisetupstimuluswidget.h" name="applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbcisetupstimuluswidget.h">
+<area shape="rect" id="node2" href="$a01194.html" title="Contains the declaration of the ssvepBCI class. " alt="" coords="569,110,759,151"/>
+<area shape="rect" id="node4" href="$a01187.html" title="Definition of the ssvepBCISetupStimulusWidget class. " alt="" coords="5,200,227,256"/>
+<area shape="rect" id="node6" href="$a01199_source.html" title="applications/mne_scan\l/plugins/ssvepbci/ssvepbciscreen.h" alt="" coords="841,207,1071,249"/>
+<area shape="rect" id="node8" href="$a01192.html" title="Contains the declaration of the ssvepscreenkeyboard class. " alt="" coords="922,311,1152,353"/>
+<area shape="rect" id="node3" href="$a01185.html" title="Definition of the ssvepBCIConfigurationWidget class. " alt="" coords="226,408,440,464"/>
+<area shape="rect" id="node5" href="$a01189.html" title="Definition of the ssvepBCISetupWidget class. " alt="" coords="353,200,537,256"/>
+<area shape="rect" id="node11" href="$a01193.html" title="Definition of the BCI class. " alt="" coords="562,207,765,249"/>
+<area shape="rect" id="node7" href="$a01186.html" title="Contains the declaration of the ssvepBCIConfiguration class. " alt="" coords="302,304,503,360"/>
+<area shape="rect" id="node10" href="$a01198.html" title="Definition of the ssvepBCIScreen class. " alt="" coords="655,311,897,353"/>
+<area shape="rect" id="node9" href="$a01191.html" title="Definition of the ScreenKeyboard class. " alt="" coords="915,415,1159,457"/>
+</map>

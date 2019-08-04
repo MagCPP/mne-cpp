@@ -1,0 +1,6 @@
+<map id="applications/mne_scan/plugins/noisereduction/noisereduction_global.h" name="applications/mne_scan/plugins/noisereduction/noisereduction_global.h">
+<area shape="rect" id="node2" href="$a01143.html" title="Contains the declaration of the NoiseReduction class. " alt="" coords="213,109,367,165"/>
+<area shape="rect" id="node3" href="$a01141.html" title="Contains the declaration of the NoiseReductionSetupWidget class. " alt="" coords="83,213,336,269"/>
+<area shape="rect" id="node5" href="$a01142.html" title="Definition of the NoiseReduction class. " alt="" coords="296,317,449,373"/>
+<area shape="rect" id="node4" href="$a01140.html" title="Definition of the NoiseReductionSetupWidget class. " alt="" coords="5,317,272,373"/>
+</map>

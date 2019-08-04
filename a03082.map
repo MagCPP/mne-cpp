@@ -1,0 +1,42 @@
+<map id="libraries/inverse/dipoleFit/dipole_fit_data.h" name="libraries/inverse/dipoleFit/dipole_fit_data.h">
+<area shape="rect" id="node2" href="$a01634.html" title="inverse library export/import macros. " alt="" coords="5621,707,5749,733"/>
+<area shape="rect" id="node4" href="$a01568.html" title="Definitions for describing the objects in a FIFF file. " alt="" coords="1117,789,1224,816"/>
+<area shape="rect" id="node11" href="$a01614_source.html" title="analyze_types.h" alt="" coords="3439,96,3555,123"/>
+<area shape="rect" id="node46" href="$a01605_source.html" title="fwd/fwd_types.h" alt="" coords="2338,179,2456,205"/>
+<area shape="rect" id="node47" href="$a01599.html" title="FwdEegSphereModel class declaration. " alt="" coords="2171,171,2313,213"/>
+<area shape="rect" id="node49" href="$a01587.html" title="FwdBemModel class declaration. " alt="" coords="1195,179,1348,205"/>
+<area shape="rect" id="node50" href="$a01622.html" title="DipoleForward class declaration. " alt="" coords="2519,616,2635,643"/>
+<area shape="rect" id="node5" href="$a01526.html" title="Fiff constants. " alt="" coords="1267,864,1377,891"/>
+<area shape="rect" id="node12" href="$a01512.html" title="FiffCoordTransOld class declaration. " alt="" coords="2010,427,2152,469"/>
+<area shape="rect" id="node22" href="$a01593.html" title="FwdCoilSet class declaration. " alt="" coords="2068,269,2197,296"/>
+<area shape="rect" id="node25" href="$a01611.html" title="MNE Meas Data (MneMeasData) class declaration. " alt="" coords="3421,179,3573,205"/>
+<area shape="rect" id="node37" href="$a01646.html" title="MneCovMatrix class declaration. " alt="" coords="4571,616,4700,643"/>
+<area shape="rect" id="node41" href="$a01702.html" title="MNE Surface or Volume (MneSurfaceOrVolume) class declaration. " alt="" coords="4636,262,4789,303"/>
+<area shape="rect" id="node42" href="$a01516.html" title="FiffDigitizerData class declaration. " alt="" coords="2863,609,2981,650"/>
+<area shape="rect" id="node43" href="$a01514.html" title="FiffCoordTransSet class declaration. " alt="" coords="4946,699,5088,741"/>
+<area shape="rect" id="node44" href="$a01664.html" title="MneMshColorScaleDef class declaration. " alt="" coords="4979,609,5132,650"/>
+<area shape="rect" id="node45" href="$a01704_source.html" title="mne/c/mne_surface_patch.h" alt="" coords="5157,616,5344,643"/>
+<area shape="rect" id="node13" href="$a01547.html" title="Fiff library export/import macros. " alt="" coords="2468,789,2569,816"/>
+<area shape="rect" id="node14" href="$a01565.html" title="FiffStream class declaration. " alt="" coords="2124,525,2231,552"/>
+<area shape="rect" id="node17" href="$a01540.html" title="FiffDirNode class declaration, which provides fiff dir tree processing methods. " alt="" coords="1935,616,2039,643"/>
+<area shape="rect" id="node15" href="$a01549.html" title="FiffId class declaration. " alt="" coords="2263,707,2328,733"/>
+<area shape="rect" id="node18" href="$a01538.html" title="FiffDirEntry class declaration. " alt="" coords="2134,707,2239,733"/>
+<area shape="rect" id="node19" href="$a01545.html" title="Fiff block and dir tag explainations. " alt="" coords="1461,707,1557,733"/>
+<area shape="rect" id="node20" href="$a01546.html" title="Header file describing the numerical values used in fif files. " alt="" coords="1431,789,1503,816"/>
+<area shape="rect" id="node23" href="$a01602.html" title="forward library export/import macros. " alt="" coords="4530,435,4624,461"/>
+<area shape="rect" id="node24" href="$a01591.html" title="FwdCoil class declaration. " alt="" coords="2093,352,2173,379"/>
+<area shape="rect" id="node26" href="$a01707_source.html" title="mne/c/mne_types.h" alt="" coords="3841,352,3977,379"/>
+<area shape="rect" id="node40" href="$a01692.html" title="MneRawData class declaration. " alt="" coords="3418,269,3576,296"/>
+<area shape="rect" id="node27" href="$a01698.html" title="MNE SSS Data (MneSssData) class declaration. " alt="" coords="3615,616,3733,643"/>
+<area shape="rect" id="node30" href="$a01678.html" title="MNE Named Matrix (MneNamedMatrix) class declaration. " alt="" coords="4156,616,4303,643"/>
+<area shape="rect" id="node31" href="$a01654.html" title="MNE Derivation Set (MneDerivSet) class declaration. " alt="" coords="3962,616,4080,643"/>
+<area shape="rect" id="node32" href="$a01518.html" title="FiffSparseMatrix class declaration. " alt="" coords="3419,518,3532,559"/>
+<area shape="rect" id="node35" href="$a01686.html" title="MNEProjItem class declaration. " alt="" coords="4429,616,4547,643"/>
+<area shape="rect" id="node36" href="$a01688.html" title="MNEProjOp class declaration. " alt="" coords="3325,435,3432,461"/>
+<area shape="rect" id="node38" href="$a01648.html" title="MneCTFCompData class declaration. " alt="" coords="3837,435,3987,461"/>
+<area shape="rect" id="node39" href="$a01650.html" title="MneCTFCompDataSet class declaration. " alt="" coords="4164,435,4340,461"/>
+<area shape="rect" id="node28" href="$a01729_source.html" title="../mne_global.h" alt="" coords="4709,707,4819,733"/>
+<area shape="rect" id="node33" href="$a01567.html" title="FiffTag class declaration, which provides fiff tag I/O and processing methods. " alt="" coords="1801,616,1887,643"/>
+<area shape="rect" id="node34" href="$a01528.html" title="FiffCoordTrans class declaration. " alt="" coords="1835,707,1957,733"/>
+<area shape="rect" id="node48" href="$a01597.html" title="FwdEegSphereLayer class declaration. " alt="" coords="2755,352,2917,379"/>
+</map>
