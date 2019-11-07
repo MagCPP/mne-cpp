@@ -12,6 +12,9 @@
 #include <scMeas/realtimemultisamplearray.h>
 #include <utils/generics/circularmatrixbuffer.h>
 
+#include <magcpp/devices/magstim.h>
+#include <magcpp/devices/rapid.h>
+
 using namespace SCSHAREDLIB;
 
 class TMSNEUROFEEDBACKSHARED_EXPORT TmsNeurofeedback : public SCSHAREDLIB::IAlgorithm
@@ -55,6 +58,15 @@ private:
     IOBUFFER::CircularMatrixBuffer<double>::SPtr m_pExampleBuffer;
 
     bool m_bIsRunning;
+
+    Rapid *m_pmyRapid;
+    QString m_punlockCode;
+    QString m_pport;
+    int m_pvoltage;
+    int m_psuperRapid;
+    std::map<QString, std::map<QString, double>> m_pparams;
+    int m_perror;
+
 
 };
 

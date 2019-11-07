@@ -11,6 +11,7 @@ TmsNeurofeedback::TmsNeurofeedback()
     , m_pExampleInput(NULL)
     , m_pExampleOutput(NULL)
     , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())
+    , m_pmyRapid(new Rapid("COM1"))
 {
     QAction* showCheckWidgetAction = new QAction(QIcon(":/grafics/images/Control.png"), tr("Toolbar Widget"), this);  // C:/Users/opper/Desktop/Control.png
     showCheckWidgetAction->setShortcut(tr("F12"));
@@ -40,8 +41,28 @@ QSharedPointer<IPlugin> TmsNeurofeedback::clone() const
 }
 
 // start, stop, run
-bool TmsNeurofeedback::start() {return true;}
-bool TmsNeurofeedback::stop() {return true;}
+bool TmsNeurofeedback::start()
+{
+    m_perror = 0;
+    m_pmyRapid = new Rapid(m_pport,m_psuperRapid, m_punlockCode, m_pvoltage, std::make_tuple(7,2,0));
+    m_pmyRapid->connect(m_perror);
+    m_pmyRapid->arm(false, m_pparams, m_perror);
+    m_pmyRapid->ignoreCoilSafetySwitch(m_perror);
+    if (m_perror)
+        return false;
+    else
+        return true;
+}
+
+bool TmsNeurofeedback::stop()
+{
+    m_perror = 0;
+    m_pmyRapid->disconnect(m_perror);
+    if (m_perror)
+        return false;
+    else
+        return true;
+}
 void TmsNeurofeedback::run() {}
 
 void TmsNeurofeedback::update(SCMEASLIB::Measurement::SPtr pMeasurement) {
