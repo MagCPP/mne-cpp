@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/grafics">
+        <file>images/Control.png</file>
+        <file>images/no.png</file>
+        <file>images/yes.png</file>
+        <file>images/Bild1.png</file>
+        <file>images/Bild2.png</file>
+        <file>images/Bild3.png</file>
+    </qresource>
+</RCC>

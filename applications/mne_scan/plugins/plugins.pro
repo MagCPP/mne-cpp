@@ -49,7 +49,8 @@ SUBDIRS += \
     # eegosports \
     # brainamp \
     # tmsi \
-    natus
+    natus \
+    tmsneurofeedback
 
 contains(MNECPP_CONFIG, useLSL) { SUBDIRS += lsladapter }
 
