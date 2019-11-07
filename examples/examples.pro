@@ -47,6 +47,7 @@ SUBDIRS += \
     ex_fiff_io \
     ex_find_evoked \
     ex_inverse_mne \
+    ex_magcpp_rapid \
     ex_make_inverse_operator \
     ex_make_layout \
     ex_read_bem \
