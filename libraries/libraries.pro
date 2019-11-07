@@ -46,6 +46,7 @@ SUBDIRS += \
     fwd \
     inverse \
     communication \
+    magcpp \
 
 # Libraries which are not supported in the minimalVersion
 !contains(MNECPP_CONFIG, minimalVersion) {
@@ -68,6 +69,7 @@ SUBDIRS += \
 }
 
 # Specify library dependencies
+magcpp.depends =
 utils.depends =
 fs.depends = utils
 fiff.depends = utils
