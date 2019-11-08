@@ -9,7 +9,7 @@ using namespace IOBUFFER;
 TmsNeurofeedback::TmsNeurofeedback()
     : m_bIsRunning(false)
     , m_SignalInput(NULL)
-    , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())
+    , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())    // TODO: change because of numeric?!
     , m_pmyRapid(new Rapid("COM1"))
 {
     QAction* showCheckWidgetAction = new QAction(QIcon(":/grafics/images/Control.png"), tr("Toolbar Widget"), this);  // C:/Users/opper/Desktop/Control.png
@@ -22,9 +22,11 @@ TmsNeurofeedback::~TmsNeurofeedback() {}
 
 // Init, clone, unload
 void TmsNeurofeedback::init() {
+    // Add an input
     m_SignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's output data");
     m_inputConnectors.append(m_SignalInput);
 
+    // Register for updates
     connect(m_SignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
 
 }

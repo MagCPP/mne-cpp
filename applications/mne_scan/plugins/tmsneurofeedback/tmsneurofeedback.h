@@ -42,7 +42,6 @@ public:
     virtual QWidget* setupWidget();
     void showParamSet();
 
-
     void update(SCMEASLIB::Measurement::SPtr pMeasurement);
 protected:
     virtual void run();
