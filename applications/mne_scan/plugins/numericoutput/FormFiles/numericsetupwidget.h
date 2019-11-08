@@ -1,6 +1,6 @@
 //=============================================================================================================
 /**
-* @file     dummytoolbox.h
+* @file     numericsetupwidget.h
 * @author   Christoph Dinh <chdinh@nmr.mgh.harvard.edu>;
 *           Matti Hamalainen <msh@nmr.mgh.harvard.edu>
 * @version  1.0
@@ -29,12 +29,12 @@
 * POSSIBILITY OF SUCH DAMAGE.
 *
 *
-* @brief    Contains the declaration of the DummyToolbox class.
+* @brief    Contains the declaration of the DummySetupWidget class.
 *
 */
 
-#ifndef DUMMYTOOLBOX_H
-#define DUMMYTOOLBOX_H
+#ifndef DUMMYSETUPWIDGET_H
+#define DUMMYSETUPWIDGET_H
 
 
 //*************************************************************************************************************
@@ -42,14 +42,9 @@
 // INCLUDES
 //=============================================================================================================
 
-#include "dummytoolbox_global.h"
-
-#include <scShared/Interfaces/IAlgorithm.h>
-#include <utils/generics/circularmatrixbuffer.h>
-#include <scMeas/realtimemultisamplearray.h>
-#include "FormFiles/dummysetupwidget.h"
-#include "FormFiles/dummyyourwidget.h"
-#include <scMeas/numeric.h>
+#include "../ui_numericsetup.h"
+#include "numericaboutwidget.h"
+#include "../numericoutput.h"
 
 
 //*************************************************************************************************************
@@ -58,25 +53,15 @@
 //=============================================================================================================
 
 #include <QtWidgets>
-#include <QtCore/QtPlugin>
-#include <QDebug>
 
 
 //*************************************************************************************************************
 //=============================================================================================================
-// DEFINE NAMESPACE DummyToolboxPlugin
+// DEFINE NAMESPACE NumericOutputPlugin
 //=============================================================================================================
 
-namespace DUMMYTOOLBOXPLUGIN
+namespace NUMERICOUTPUTPLUGIN
 {
-
-
-//*************************************************************************************************************
-//=============================================================================================================
-// USED NAMESPACES
-//=============================================================================================================
-
-using namespace SCSHAREDLIB;
 
 
 //*************************************************************************************************************
@@ -84,83 +69,53 @@ using namespace SCSHAREDLIB;
 // FORWARD DECLARATIONS
 //=============================================================================================================
 
+class NumericOutput;
+
 
 //=============================================================================================================
 /**
-* DECLARE CLASS DummyToolbox
+* DECLARE CLASS DummySetupWidget
 *
-* @brief The DummyToolbox class provides a dummy algorithm structure.
+* @brief The DummySetupWidget class provides the NumericOutput configuration window.
 */
-class DUMMYTOOLBOXSHARED_EXPORT DummyToolbox : public IAlgorithm
+class DummySetupWidget : public QWidget
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "scsharedlib/1.0" FILE "dummytoolbox.json") //New Qt5 Plugin system replaces Q_EXPORT_PLUGIN2 macro
-    // Use the Q_INTERFACES() macro to tell Qt's meta-object system about the interfaces
-    Q_INTERFACES(SCSHAREDLIB::IAlgorithm)
 
 public:
-    //=========================================================================================================
-    /**
-    * Constructs a DummyToolbox.
-    */
-    DummyToolbox();
 
     //=========================================================================================================
     /**
-    * Destroys the DummyToolbox.
-    */
-    ~DummyToolbox();
-
-    //=========================================================================================================
-    /**
-    * IAlgorithm functions
-    */
-    virtual QSharedPointer<IPlugin> clone() const;
-    virtual void init();
-    virtual void unload();
-    virtual bool start();
-    virtual bool stop();
-    virtual IPlugin::PluginType getType() const;
-    virtual QString getName() const;
-    virtual QWidget* setupWidget();
-
-    //=========================================================================================================
-    /**
-    * Udates the pugin with new (incoming) data.
+    * Constructs a DummySetupWidget which is a child of parent.
     *
-    * @param[in] pMeasurement    The incoming data in form of a generalized Measurement.
+    * @param [in] toolbox a pointer to the corresponding NumericOutput.
+    * @param [in] parent pointer to parent widget; If parent is 0, the new DummySetupWidget becomes a window. If parent is another widget, DummySetupWidget becomes a child window inside parent. DummySetupWidget is deleted when its parent is deleted.
     */
-    void update(SCMEASLIB::Measurement::SPtr pMeasurement);
+    DummySetupWidget(NumericOutput* toolbox, QWidget *parent = 0);
 
-protected:
     //=========================================================================================================
     /**
-    * IAlgorithm function
+    * Destroys the DummySetupWidget.
+    * All DummySetupWidget's children are deleted first. The application exits if DummySetupWidget is the main widget.
     */
-    virtual void run();
+    ~DummySetupWidget();
 
-    void showYourWidget();
+
+private slots:
+    //=========================================================================================================
+    /**
+    * Shows the About Dialog
+    *
+    */
+    void showAboutDialog();
 
 private:
-    bool                                            m_bIsRunning;           /**< Flag whether thread is running.*/
 
-    FIFFLIB::FiffInfo::SPtr                         m_pFiffInfo;            /**< Fiff measurement info.*/
-    QSharedPointer<DummyYourWidget>                 m_pYourWidget;          /**< flag whether thread is running.*/
-    QAction*                                        m_pActionShowYourWidget;/**< flag whether thread is running.*/
+    NumericOutput* m_pNumericOutput;	/**< Holds a pointer to corresponding NumericOutput.*/
 
-    IOBUFFER::CircularMatrixBuffer<double>::SPtr    m_pDummyBuffer;         /**< Holds incoming data.*/
-
-    PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr      m_pDummyInput;      /**< The RealTimeMultiSampleArray of the DummyToolbox input.*/
-//    PluginOutputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr     m_pDummyOutput;     /**< The RealTimeMultiSampleArray of the DummyToolbox output.*/
-    PluginOutputData<SCMEASLIB::numeric>::SPtr  m_pDummyOutput
-signals:
-    //=========================================================================================================
-    /**
-    * Emitted when fiffInfo is available
-    */
-    void fiffInfoAvailable();
+    Ui::DummySetupWidgetClass ui;	/**< Holds the user interface for the DummySetupWidget.*/
 };
 
 } // NAMESPACE
 
-#endif // DUMMYTOOLBOX_H
+#endif // DUMMYSETUPWIDGET_H

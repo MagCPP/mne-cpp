@@ -69,4 +69,5 @@ SUBDIRS += \
     noisereduction \
     ssvepbci \
     neuronalconnectivity \
-    reference
+    reference \
+    numericoutput

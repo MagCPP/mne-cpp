@@ -1,6 +1,6 @@
 //=============================================================================================================
 /**
-* @file     dummytoolbox.cpp
+* @file     numericoutput.cpp
 * @author   Christoph Dinh <chdinh@nmr.mgh.harvard.edu>;
 *           Matti Hamalainen <msh@nmr.mgh.harvard.edu>
 * @version  1.0
@@ -29,7 +29,7 @@
 * POSSIBILITY OF SUCH DAMAGE.
 *
 *
-* @brief    Definition of the DummyToolbox class.
+* @brief    Definition of the NumericOutput class.
 *
 */
 
@@ -38,7 +38,7 @@
 // INCLUDES
 //=============================================================================================================
 
-#include "dummytoolbox.h"
+#include "numericoutput.h"
 
 
 //*************************************************************************************************************
@@ -46,7 +46,7 @@
 // USED NAMESPACES
 //=============================================================================================================
 
-using namespace DUMMYTOOLBOXPLUGIN;
+using namespace NUMERICOUTPUTPLUGIN;
 using namespace SCSHAREDLIB;
 using namespace SCMEASLIB;
 using namespace IOBUFFER;
@@ -57,7 +57,7 @@ using namespace IOBUFFER;
 // DEFINE MEMBER METHODS
 //=============================================================================================================
 
-DummyToolbox::DummyToolbox()
+NumericOutput::NumericOutput()
 : m_bIsRunning(false)
 , m_pDummyInput(NULL)
 , m_pDummyOutput(NULL)
@@ -68,14 +68,14 @@ DummyToolbox::DummyToolbox()
     m_pActionShowYourWidget->setShortcut(tr("F12"));
     m_pActionShowYourWidget->setStatusTip(tr("Your Toolbar Widget"));
     connect(m_pActionShowYourWidget, &QAction::triggered,
-            this, &DummyToolbox::showYourWidget);
+            this, &NumericOutput::showYourWidget);
     addPluginAction(m_pActionShowYourWidget);
 }
 
 
 //*************************************************************************************************************
 
-DummyToolbox::~DummyToolbox()
+NumericOutput::~NumericOutput()
 {
     if(this->isRunning())
         stop();
@@ -84,26 +84,25 @@ DummyToolbox::~DummyToolbox()
 
 //*************************************************************************************************************
 
-QSharedPointer<IPlugin> DummyToolbox::clone() const
+QSharedPointer<IPlugin> NumericOutput::clone() const
 {
-    QSharedPointer<DummyToolbox> pDummyToolboxClone(new DummyToolbox);
-    return pDummyToolboxClone;
+    QSharedPointer<NumericOutput> pNumericOutputClone(new NumericOutput);
+    return pNumericOutputClone;
 }
 
 
 //*************************************************************************************************************
 
-void DummyToolbox::init()
+void NumericOutput::init()
 {
     // Input
-//    m_pDummyInput = PluginInputData<RealTimeMultiSampleArray>::create(this, "DummyIn", "Dummy input data");
-//    m_pDummyInput = PluginInputData<numeric
-    connect(m_pDummyInput.data(), &PluginInputConnector::notify, this, &DummyToolbox::update, Qt::DirectConnection);
+    m_pDummyInput = PluginInputData<RealTimeMultiSampleArray>::create(this, "DummyIn", "Dummy input data");
+    connect(m_pDummyInput.data(), &PluginInputConnector::notify, this, &NumericOutput::update, Qt::DirectConnection);
     m_inputConnectors.append(m_pDummyInput);
 
     // Output - Uncomment this if you don't want to send processed data (in form of a matrix) to other plugins.
     // Also, this output stream will generate an online display in your plugin
-    m_pDummyOutput = PluginOutputData<Numeric>::create(this, "DummyOut", "Dummy output data");
+    m_pDummyOutput = PluginOutputData<RealTimeMultiSampleArray>::create(this, "DummyOut", "Dummy output data");
     m_outputConnectors.append(m_pDummyOutput);
 
     //Delete Buffer - will be initailzed with first incoming data
@@ -114,7 +113,7 @@ void DummyToolbox::init()
 
 //*************************************************************************************************************
 
-void DummyToolbox::unload()
+void NumericOutput::unload()
 {
 
 }
@@ -122,7 +121,7 @@ void DummyToolbox::unload()
 
 //*************************************************************************************************************
 
-bool DummyToolbox::start()
+bool NumericOutput::start()
 {
 //    //Check if the thread is already or still running. This can happen if the start button is pressed immediately after the stop button was pressed. In this case the stopping process is not finished yet but the start process is initiated.
 //    if(this->isRunning())
@@ -139,7 +138,7 @@ bool DummyToolbox::start()
 
 //*************************************************************************************************************
 
-bool DummyToolbox::stop()
+bool NumericOutput::stop()
 {
     m_bIsRunning = false;
 
@@ -154,7 +153,7 @@ bool DummyToolbox::stop()
 
 //*************************************************************************************************************
 
-IPlugin::PluginType DummyToolbox::getType() const
+IPlugin::PluginType NumericOutput::getType() const
 {
     return _IAlgorithm;
 }
@@ -162,7 +161,7 @@ IPlugin::PluginType DummyToolbox::getType() const
 
 //*************************************************************************************************************
 
-QString DummyToolbox::getName() const
+QString NumericOutput::getName() const
 {
     return "Dummy Toolbox";
 }
@@ -170,7 +169,7 @@ QString DummyToolbox::getName() const
 
 //*************************************************************************************************************
 
-QWidget* DummyToolbox::setupWidget()
+QWidget* NumericOutput::setupWidget()
 {
     DummySetupWidget* setupWidget = new DummySetupWidget(this);//widget is later distroyed by CentralWidget - so it has to be created everytime new
     return setupWidget;
@@ -179,7 +178,7 @@ QWidget* DummyToolbox::setupWidget()
 
 //*************************************************************************************************************
 
-void DummyToolbox::update(SCMEASLIB::Measurement::SPtr pMeasurement)
+void NumericOutput::update(SCMEASLIB::Measurement::SPtr pMeasurement)
 {
     QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
 
@@ -212,7 +211,7 @@ void DummyToolbox::update(SCMEASLIB::Measurement::SPtr pMeasurement)
 
 //*************************************************************************************************************
 
-void DummyToolbox::run()
+void NumericOutput::run()
 {
     //
     // Wait for Fiff Info
@@ -236,7 +235,7 @@ void DummyToolbox::run()
 
 //*************************************************************************************************************
 
-void DummyToolbox::showYourWidget()
+void NumericOutput::showYourWidget()
 {
     m_pYourWidget = DummyYourWidget::SPtr(new DummyYourWidget());
     m_pYourWidget->show();
