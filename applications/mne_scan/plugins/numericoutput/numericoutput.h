@@ -151,7 +151,6 @@ private:
     IOBUFFER::CircularMatrixBuffer<double>::SPtr    m_pDummyBuffer;         /**< Holds incoming data.*/
 
     PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr      m_pDummyInput;      /**< The RealTimeMultiSampleArray of the NumericOutput input.*/
-    PluginOutputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr     m_pDummyOutput;     /**< The RealTimeMultiSampleArray of the NumericOutput output.*/
     PluginOutputData<SCMEASLIB::Numeric>::SPtr m_SignalOutput;
 
 
