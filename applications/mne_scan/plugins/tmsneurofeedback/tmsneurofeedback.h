@@ -11,6 +11,7 @@
 
 #include <scMeas/realtimemultisamplearray.h>
 #include <utils/generics/circularmatrixbuffer.h>
+#include <scMeas/numeric.h>
 
 #include <magcpp/devices/magstim.h>
 #include <magcpp/devices/rapid.h>
@@ -51,7 +52,8 @@ protected:
 private:
     FIFFLIB::FiffInfo::SPtr m_pFiffInfo;
 
-    PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pExampleInput;
+    //PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pExampleInput;
+    PluginInputData<SCMEASLIB::Numeric>::SPtr m_SignalInput;
 
     PluginOutputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pExampleOutput;
 
