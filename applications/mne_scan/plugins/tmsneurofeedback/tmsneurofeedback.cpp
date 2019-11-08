@@ -8,9 +8,7 @@ using namespace IOBUFFER;
 
 TmsNeurofeedback::TmsNeurofeedback()
     : m_bIsRunning(false)
-//    , m_pExampleInput(NULL)
     , m_SignalInput(NULL)
-    , m_pExampleOutput(NULL)
     , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())
     , m_pmyRapid(new Rapid("COM1"))
 {
@@ -24,13 +22,8 @@ TmsNeurofeedback::~TmsNeurofeedback() {}
 
 // Init, clone, unload
 void TmsNeurofeedback::init() {
-//    m_pExampleInput = PluginInputData<RealTimeMultiSampleArray>::create(this,"ExampleInput", "Example Plugin's input data");
-//    m_inputConnectors.append(m_pExampleInput);
     m_SignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's output data");
     m_inputConnectors.append(m_SignalInput);
-
-    m_pExampleOutput = PluginOutputData<RealTimeMultiSampleArray>::create(this, "ExampleOutput", "Example Plugin's output data");
-    m_outputConnectors.append(m_pExampleOutput);
 
     connect(m_SignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
 
