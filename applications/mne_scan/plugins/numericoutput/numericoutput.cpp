@@ -167,7 +167,7 @@ IPlugin::PluginType NumericOutput::getType() const
 
 QString NumericOutput::getName() const
 {
-    return "Dummy Toolbox";
+    return "Numeric Output";
 }
 
 
