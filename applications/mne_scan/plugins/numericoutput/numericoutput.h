@@ -49,6 +49,7 @@
 #include <scMeas/realtimemultisamplearray.h>
 #include "FormFiles/numericsetupwidget.h"
 #include "FormFiles/numericyourwidget.h"
+#include <scMeas/numeric.h>
 
 
 //*************************************************************************************************************
@@ -151,6 +152,8 @@ private:
 
     PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr      m_pDummyInput;      /**< The RealTimeMultiSampleArray of the NumericOutput input.*/
     PluginOutputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr     m_pDummyOutput;     /**< The RealTimeMultiSampleArray of the NumericOutput output.*/
+    PluginOutputData<SCMEASLIB::Numeric>::SPtr m_SignalOutput;
+
 
 signals:
     //=========================================================================================================

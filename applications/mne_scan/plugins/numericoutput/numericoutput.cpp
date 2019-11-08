@@ -61,6 +61,7 @@ NumericOutput::NumericOutput()
 : m_bIsRunning(false)
 , m_pDummyInput(NULL)
 , m_pDummyOutput(NULL)
+, m_SignalOutput(NULL)
 , m_pDummyBuffer(CircularMatrixBuffer<double>::SPtr())
 {
     //Add action which will be visible in the plugin's toolbar
@@ -104,6 +105,9 @@ void NumericOutput::init()
     // Also, this output stream will generate an online display in your plugin
     m_pDummyOutput = PluginOutputData<RealTimeMultiSampleArray>::create(this, "DummyOut", "Dummy output data");
     m_outputConnectors.append(m_pDummyOutput);
+
+    m_SignalOutput = PluginOutputData<Numeric>::create(this, "SignalOut", "Signal output data");
+    m_outputConnectors.append(m_SignalOutput);
 
     //Delete Buffer - will be initailzed with first incoming data
     if(!m_pDummyBuffer.isNull())
