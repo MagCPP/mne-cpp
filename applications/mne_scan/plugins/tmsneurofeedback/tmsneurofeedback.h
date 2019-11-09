@@ -7,7 +7,6 @@
 #include "FormFiles/visualnf.h"
 
 #include <scShared/Interfaces/IAlgorithm.h>
-#include <scShared/Interfaces/ISensor.h>
 
 #include <scMeas/realtimemultisamplearray.h>
 #include <utils/generics/circularmatrixbuffer.h>
