@@ -64,7 +64,7 @@ bool TmsNeurofeedback::stop()
 void TmsNeurofeedback::run() {}
 
 void TmsNeurofeedback::update(SCMEASLIB::Measurement::SPtr pMeasurement) {
-    printf("update/n");
+    printf("###############################update/n");
 }
 
 // 'const' means that this function won't modify the object
