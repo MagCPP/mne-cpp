@@ -49,8 +49,7 @@ SUBDIRS += \
     # eegosports \
     # brainamp \
     # tmsi \
-    natus \
-    tmsneurofeedback
+    natus
 
 contains(MNECPP_CONFIG, useLSL) { SUBDIRS += lsladapter }
 
@@ -70,4 +69,5 @@ SUBDIRS += \
     ssvepbci \
     neuronalconnectivity \
     reference \
-    numericoutput
+    numericoutput \
+    tmsneurofeedback
