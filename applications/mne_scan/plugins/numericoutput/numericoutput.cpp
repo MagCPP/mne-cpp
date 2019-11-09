@@ -127,15 +127,6 @@ void NumericOutput::unload()
 
 bool NumericOutput::start()
 {
-//    //Check if the thread is already or still running. This can happen if the start button is pressed immediately after the stop button was pressed. In this case the stopping process is not finished yet but the start process is initiated.
-//    if(this->isRunning())
-//        QThread::wait();
-
-    m_bIsRunning = true;
-
-    //Start thread
-    QThread::start();
-
     return true;
 }
 
@@ -144,13 +135,6 @@ bool NumericOutput::start()
 
 bool NumericOutput::stop()
 {
-    m_bIsRunning = false;
-
-    m_pDummyBuffer->releaseFromPop();
-    m_pDummyBuffer->releaseFromPush();
-
-    m_pDummyBuffer->clear();
-
     return true;
 }
 
@@ -220,20 +204,20 @@ void NumericOutput::run()
     //
     // Wait for Fiff Info
     //
-    while(!m_pFiffInfo)
-        msleep(10);// Wait for fiff Info
+//    while(!m_pFiffInfo)
+//        msleep(10);// Wait for fiff Info
 
-    while(m_bIsRunning)
-    {
-        //Dispatch the inputs
-        MatrixXd t_mat = m_pDummyBuffer->pop();
+//    while(m_bIsRunning)
+//    {
+//        //Dispatch the inputs
+//        MatrixXd t_mat = m_pDummyBuffer->pop();
 
-        //ToDo: Implement your algorithm here
+//        //ToDo: Implement your algorithm here
 
-        //Send the data to the connected plugins and the online display
-        //Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
+//        //Send the data to the connected plugins and the online display
+//        //Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
 //        m_pDummyOutput->data()->setValue(t_mat);
-    }
+//    }
 }
 
 

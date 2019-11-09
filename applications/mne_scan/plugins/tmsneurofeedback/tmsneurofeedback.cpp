@@ -23,7 +23,7 @@ TmsNeurofeedback::~TmsNeurofeedback() {}
 // Init, clone, unload
 void TmsNeurofeedback::init() {
     // Add an input
-    m_SignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's output data");
+    m_SignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's input data");
     m_inputConnectors.append(m_SignalInput);
 
     // Register for updates
