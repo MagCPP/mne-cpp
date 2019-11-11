@@ -46,7 +46,7 @@ private:
 
     PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pExampleInput;
 
-    PluginOutputData<SCMEASLIB::Numeric>::SPtr m_pExampleOutput;
+    PluginOutputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pExampleOutput;
 
     IOBUFFER::CircularMatrixBuffer<double>::SPtr m_pExampleBuffer;
 

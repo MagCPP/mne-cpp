@@ -31,7 +31,7 @@ TmsNeurofeedback::~TmsNeurofeedback()
 
 void TmsNeurofeedback::init() {
     // Add an input
-    m_pSignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's input data");
+    m_pSignalInput = PluginInputData<RealTimeMultiSampleArray>::create(this, "SignalInput", "TMSNFPlugin's input data");
     m_inputConnectors.append(m_pSignalInput);
 
     // Register for updates - inputData = outputData
@@ -63,15 +63,15 @@ bool TmsNeurofeedback::start()
     return true;
 
     // Move this to somewhere else FIXME
-    m_pError = 0;
-    m_pMyRapid = new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0));
-    m_pMyRapid->connect(m_pError);
-    m_pMyRapid->arm(false, m_pParams, m_pError);
-    m_pMyRapid->ignoreCoilSafetySwitch(m_pError);
-    if (m_pError)
-        return false;
-    else
-        return true;
+//    m_pError = 0;
+//    m_pMyRapid = new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0));
+//    m_pMyRapid->connect(m_pError);
+//    m_pMyRapid->arm(false, m_pParams, m_pError);
+//    m_pMyRapid->ignoreCoilSafetySwitch(m_pError);
+//    if (m_pError)
+//        return false;
+//    else
+//        return true;
 }
 
 //*************************************************************************************************************
@@ -114,7 +114,8 @@ void TmsNeurofeedback::run()
             // StaticPower: everything about 0 is meant to Fire
             // DynamicPower: change Power between [0; 1] in scale to [0%; 100%]
 
-//            MatrixXd t_mat = m_pExampleBuffer->pop();
+            MatrixXd t_mat = m_pExampleBuffer->pop();
+//            t_mat(0,0)
 
             bool fire = false; // TODO
             int newPower = 30; // TODO
@@ -150,31 +151,31 @@ void TmsNeurofeedback::update(SCMEASLIB::Measurement::SPtr pMeasurement) {
     printf("#update/n");
 
        // FIXME
-    QSharedPointer<Numeric> pNumeric = pMeasurement.dynamicCast<Numeric>();
+    QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
 
-//    if(pNumeric) {
-//        //Check if buffer initialized
-//        if(!m_pExampleBuffer) {
-//            m_pExampleBuffer = CircularMatrixBuffer<double>::SPtr(new CircularMatrixBuffer<double>(64, pNumeric->getNumChannels(), pNumeric->getMultiSampleArray()[0].cols()));
-//        }
+    if(pRTMSA) {
+        //Check if buffer initialized
+        if(!m_pExampleBuffer) {
+            m_pExampleBuffer = CircularMatrixBuffer<double>::SPtr(new CircularMatrixBuffer<double>(64, pRTMSA->getNumChannels(), pRTMSA->getMultiSampleArray()[0].cols()));
+        }
 
-//        //Fiff information
-//        if(!m_pFiffInfo) {
-//            m_pFiffInfo = pNumeric->info();
+        //Fiff information
+        if(!m_pFiffInfo) {
+            m_pFiffInfo = pRTMSA->info();
 
 //            //Init output - Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
-//            m_pExampleBuffer->data()->initFromFiffInfo(m_pFiffInfo);
-//            m_pExampleBuffer->data()->setMultiArraySize(1);
-//            m_pExampleBuffer->data()->setVisibility(true);
-//        }
+//            m_pSignalOutput->data()->initFromFiffInfo(m_pFiffInfo);
+//            m_pSignalOutput->data()->setMultiArraySize(1);
+//            m_pSignalOutput->data()->setVisibility(true);
+        }
 
-//        MatrixXd t_mat;
+        MatrixXd t_mat;
 
-//        for(unsigned char i = 0; i < pNumeric->getMultiArraySize(); ++i) {
-//            t_mat = pNumeric->getMultiSampleArray()[i];
-//            m_pExampleBuffer->push(&t_mat);
-//        }
-//    }
+        for(unsigned char i = 0; i < pRTMSA->getMultiArraySize(); ++i) {
+            t_mat = pRTMSA->getMultiSampleArray()[i];
+            m_pExampleBuffer->push(&t_mat);
+        }
+    }
 }
 
 //*************************************************************************************************************

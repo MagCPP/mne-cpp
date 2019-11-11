@@ -22,7 +22,7 @@ void ExampleSignal::init() {
     m_pExampleInput = PluginInputData<RealTimeMultiSampleArray>::create(this, "ExampleInput", "Example Plugins's input data");
     m_inputConnectors.append(m_pExampleInput);
 
-    m_pExampleOutput = PluginOutputData<Numeric>::create(this, "ExampleOut", "Example Plugin's output data");
+    m_pExampleOutput = PluginOutputData<RealTimeMultiSampleArray>::create(this, "ExampleOut", "Example Plugin's output data");
     m_outputConnectors.append(m_pExampleOutput);
 
     connect(m_pExampleInput.data(), &PluginInputConnector::notify, this, &ExampleSignal::update, Qt::DirectConnection);
@@ -37,13 +37,69 @@ QSharedPointer<IPlugin> ExampleSignal::clone() const
 }
 
 // start, stop, run
-bool ExampleSignal::start() {return true;}
-bool ExampleSignal::stop() {return true;}
-void ExampleSignal::run() {}
+bool ExampleSignal::start()
+{
+    m_bIsRunning = true;
+    QThread::start();
+    return true;
+}
+bool ExampleSignal::stop()
+{
+    m_bIsRunning = false;
+    m_pExampleBuffer->releaseFromPop();
+    m_pExampleBuffer->releaseFromPush();
+    m_pExampleBuffer->clear();
+    return true;
+}
+
+void ExampleSignal::run()
+{
+    //
+    // Wait for Fiff Info
+    //
+    while(!m_pFiffInfo)
+        msleep(10);// Wait for fiff Info
+
+    while(m_bIsRunning)
+    {
+        //Dispatch the inputs
+        MatrixXd t_mat = m_pExampleBuffer->pop();
+
+        //ToDo: Implement your algorithm here
+
+        //Send the data to the connected plugins and the online display
+        //Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
+        m_pExampleOutput->data()->setValue(t_mat);
+    }
+}
 
 void ExampleSignal::update(Measurement::SPtr pMeasurement)
 {
+    QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
 
+        if(pRTMSA) {
+            //Check if buffer initialized
+            if(!m_pExampleBuffer) {
+                m_pExampleBuffer = CircularMatrixBuffer<double>::SPtr(new CircularMatrixBuffer<double>(64, pRTMSA->getNumChannels(), pRTMSA->getMultiSampleArray()[0].cols()));
+            }
+
+            //Fiff information
+            if(!m_pFiffInfo) {
+                m_pFiffInfo = pRTMSA->info();
+
+                //Init output - Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
+                m_pExampleOutput->data()->initFromFiffInfo(m_pFiffInfo);
+                m_pExampleOutput->data()->setMultiArraySize(1);
+                m_pExampleOutput->data()->setVisibility(true);
+            }
+
+            MatrixXd t_mat;
+
+            for(unsigned char i = 0; i < pRTMSA->getMultiArraySize(); ++i) {
+                t_mat = pRTMSA->getMultiSampleArray()[i];
+                m_pExampleBuffer->push(&t_mat);
+            }
+        }
 }
 // 'const' means that this function won't modify the object
 // Ctrl - Click on PLuginType to see a list of options
