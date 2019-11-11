@@ -57,6 +57,7 @@ private:
 
     bool m_bIsRunning;
 
+    QMutex m_qMutex;
     Rapid *m_pmyRapid;
     QString m_punlockCode;
     QString m_pport;

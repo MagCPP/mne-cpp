@@ -18,9 +18,17 @@ TmsNeurofeedback::TmsNeurofeedback()
     addPluginAction(showCheckWidgetAction);
     connect(showCheckWidgetAction, &QAction::triggered, this, &TmsNeurofeedback::showCheck);
 }
-TmsNeurofeedback::~TmsNeurofeedback() {}
 
-// Init, clone, unload
+//*************************************************************************************************************
+
+TmsNeurofeedback::~TmsNeurofeedback()
+{
+    if(this->isRunning())
+        stop();
+}
+
+//*************************************************************************************************************
+
 void TmsNeurofeedback::init() {
     // Add an input
     m_SignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's input data");
@@ -30,7 +38,15 @@ void TmsNeurofeedback::init() {
     connect(m_SignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
 
 }
-void TmsNeurofeedback::unload(){}
+
+//*************************************************************************************************************
+
+void TmsNeurofeedback::unload()
+{
+
+}
+
+//*************************************************************************************************************
 
 QSharedPointer<IPlugin> TmsNeurofeedback::clone() const
 {
@@ -38,7 +54,8 @@ QSharedPointer<IPlugin> TmsNeurofeedback::clone() const
     return pointerToTmsNeurofeedback;
 }
 
-// start, stop, run
+//*************************************************************************************************************
+
 bool TmsNeurofeedback::start()
 {
     m_perror = 0;
@@ -52,6 +69,8 @@ bool TmsNeurofeedback::start()
         return true;
 }
 
+//*************************************************************************************************************
+
 bool TmsNeurofeedback::stop()
 {
     m_perror = 0;
@@ -61,11 +80,28 @@ bool TmsNeurofeedback::stop()
     else
         return true;
 }
-void TmsNeurofeedback::run() {}
+
+//*************************************************************************************************************
+
+void TmsNeurofeedback::run()
+{
+    while (true) {
+        {
+            QMutexLocker locker(&m_qMutex);
+            if (!m_bIsRunning)
+                break;
+        }
+
+    }
+}
+
+//*************************************************************************************************************
 
 void TmsNeurofeedback::update(SCMEASLIB::Measurement::SPtr pMeasurement) {
     printf("###############################update/n");
 }
+
+//*************************************************************************************************************
 
 // 'const' means that this function won't modify the object
 // Ctrl + Click in PLuginType to see a list of options
@@ -74,16 +110,22 @@ IPlugin::PluginType TmsNeurofeedback::getType() const
     return _IAlgorithm;
 }
 
+//*************************************************************************************************************
+
 QString TmsNeurofeedback::getName() const
 {
     return "TmsNeurofeedback Plugin";
 }
+
+//*************************************************************************************************************
 
 QWidget* TmsNeurofeedback::setupWidget()
 {
     TMSGui* setupWidget = new TMSGui();
     return setupWidget;
 }
+
+//*************************************************************************************************************
 
 void TmsNeurofeedback::showCheck()
 {
