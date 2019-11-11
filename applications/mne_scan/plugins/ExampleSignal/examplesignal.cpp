@@ -27,8 +27,10 @@ void ExampleSignal::init() {
 
     connect(m_pExampleInput.data(), &PluginInputConnector::notify, this, &ExampleSignal::update, Qt::DirectConnection);
 
+    //Delete Buffer - will be initailzed with first incoming data
+    if(!m_pExampleBuffer.isNull())
+        m_pExampleBuffer = CircularMatrixBuffer<double>::SPtr();
 }
-void ExampleSignal::unload() {}
 
 QSharedPointer<IPlugin> ExampleSignal::clone() const
 {
@@ -36,10 +38,12 @@ QSharedPointer<IPlugin> ExampleSignal::clone() const
     return pointerToExampleSignal;
 }
 
+void ExampleSignal::unload() {}
+
 // start, stop, run
 bool ExampleSignal::start()
 {
-    m_bIsRunning = true;
+    this->m_bIsRunning = true;
     QThread::start();
     return true;
 }
@@ -57,8 +61,11 @@ void ExampleSignal::run()
     //
     // Wait for Fiff Info
     //
+
+
     while(!m_pFiffInfo)
         msleep(10);// Wait for fiff Info
+
 
     while(m_bIsRunning)
     {
@@ -66,6 +73,7 @@ void ExampleSignal::run()
         MatrixXd t_mat = m_pExampleBuffer->pop();
 
         //ToDo: Implement your algorithm here
+
 
         //Send the data to the connected plugins and the online display
         //Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
@@ -75,6 +83,7 @@ void ExampleSignal::run()
 
 void ExampleSignal::update(Measurement::SPtr pMeasurement)
 {
+
     QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
 
         if(pRTMSA) {

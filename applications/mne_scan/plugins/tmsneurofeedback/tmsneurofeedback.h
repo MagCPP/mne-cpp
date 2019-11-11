@@ -53,6 +53,7 @@ private:
     FIFFLIB::FiffInfo::SPtr m_pFiffInfo;
 
     PluginInputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pSignalInput;
+    PluginOutputData<SCMEASLIB::RealTimeMultiSampleArray>::SPtr m_pSignalOutput;
 
     IOBUFFER::CircularMatrixBuffer<double>::SPtr m_pExampleBuffer;
 

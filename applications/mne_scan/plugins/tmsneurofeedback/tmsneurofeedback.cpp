@@ -34,9 +34,15 @@ void TmsNeurofeedback::init() {
     m_pSignalInput = PluginInputData<RealTimeMultiSampleArray>::create(this, "SignalInput", "TMSNFPlugin's input data");
     m_inputConnectors.append(m_pSignalInput);
 
-    // Register for updates - inputData = outputData
-//    connect(m_pSignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
+    m_pSignalOutput = PluginOutputData<RealTimeMultiSampleArray>::create(this, "SignalOutput", "TMSNFPlugin's output data");
+    m_outputConnectors.append(m_pSignalOutput);
 
+    // Register for updates - inputData = outputData
+    connect(m_pSignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
+
+    //Delete Buffer - will be initailzed with first incoming data
+    if(!m_pExampleBuffer.isNull())
+        m_pExampleBuffer = CircularMatrixBuffer<double>::SPtr();
 }
 
 //*************************************************************************************************************
@@ -99,17 +105,20 @@ bool TmsNeurofeedback::stop()
 
 void TmsNeurofeedback::run()
 {
-    // Be ready to start directly
+    while(!m_pFiffInfo)
+        msleep(10);// Wait for fiff Info
+
+//    // Be ready to start directly
     double TimeNextShotPossible = clock();
     m_pError = 0;
 
     while (true) {
         {
             // Check if still active
+
             QMutexLocker locker(&m_qMutex);
             if (!m_bIsRunning)
                 break;
-
             // Check for Fire Command
             // StaticPower: everything about 0 is meant to Fire
             // DynamicPower: change Power between [0; 1] in scale to [0%; 100%]
@@ -148,7 +157,7 @@ void TmsNeurofeedback::run()
 //*************************************************************************************************************
 
 void TmsNeurofeedback::update(SCMEASLIB::Measurement::SPtr pMeasurement) {
-    printf("#update/n");
+    printf("###########################Update##############################################/n");
 
        // FIXME
     QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
