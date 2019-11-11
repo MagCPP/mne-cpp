@@ -31,7 +31,7 @@ TmsNeurofeedback::~TmsNeurofeedback()
 
 void TmsNeurofeedback::init() {
     // Add an input
-    m_pSignalInput = PluginInputData<RealTimeMultiSampleArray>::create(this, "SignalInput", "TMSNFPlugin's input data");
+    m_pSignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's input data");
     m_inputConnectors.append(m_pSignalInput);
 
     // Register for updates - inputData = outputData
