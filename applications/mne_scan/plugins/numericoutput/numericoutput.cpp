@@ -102,7 +102,7 @@ void NumericOutput::init()
     // Output - Uncomment this if you don't want to send processed data (in form of a matrix) to other plugins.
     // Also, this output stream will generate an online display in your plugin
 
-    m_pSignalOutput = PluginOutputData<Numeric>::create(this, "SignalOut", "Signal output data");
+    m_pSignalOutput = PluginOutputData<RealTimeMultiSampleArray>::create(this, "SignalOut", "Signal output data");
     m_outputConnectors.append(m_pSignalOutput);
 
 
