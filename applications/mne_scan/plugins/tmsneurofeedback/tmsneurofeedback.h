@@ -15,6 +15,8 @@
 #include <magcpp/devices/magstim.h>
 #include <magcpp/devices/rapid.h>
 
+#include <ctime>
+
 using namespace SCSHAREDLIB;
 
 class TMSNEUROFEEDBACKSHARED_EXPORT TmsNeurofeedback : public SCSHAREDLIB::IAlgorithm
@@ -57,13 +59,21 @@ private:
     bool m_bIsRunning;
 
     QMutex m_qMutex;
-    Rapid *m_pmyRapid;
-    QString m_punlockCode;
-    QString m_pport;
-    int m_pvoltage;
-    int m_psuperRapid;
-    std::map<QString, std::map<QString, double>> m_pparams;
-    int m_perror;
+    // Rapid Settings
+    Rapid *m_pMyRapid;
+    QString m_pUnlockCode;
+    QString m_pPort;
+    int m_pVoltage;
+    int m_pSuperRapid;
+    // Default Parameters for Rapid Functions
+    std::map<QString, std::map<QString, double>> m_pParams;
+    int m_pError;
+    // Fire settings
+    bool m_pStaticPower;
+    int m_pCurrentPower;
+    int m_pPulses;
+    double m_pDeadTime;
+    int m_pFrequency;
 
 
 };
