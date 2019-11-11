@@ -52,7 +52,7 @@ protected:
 private:
     FIFFLIB::FiffInfo::SPtr m_pFiffInfo;
 
-    PluginInputData<SCMEASLIB::Numeric>::SPtr m_SignalInput;
+    PluginInputData<SCMEASLIB::Numeric>::SPtr m_pSignalInput;
 
     IOBUFFER::CircularMatrixBuffer<double>::SPtr m_pExampleBuffer;
 

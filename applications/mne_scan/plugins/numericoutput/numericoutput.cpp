@@ -60,7 +60,7 @@ using namespace IOBUFFER;
 NumericOutput::NumericOutput()
 : m_bIsRunning(false)
 , m_pDummyInput(NULL)
-, m_SignalOutput(NULL)
+, m_pSignalOutput(NULL)
 , m_pDummyBuffer(CircularMatrixBuffer<double>::SPtr())
 {
     //Add action which will be visible in the plugin's toolbar
@@ -102,8 +102,8 @@ void NumericOutput::init()
     // Output - Uncomment this if you don't want to send processed data (in form of a matrix) to other plugins.
     // Also, this output stream will generate an online display in your plugin
 
-    m_SignalOutput = PluginOutputData<Numeric>::create(this, "SignalOut", "Signal output data");
-    m_outputConnectors.append(m_SignalOutput);
+    m_pSignalOutput = PluginOutputData<Numeric>::create(this, "SignalOut", "Signal output data");
+    m_outputConnectors.append(m_pSignalOutput);
 
 
     // Register for update
@@ -168,9 +168,11 @@ QWidget* NumericOutput::setupWidget()
 
 void NumericOutput::update(SCMEASLIB::Measurement::SPtr pMeasurement)
 {
-//    QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
+    QSharedPointer<Numeric> pRTMSA = pMeasurement.dynamicCast<Numeric>();
 
-//    if(pRTMSA) {
+    if(pRTMSA) {
+        m_pSignalOutput->data()->setValue(0.3);
+        m_pSignalOutput->data()->setVisibility(true);
 //        //Check if buffer initialized
 //        if(!m_pDummyBuffer) {
 //            m_pDummyBuffer = CircularMatrixBuffer<double>::SPtr(new CircularMatrixBuffer<double>(64, pRTMSA->getNumChannels(), pRTMSA->getMultiSampleArray()[0].cols()));
@@ -192,7 +194,7 @@ void NumericOutput::update(SCMEASLIB::Measurement::SPtr pMeasurement)
 //            t_mat = pRTMSA->getMultiSampleArray()[i];
 //            m_pDummyBuffer->push(&t_mat);
 //        }
-//    }
+    }
 }
 
 

@@ -8,7 +8,7 @@ using namespace IOBUFFER;
 
 TmsNeurofeedback::TmsNeurofeedback()
     : m_bIsRunning(false)
-    , m_SignalInput(NULL)
+    , m_pSignalInput(NULL)
     , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())    // TODO: change because of numeric?!
     , m_pmyRapid(new Rapid("COM1"))
 {
@@ -31,11 +31,11 @@ TmsNeurofeedback::~TmsNeurofeedback()
 
 void TmsNeurofeedback::init() {
     // Add an input
-    m_SignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's input data");
-    m_inputConnectors.append(m_SignalInput);
+    m_pSignalInput = PluginInputData<Numeric>::create(this, "SignalInput", "TMSNFPlugin's input data");
+    m_inputConnectors.append(m_pSignalInput);
 
     // Register for updates
-    connect(m_SignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
+//    connect(m_pSignalInput.data(), &PluginInputConnector::notify, this, &TmsNeurofeedback::update, Qt::DirectConnection);
 
 }
 
