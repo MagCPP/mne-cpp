@@ -168,11 +168,11 @@ QWidget* NumericOutput::setupWidget()
 
 void NumericOutput::update(SCMEASLIB::Measurement::SPtr pMeasurement)
 {
-    QSharedPointer<Numeric> pRTMSA = pMeasurement.dynamicCast<Numeric>();
+//    QSharedPointer<Numeric> pRTMSA = pMeasurement.dynamicCast<Numeric>();
 
-    if(pRTMSA) {
-        m_pSignalOutput->data()->setValue(0.3);
-        m_pSignalOutput->data()->setVisibility(true);
+//    if(pRTMSA) {
+//        m_pSignalOutput->data()->setValue(0.3);
+//        m_pSignalOutput->data()->setVisibility(true);
 //        //Check if buffer initialized
 //        if(!m_pDummyBuffer) {
 //            m_pDummyBuffer = CircularMatrixBuffer<double>::SPtr(new CircularMatrixBuffer<double>(64, pRTMSA->getNumChannels(), pRTMSA->getMultiSampleArray()[0].cols()));
@@ -194,7 +194,7 @@ void NumericOutput::update(SCMEASLIB::Measurement::SPtr pMeasurement)
 //            t_mat = pRTMSA->getMultiSampleArray()[i];
 //            m_pDummyBuffer->push(&t_mat);
 //        }
-    }
+//    }
 }
 
 
