@@ -40,6 +40,7 @@ TEMPLATE = subdirs
 
 #Sensors
 SUBDIRS += \
+    ExampleSignal \
     ecgsimulator \
     fiffsimulator \
     neuromag \
