@@ -162,6 +162,7 @@ void TmsNeurofeedback::run()
             fire = false;
             // Fire only if not in Deadtime after the last shot
             if (TimeNextShotPossible < clock()) {
+                printf("~~~ Fire in the hole! ~~~\n");
                 TimeNextShotPossible = clock() + m_pDeadTime * CLOCKS_PER_SEC;
                 for (int shots = 1; shots <= m_pPulses; ++shots) {
                     m_pMyRapid->quickFire(m_pError);

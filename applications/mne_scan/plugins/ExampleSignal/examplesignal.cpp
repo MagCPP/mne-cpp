@@ -90,7 +90,10 @@ void ExampleSignal::run()
             }
         }
         t_mat(0,0) = t_matnew;
-        printf("%fd", t_matnew);
+        if (t_matnew > 0)
+            printf("++++%fd\n", t_matnew);
+        else
+           printf("%fd\n", t_matnew);
 
         //Send the data to the connected plugins and the online display
         //Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
