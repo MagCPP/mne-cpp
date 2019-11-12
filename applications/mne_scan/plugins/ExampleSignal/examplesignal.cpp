@@ -78,12 +78,15 @@ void ExampleSignal::run()
         double t_matnew;
         // EEG values from fiff Simulator -> changed in Values between 0 and 1
         if(a < limit) {
-            t_matnew = 0;
+            t_matnew = 0.00;
         }
         else {
             t_matnew = a * 10000;
             if(t_matnew > 1.00) {
                 t_matnew = 1;
+            }
+            if (t_matnew < 0.01) {
+                t_matnew = 0.01;
             }
         }
         t_mat(0,0) = t_matnew;

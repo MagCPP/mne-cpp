@@ -190,5 +190,4 @@ void TMSGui::on_checkBox_visNeut_clicked(bool checked)
 void TMSGui::on_pushButton_example_clicked()
 {
 
-
 }
