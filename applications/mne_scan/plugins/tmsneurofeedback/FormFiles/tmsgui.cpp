@@ -32,9 +32,107 @@ TMSGui::~TMSGui()
     delete ui;
 }
 
-bool TMSGui::getAdvancedClicked()
+QString TMSGui::getUnlockCode()
 {
-    return ui->checkBox_advanced->isChecked();
+    return ui->lineEdit_unlock->text();
+}
+
+QString TMSGui::getPort()
+{
+    return ui->lineEdit_port->text();
+}
+
+int TMSGui::getVoltage()
+{
+    return ui->comboBox_opVoltage->currentText().toInt();
+}
+
+int TMSGui::getSuperRapid()
+{
+    return ui->comboBox_superRapid->currentText().toInt();
+}
+
+bool TMSGui::getStaticPower()
+{
+    if(ui->comboBox_power->currentText() == "Static")
+        return true;
+    else
+        return false;
+}
+
+int TMSGui::getPulses()
+{
+    return ui->spinBox_pulses->value();
+}
+
+double TMSGui::getDeadTime()
+{
+    return ui->spinBox_dtime->value();
+}
+
+int TMSGui::getFrequency()
+{
+    return ui->spinBox_frequency->value();
+}
+
+bool TMSGui::getPosImage()
+{
+    return ui->checkBox_visPos->isChecked();
+}
+
+bool TMSGui::getNeutImage()
+{
+    return ui->checkBox_visNeut->isChecked();
+}
+
+bool TMSGui::getNegImage()
+{
+    return ui->checkBox_visNeg->isChecked();
+}
+
+QString TMSGui::getPosImagePath()
+{
+    return ui->lineEdit_positiv->text();
+}
+
+QString TMSGui::getNeutImagePath()
+{
+    return ui->lineEdit_neutral->text();
+}
+
+QString TMSGui::getNegImagePath()
+{
+    return ui->lineEdit_negative->text();
+}
+
+double TMSGui::getPosImageHighTresh()
+{
+    return ui->doubleSpinBox_highPos->value();
+}
+
+double TMSGui::getPosImageLowTresh()
+{
+    return ui->doubleSpinBox_lowPos->value();
+}
+
+double TMSGui::getNeutImageHighTresh()
+{
+    return ui->doubleSpinBox_highNeut->value();
+}
+
+double TMSGui::getNeutImageLowTresh()
+{
+    return ui->doubleSpinBox_lowNeut->value();
+}
+
+double TMSGui::getNegImageHighTresh()
+{
+    return ui->doubleSpinBox_highNeg->value();
+}
+
+double TMSGui::getNegImageLowTresh()
+{
+    return ui->doubleSpinBox_lowNeg->value();
 }
 
 

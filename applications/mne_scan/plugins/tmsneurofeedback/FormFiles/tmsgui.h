@@ -15,7 +15,28 @@ public:
     explicit TMSGui(QWidget *parent = nullptr);
     ~TMSGui();
 
-    bool getAdvancedClicked();
+    QString getUnlockCode();
+    QString getPort();
+    int getVoltage();
+    int getSuperRapid();
+    //
+    bool getStaticPower();
+    int getPulses();
+    double getDeadTime();
+    int getFrequency();
+    //
+    bool getPosImage();
+    bool getNeutImage();
+    bool getNegImage();
+    QString getPosImagePath();
+    QString getNeutImagePath();
+    QString getNegImagePath();
+    double getPosImageHighTresh();
+    double getPosImageLowTresh();
+    double getNeutImageHighTresh();
+    double getNeutImageLowTresh();
+    double getNegImageHighTresh();
+    double getNegImageLowTresh();
 
 private slots:
 

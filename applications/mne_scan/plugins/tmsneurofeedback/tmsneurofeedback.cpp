@@ -70,23 +70,7 @@ bool TmsNeurofeedback::start()
     m_bIsRunning = true;
     QThread::start();
 
-    // TODO read settings from gui
-    printf("<<<<<<<34<<<<<");
-    if (m_pTMSGui->getAdvancedClicked())
-        printf("Checked! /n");
-    else {
-        printf("Not checked /n");
-    }
-    m_pPort = "COM20";
-    m_pSuperRapid = 1;
-    m_pUnlockCode = "";
-    m_pVoltage = 240;
-    m_pCurrentPower = 30;
-    m_pStaticPower = true;
-    m_pPulses = 3;
-    m_pFrequency = 4;
-
-
+    getParametersFromGUI();
 
     return true;
 }
@@ -231,6 +215,35 @@ QWidget* TmsNeurofeedback::setupWidget()
 //    return setupWidget;
     m_pTMSGui = new TMSGui();
     return m_pTMSGui;
+}
+
+//*************************************************************************************************************
+
+void TmsNeurofeedback::getParametersFromGUI()
+{
+    m_pUnlockCode           = m_pTMSGui->getUnlockCode();
+    m_pPort                 = m_pTMSGui->getPort();
+    m_pVoltage              = m_pTMSGui->getVoltage();
+    m_pSuperRapid           = m_pTMSGui->getSuperRapid();
+    // Fire settings
+    m_pStaticPower          = m_pTMSGui->getStaticPower();
+    m_pCurrentPower         = 30; // TODO
+    m_pPulses               = m_pTMSGui->getPulses();
+    m_pDeadTime             = m_pTMSGui->getDeadTime();
+    m_pFrequency            = m_pTMSGui->getFrequency();
+    // Visual settings
+    m_pPosImage             = m_pTMSGui->getPosImage();
+    m_pNeutImage            = m_pTMSGui->getNeutImage();
+    m_pNegImage             = m_pTMSGui->getNegImage();
+    m_pPosImagePath         = m_pTMSGui->getPosImagePath();
+    m_pNeutImagePath        = m_pTMSGui->getNeutImagePath();
+    m_pNegImagePath         = m_pTMSGui->getNegImagePath();
+    m_pPosImageHighTresh    = m_pTMSGui->getPosImageHighTresh();
+    m_pPosImageLowTresh     = m_pTMSGui->getPosImageLowTresh();
+    m_pNeutImageHighTresh   = m_pTMSGui->getNeutImageHighTresh();
+    m_pNeutImageLowTresh    = m_pTMSGui->getNeutImageLowTresh();
+    m_pNegImageHighTresh    = m_pTMSGui->getNegImageHighTresh();
+    m_pNegImageLowTresh     = m_pTMSGui->getNegImageLowTresh();
 }
 
 //*************************************************************************************************************

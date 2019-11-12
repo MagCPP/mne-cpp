@@ -43,6 +43,9 @@ public:
     virtual QWidget* setupWidget();
     void showParamSet();
 
+
+    void getParametersFromGUI();
+
     void update(SCMEASLIB::Measurement::SPtr pMeasurement);
 protected:
     virtual void run();
@@ -60,6 +63,7 @@ private:
     bool m_bIsRunning;
 
     QMutex m_qMutex;
+    TMSGui *m_pTMSGui;
     // Default Parameters for Rapid Functions
     std::map<QString, std::map<QString, double>> m_pParams;
     int m_pError;
@@ -76,7 +80,6 @@ private:
     double m_pDeadTime;
     int m_pFrequency;
     // Visual settings
-    TMSGui *m_pTMSGui;
     bool m_pPosImage;
     bool m_pNeutImage;
     bool m_pNegImage;
@@ -87,7 +90,7 @@ private:
     double m_pPosImageLowTresh;
     double m_pNeutImageHighTresh;
     double m_pNeutImageLowTresh;
-    double m_pNegmageHighTresh;
+    double m_pNegImageHighTresh;
     double m_pNegImageLowTresh;
 
 
