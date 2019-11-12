@@ -73,7 +73,21 @@ void ExampleSignal::run()
         MatrixXd t_mat = m_pExampleBuffer->pop();
 
         //ToDo: Implement your algorithm here
-
+        double a = t_mat(316,0);
+        double limit = 0.00006;
+        double t_matnew;
+        // EEG values from fiff Simulator -> changed in Values between 0 and 1
+        if(a < limit) {
+            t_matnew = 0;
+        }
+        else {
+            t_matnew = a * 10000;
+            if(t_matnew > 1.00) {
+                t_matnew = 1;
+            }
+        }
+        t_mat(0,0) = t_matnew;
+        printf("%fd", t_matnew);
 
         //Send the data to the connected plugins and the online display
         //Unocmment this if you also uncommented the m_pDummyOutput in the constructor above
