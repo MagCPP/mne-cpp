@@ -32,6 +32,11 @@ TMSGui::~TMSGui()
     delete ui;
 }
 
+bool TMSGui::getAdvancedClicked()
+{
+    return ui->checkBox_advanced->isChecked();
+}
+
 
 
 

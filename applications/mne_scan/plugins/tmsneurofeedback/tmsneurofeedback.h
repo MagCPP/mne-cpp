@@ -60,21 +60,35 @@ private:
     bool m_bIsRunning;
 
     QMutex m_qMutex;
+    // Default Parameters for Rapid Functions
+    std::map<QString, std::map<QString, double>> m_pParams;
+    int m_pError;
     // Rapid Settings
     Rapid *m_pMyRapid;
     QString m_pUnlockCode;
     QString m_pPort;
     int m_pVoltage;
     int m_pSuperRapid;
-    // Default Parameters for Rapid Functions
-    std::map<QString, std::map<QString, double>> m_pParams;
-    int m_pError;
     // Fire settings
     bool m_pStaticPower;
     int m_pCurrentPower;
     int m_pPulses;
     double m_pDeadTime;
     int m_pFrequency;
+    // Visual settings
+    TMSGui *m_pTMSGui;
+    bool m_pPosImage;
+    bool m_pNeutImage;
+    bool m_pNegImage;
+    QString m_pPosImagePath;
+    QString m_pNeutImagePath;
+    QString m_pNegImagePath;
+    double m_pPosImageHighTresh;
+    double m_pPosImageLowTresh;
+    double m_pNeutImageHighTresh;
+    double m_pNeutImageLowTresh;
+    double m_pNegmageHighTresh;
+    double m_pNegImageLowTresh;
 
 
 };
