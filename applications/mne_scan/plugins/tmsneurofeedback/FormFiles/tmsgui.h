@@ -15,6 +15,8 @@ public:
     explicit TMSGui(QWidget *parent = nullptr);
     ~TMSGui();
 
+    bool getAdvancedClicked();
+
 private slots:
 
 

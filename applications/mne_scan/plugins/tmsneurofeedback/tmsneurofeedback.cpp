@@ -11,6 +11,7 @@ TmsNeurofeedback::TmsNeurofeedback()
     , m_pSignalInput(NULL)
     , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())
     , m_pMyRapid(new Rapid("COM1"))
+    , m_pTMSGui (new TMSGui())
 {
     QAction* showCheckWidgetAction = new QAction(QIcon(":/grafics/images/Control.png"), tr("Toolbar Widget"), this);  // C:/Users/opper/Desktop/Control.png
     showCheckWidgetAction->setShortcut(tr("F12"));
@@ -70,6 +71,21 @@ bool TmsNeurofeedback::start()
     QThread::start();
 
     // TODO read settings from gui
+    printf("<<<<<<<34<<<<<");
+    if (m_pTMSGui->getAdvancedClicked())
+        printf("Checked! /n");
+    else {
+        printf("Not checked /n");
+    }
+    m_pPort = "COM20";
+    m_pSuperRapid = 1;
+    m_pUnlockCode = "";
+    m_pVoltage = 240;
+    m_pCurrentPower = 30;
+    m_pStaticPower = true;
+    m_pPulses = 3;
+    m_pFrequency = 4;
+
 
 
     return true;
@@ -162,6 +178,7 @@ void TmsNeurofeedback::run()
 //*************************************************************************************************************
 
 void TmsNeurofeedback::update(SCMEASLIB::Measurement::SPtr pMeasurement) {
+
     QSharedPointer<RealTimeMultiSampleArray> pRTMSA = pMeasurement.dynamicCast<RealTimeMultiSampleArray>();
 
     if(pRTMSA) {
@@ -209,8 +226,10 @@ QString TmsNeurofeedback::getName() const
 
 QWidget* TmsNeurofeedback::setupWidget()
 {
-    TMSGui* setupWidget = new TMSGui();
-    return setupWidget;
+//    TMSGui* setupWidget = new TMSGui();
+//    return setupWidget;
+    m_pTMSGui = new TMSGui();
+    return m_pTMSGui;
 }
 
 //*************************************************************************************************************
