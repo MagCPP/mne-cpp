@@ -102,13 +102,19 @@ void TmsNeurofeedback::run()
     while(!m_pFiffInfo)
         msleep(10);// Wait for fiff Info
 
-    // Be ready to start directly
+    // Initialise
     double TimeNextShotPossible = clock();
     m_pError = 0;
     bool fire = false;
     int newPower = 0;
+    // Prepare Rapid
     m_pMyRapid = new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0));
     m_pMyRapid->connect(m_pError);
+    // get current Power
+    std::map<QString, std::map<QString, double>> settings;
+    settings = m_pMyRapid->getParameters(m_pError);
+    m_pCurrentPower = settings["rapidParam"]["power"];
+    // get ready
     m_pMyRapid->arm(false, m_pParams, m_pError);
     m_pMyRapid->ignoreCoilSafetySwitch(m_pError);
 
