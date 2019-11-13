@@ -103,6 +103,7 @@ private:
     double m_pNeutImageLowTresh;
     double m_pNegImageHighTresh;
     double m_pNegImageLowTresh;
+    double m_pUpdateTime;
 
 
 };

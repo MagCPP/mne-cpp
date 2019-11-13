@@ -73,7 +73,7 @@ bool TmsNeurofeedback::start()
 
     getParametersFromGUI();
 
-    m_pVisNF = new VisualNF(NULL);
+    m_pVisNF = new VisualNF(m_pUpdateTime, m_pNegImagePath, m_pNeutImagePath, m_pPosImagePath, NULL);
     m_pVisNF->show();
 
     return true;
@@ -132,20 +132,17 @@ void TmsNeurofeedback::run()
                 break;
         }
         MatrixXd t_mat = m_pExampleBuffer->pop();
-        //TODO visual NF
+
+        // Visual Neurofeedback if allowed
         double value = t_mat(0,0);
-        double pause = m_pTMSGui->getWait();
-        if(value < m_pTMSGui->getNegImageHighTresh()) {
+        if ((value < m_pNegImageHighTresh) & m_pNegImage) {
             m_pVisNF->showNegFB();
-            sleep(pause);
         }
-        else if(value > m_pTMSGui->getPosImageLowTresh()) {
+        else if ((value > m_pPosImageLowTresh) & m_pPosImage) {
             m_pVisNF->showPosFB();
-            sleep(pause);
         }
-        else{
+        else if (m_pNeutImage) {
             m_pVisNF->showNeutFB();
-            sleep(pause);
         }
 
 
@@ -315,6 +312,7 @@ void TmsNeurofeedback::getParametersFromGUI()
     m_pNeutImageLowTresh    = m_pTMSGui->getNeutImageLowTresh();
     m_pNegImageHighTresh    = m_pTMSGui->getNegImageHighTresh();
     m_pNegImageLowTresh     = m_pTMSGui->getNegImageLowTresh();
+    m_pUpdateTime           = m_pTMSGui->getWait();
 }
 
 //*************************************************************************************************************
