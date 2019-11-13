@@ -45,6 +45,10 @@ public:
 
     int connectionPossible();
 
+    bool isArmed();
+    bool isReadyToFire();
+    void quickfire();
+
 
     void getParametersFromGUI();
 
@@ -69,6 +73,8 @@ private:
 
     QMutex m_qMutex;
     TMSGui *m_pTMSGui;
+
+    bool m_pConnected = false;
     // Default Parameters for Rapid Functions
     std::map<QString, std::map<QString, double>> m_pParams;
     int m_pError;

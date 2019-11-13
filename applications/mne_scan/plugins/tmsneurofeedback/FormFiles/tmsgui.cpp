@@ -308,7 +308,6 @@ void TMSGui::on_pushButton_connect_clicked()
         Rapid myRapid(getPort(),getSuperRapid(), getUnlockCode(), getVoltage(), std::make_tuple(7,2,0));
         myRapid.connect(error);
         myRapid.disconnect(error2);
-        delete myRapid;
     } else {
         error = 1;
     }

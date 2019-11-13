@@ -1,12 +1,15 @@
 #include "checkwidget.h"
 #include "ui_checkwidget.h"
 
-CheckWidget::CheckWidget(QSharedPointer<Rapid> myRapid, QWidget *parent) :
+CheckWidget::CheckWidget(TmsNeurofeedback *owner, QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::CheckWidget),
-    m_pMyRapid(myRapid)
+    ui(new Ui::CheckWidget)
+//  , m_pMyRapid(owner)
 {
     ui->setupUi(this);
+    this->owner = owner;
+    int error = 0;
+//    m_pMyRapid->connect(error);
 
 }
 
@@ -22,7 +25,7 @@ void CheckWidget::on_armedButton_clicked()
     int i = 2;
     printf("Check is armed: ");
 
-    if (m_pMyRapid->isArmed()) {
+    if (owner->isArmed()) {
         ui->armedLabel->setPixmap(yes);
     }
     else {
@@ -36,7 +39,7 @@ void CheckWidget::on_readyfireButton_clicked()
     QPixmap no(":/grafics/images/no.png");
     int i = 1;
 
-    if (m_pMyRapid->isReadyToFire()) {
+    if (owner->isReadyToFire()) {
         ui->readyLabel->setPixmap(yes);
     }
     else {
@@ -46,8 +49,5 @@ void CheckWidget::on_readyfireButton_clicked()
 
 void CheckWidget::on_testButton_clicked()
 {
-    int error = 0;
-    m_pMyRapid->ignoreCoilSafetySwitch(error);
-    m_pMyRapid->quickFire(error);
-    m_pMyRapid->resetQuickFire();
+    owner->quickfire();
 }

@@ -10,7 +10,7 @@ TmsNeurofeedback::TmsNeurofeedback()
     : m_bIsRunning(false)
     , m_pSignalInput(NULL)
     , m_pExampleBuffer(CircularMatrixBuffer<double>::SPtr())
-    , m_pMyRapid(new Rapid("COM1"))
+    , m_pMyRapid(NULL)
     , m_pTMSGui (new TMSGui())
 {
     QAction* showCheckWidgetAction = new QAction(QIcon(":/grafics/images/Control.png"), tr("Toolbar Widget"), this);  // C:/Users/opper/Desktop/Control.png
@@ -27,6 +27,7 @@ TmsNeurofeedback::~TmsNeurofeedback()
     if(this->isRunning())
         stop();
     m_pMyRapid->disconnect(m_pError);
+    m_pConnected = false;
 //    delete m_pMyRapid;
 }
 
@@ -92,6 +93,7 @@ bool TmsNeurofeedback::stop()
     // Disconnect from Rapid
     m_pError = 0;
     m_pMyRapid->disconnect(m_pError);
+    m_pConnected = false;
     if (m_pError)
         return false;
     else
@@ -113,6 +115,7 @@ void TmsNeurofeedback::run()
     // Prepare Rapid
     m_pMyRapid = QSharedPointer<Rapid>(new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0)));
     m_pMyRapid->connect(m_pError);
+    m_pConnected = true;
     // get current Power
     std::map<QString, std::map<QString, double>> settings;
     settings = m_pMyRapid->getParameters(m_pError);
@@ -152,6 +155,7 @@ void TmsNeurofeedback::run()
 
         // In case of dynamic power and a changed setting, change power
         if (!m_pStaticPower & (newPower != m_pCurrentPower)) {
+            QMutexLocker locker(&m_qMutex);
             m_pMyRapid->disarm(m_pParams,m_pError);
             m_pMyRapid->setPower(newPower,true, m_pParams, m_pError);
             m_pMyRapid->arm(false, m_pParams, m_pError);
@@ -166,6 +170,7 @@ void TmsNeurofeedback::run()
             fire = false;
             // Fire only if not in Deadtime after the last shot
             if (TimeNextShotPossible < clock()) {
+                QMutexLocker locker(&m_qMutex);
                 printf("~~~ Fire in the hole! ~~~\n");
                 TimeNextShotPossible = clock() + m_pDeadTime * CLOCKS_PER_SEC;
                 for (int shots = 1; shots <= m_pPulses; ++shots) {
@@ -250,6 +255,35 @@ int TmsNeurofeedback::connectionPossible()
     return error;
 }
 
+bool TmsNeurofeedback::isArmed()
+{
+    QMutexLocker locker(&m_qMutex);
+    if (m_pConnected)
+        return m_pMyRapid->isArmed();
+    else
+        return false;
+}
+
+bool TmsNeurofeedback::isReadyToFire()
+{
+    QMutexLocker locker(&m_qMutex);
+    if (m_pConnected)
+        return m_pMyRapid->isReadyToFire();
+    else
+        return false;
+}
+
+void TmsNeurofeedback::quickfire()
+{
+    QMutexLocker locker(&m_qMutex);
+    int error = 0;
+    if (m_pConnected) {
+        m_pMyRapid->ignoreCoilSafetySwitch(error);
+        m_pMyRapid->quickFire(error);
+        m_pMyRapid->resetQuickFire();
+    }
+}
+
 //*************************************************************************************************************
 
 void TmsNeurofeedback::getParametersFromGUI()
@@ -283,7 +317,7 @@ void TmsNeurofeedback::getParametersFromGUI()
 
 void TmsNeurofeedback::showCheck()
 {
-    CheckWidget* checkWidget = new CheckWidget(m_pMyRapid);
+    CheckWidget* checkWidget = new CheckWidget(this, NULL);
     checkWidget->show();
 }
 
