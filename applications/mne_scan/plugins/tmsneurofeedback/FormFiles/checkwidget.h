@@ -15,11 +15,11 @@ class CheckWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit CheckWidget(Rapid *myRapid, QWidget *parent = nullptr);
+    explicit CheckWidget(QSharedPointer<Rapid> myRapid, QWidget *parent = nullptr);
     ~CheckWidget();
 
 private:
-    Rapid *m_pMyRapid;
+    QSharedPointer<Rapid> m_pMyRapid;
 
 private slots:
     void on_armedButton_clicked();

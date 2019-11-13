@@ -1,7 +1,7 @@
 #include "checkwidget.h"
 #include "ui_checkwidget.h"
 
-CheckWidget::CheckWidget(Rapid *myRapid, QWidget *parent) :
+CheckWidget::CheckWidget(QSharedPointer<Rapid> myRapid, QWidget *parent) :
     QWidget(parent),
     ui(new Ui::CheckWidget),
     m_pMyRapid(myRapid)

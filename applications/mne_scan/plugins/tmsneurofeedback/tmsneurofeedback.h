@@ -73,7 +73,7 @@ private:
     std::map<QString, std::map<QString, double>> m_pParams;
     int m_pError;
     // Rapid Settings
-    Rapid *m_pMyRapid;
+    QSharedPointer<Rapid> m_pMyRapid;
     QString m_pUnlockCode;
     QString m_pPort;
     int m_pVoltage;
