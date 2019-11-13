@@ -156,14 +156,7 @@ void TmsNeurofeedback::run()
 
         // In case of dynamic power and a changed setting, change power
         if (!m_pStaticPower & (newPower != m_pCurrentPower)) {
-            QMutexLocker locker(&m_qMutex);
-            m_pMyRapid->disarm(m_pParams,m_pError);
-            m_pMyRapid->setPower(newPower,true, m_pParams, m_pError);
-            m_pMyRapid->arm(false, m_pParams, m_pError);
-            m_pMyRapid->ignoreCoilSafetySwitch(m_pError);
-            m_pCurrentPower = newPower;
-            // just in case, dont know if needed
-            m_pMyRapid->resetQuickFire();
+            setPower(newPower);
         }
 
         // Fire
@@ -171,15 +164,16 @@ void TmsNeurofeedback::run()
             fire = false;
             // Fire only if not in Deadtime after the last shot
             if (TimeNextShotPossible < clock()) {
-                QMutexLocker locker(&m_qMutex);
-                printf("~~~ Fire in the hole! ~~~\n");
                 TimeNextShotPossible = clock() + m_pDeadTime * CLOCKS_PER_SEC;
-                for (int shots = 1; shots <= m_pPulses; ++shots) {
-                    m_pMyRapid->quickFire(m_pError);
-                    m_pMyRapid->resetQuickFire();
-                    double sleep = 1 / m_pFrequency;
-                    QThread::msleep(sleep * 1000);
-                }
+                TMSFire();
+//                QMutexLocker locker(&m_qMutex);
+//                printf("~~~ Fire in the hole! ~~~\n");
+//                for (int shots = 1; shots <= m_pPulses; ++shots) {
+//                    m_pMyRapid->quickFire(m_pError);
+//                    m_pMyRapid->resetQuickFire();
+//                    double sleep = 1 / m_pFrequency;
+//                    QThread::msleep(sleep * 1000);
+//                }
             }
         }
 
@@ -283,6 +277,30 @@ void TmsNeurofeedback::quickfire()
         m_pMyRapid->quickFire(error);
         m_pMyRapid->resetQuickFire();
     }
+}
+
+void TmsNeurofeedback::TMSFire()
+{
+    QMutexLocker locker(&m_qMutex);
+    printf("~~~ Fire in the hole! ~~~\n");
+    for (int shots = 1; shots <= m_pPulses; ++shots) {
+        m_pMyRapid->quickFire(m_pError);
+        m_pMyRapid->resetQuickFire();
+        double sleep = 1 / m_pFrequency;
+        QThread::msleep(sleep * 1000);
+    }
+}
+
+void TmsNeurofeedback::setPower(int newPower)
+{
+    QMutexLocker locker(&m_qMutex);
+    m_pMyRapid->disarm(m_pParams,m_pError);
+    m_pMyRapid->setPower(newPower,true, m_pParams, m_pError);
+    m_pMyRapid->arm(false, m_pParams, m_pError);
+    m_pMyRapid->ignoreCoilSafetySwitch(m_pError);
+    m_pCurrentPower = newPower;
+    // just in case, dont know if needed
+    m_pMyRapid->resetQuickFire();
 }
 
 //*************************************************************************************************************

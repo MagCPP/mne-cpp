@@ -48,6 +48,8 @@ public:
     bool isArmed();
     bool isReadyToFire();
     void quickfire();
+    void TMSFire();
+    void setPower(int newPower);
 
 
     void getParametersFromGUI();
