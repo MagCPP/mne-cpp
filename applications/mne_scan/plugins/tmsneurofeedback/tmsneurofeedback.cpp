@@ -27,7 +27,7 @@ TmsNeurofeedback::~TmsNeurofeedback()
     if(this->isRunning())
         stop();
     m_pMyRapid->disconnect(m_pError);
-    delete m_pMyRapid;
+//    delete m_pMyRapid;
 }
 
 //*************************************************************************************************************
@@ -111,7 +111,7 @@ void TmsNeurofeedback::run()
     bool fire = false;
     int newPower = 0;
     // Prepare Rapid
-    m_pMyRapid = new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0));
+    m_pMyRapid = QSharedPointer<Rapid>(new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0)));
     m_pMyRapid->connect(m_pError);
     // get current Power
     std::map<QString, std::map<QString, double>> settings;
@@ -232,7 +232,7 @@ int TmsNeurofeedback::connectionPossible()
     int error = 0;
     int error2 = 0;
     // Prepare Rapid
-    m_pMyRapid = new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0));
+    m_pMyRapid = QSharedPointer<Rapid>(new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0)));
     m_pMyRapid->connect(error);
     m_pMyRapid->disconnect(error2);
 
