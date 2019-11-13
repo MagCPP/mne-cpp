@@ -7,6 +7,7 @@
 include(../../../../mne-cpp.pri)
 
 QT       += core widgets
+QT       += serialport
 
 #QT       -= gui
 

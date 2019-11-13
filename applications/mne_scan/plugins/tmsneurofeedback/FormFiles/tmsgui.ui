@@ -657,17 +657,17 @@
        </property>
        <item>
         <property name="text">
+         <string>Rapid</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
          <string>MagStim</string>
         </property>
        </item>
        <item>
         <property name="text">
          <string>BiStim</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Rapid</string>
         </property>
        </item>
       </widget>
@@ -688,7 +688,7 @@
         </rect>
        </property>
        <property name="text">
-        <string>COM1</string>
+        <string>COM20</string>
        </property>
       </widget>
      </widget>

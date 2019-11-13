@@ -294,3 +294,36 @@ void TMSGui::on_pushButton_example_clicked()
 {
 
 }
+
+void TMSGui::on_pushButton_connect_clicked()
+{
+    int error = 0;
+    int error2 = 0;
+    // Prepare Rapid
+    QSerialPort porto;
+    porto.setPortName(getPort());
+
+    if (porto.open(QIODevice::ReadWrite)) {
+        porto.close();
+        Rapid myRapid(getPort(),getSuperRapid(), getUnlockCode(), getVoltage(), std::make_tuple(7,2,0));
+        myRapid.connect(error);
+        myRapid.disconnect(error2);
+    } else {
+        error = 1;
+    }
+
+    QString message;
+    switch (error) {
+    case 0:
+        message = "Connection established. No need to change device settings anymore.";
+        break;
+    default:
+        message = "Connection failed. Please change device settings.";
+        break;
+    }
+
+    QMessageBox msgBox;
+    msgBox.setText(message);
+    msgBox.exec();
+
+}

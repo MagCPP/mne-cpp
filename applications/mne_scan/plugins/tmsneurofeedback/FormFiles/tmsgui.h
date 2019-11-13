@@ -3,6 +3,9 @@
 
 #include <QWidget>
 
+#include <magcpp/devices/magstim.h>
+#include <magcpp/devices/rapid.h>
+
 namespace Ui {
 class TMSGui;
 }
@@ -64,6 +67,8 @@ private slots:
     void on_checkBox_visNeut_clicked(bool checked);
 
     void on_pushButton_example_clicked();
+
+    void on_pushButton_connect_clicked();
 
 private:
     Ui::TMSGui *ui;

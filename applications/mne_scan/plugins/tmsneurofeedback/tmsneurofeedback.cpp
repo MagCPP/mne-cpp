@@ -223,6 +223,19 @@ QWidget* TmsNeurofeedback::setupWidget()
     return m_pTMSGui;
 }
 
+int TmsNeurofeedback::connectionPossible()
+{
+    getParametersFromGUI();
+    int error = 0;
+    int error2 = 0;
+    // Prepare Rapid
+    m_pMyRapid = new Rapid(m_pPort,m_pSuperRapid, m_pUnlockCode, m_pVoltage, std::make_tuple(7,2,0));
+    m_pMyRapid->connect(error);
+    m_pMyRapid->disconnect(error2);
+
+    return error;
+}
+
 //*************************************************************************************************************
 
 void TmsNeurofeedback::getParametersFromGUI()
@@ -233,7 +246,7 @@ void TmsNeurofeedback::getParametersFromGUI()
     m_pSuperRapid           = m_pTMSGui->getSuperRapid();
     // Fire settings
     m_pStaticPower          = m_pTMSGui->getStaticPower();
-    m_pCurrentPower         = 30; // TODO
+    m_pCurrentPower         = 30;
     m_pPulses               = m_pTMSGui->getPulses();
     m_pDeadTime             = m_pTMSGui->getDeadTime();
     m_pFrequency            = m_pTMSGui->getFrequency();
@@ -256,7 +269,7 @@ void TmsNeurofeedback::getParametersFromGUI()
 
 void TmsNeurofeedback::showCheck()
 {
-    CheckWidget* checkWidget = new CheckWidget();
+    CheckWidget* checkWidget = new CheckWidget(m_pMyRapid);
     checkWidget->show();
 }
 

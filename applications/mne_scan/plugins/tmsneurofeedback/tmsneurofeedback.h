@@ -43,6 +43,8 @@ public:
     virtual QWidget* setupWidget();
     void showParamSet();
 
+    int connectionPossible();
+
 
     void getParametersFromGUI();
 
