@@ -40,6 +40,7 @@ public:
     double getNeutImageLowTresh();
     double getNegImageHighTresh();
     double getNegImageLowTresh();
+    double getWait();
 
 private slots:
 
