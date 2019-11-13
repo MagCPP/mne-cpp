@@ -135,6 +135,11 @@ double TMSGui::getNegImageLowTresh()
     return ui->doubleSpinBox_lowNeg->value();
 }
 
+double TMSGui::getWait()
+{
+    return ui->doubleSpinBox_visualwait->value();
+}
+
 
 
 
