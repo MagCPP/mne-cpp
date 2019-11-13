@@ -14,6 +14,9 @@ class VisualNF : public QWidget
 public:
     explicit VisualNF(QWidget *parent = nullptr);
     ~VisualNF();
+    void showNegFB();
+    void showPosFB();
+    void showNeutFB();
 
 private:
     Ui::VisualNF *ui;
