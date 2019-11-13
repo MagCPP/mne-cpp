@@ -131,10 +131,10 @@ void TmsNeurofeedback::run()
         MatrixXd t_mat = m_pExampleBuffer->pop();
         //TODO visual NF
         double value = t_mat(0,0);
-        if(value == 0.00) {
+        if(value < m_pTMSGui->getNegImageHighTresh()) {
             m_pVisNF->showNegFB();
         }
-        else if(value == 1.0) {
+        else if(value > m_pTMSGui->getPosImageLowTresh()) {
             m_pVisNF->showPosFB();
         }
         else{
