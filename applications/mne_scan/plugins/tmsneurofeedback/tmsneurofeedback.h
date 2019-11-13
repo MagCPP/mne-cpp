@@ -62,6 +62,9 @@ private:
 
     IOBUFFER::CircularMatrixBuffer<double>::SPtr m_pExampleBuffer;
 
+
+    VisualNF *m_pVisNF;
+
     bool m_bIsRunning;
 
     QMutex m_qMutex;

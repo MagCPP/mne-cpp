@@ -72,6 +72,9 @@ bool TmsNeurofeedback::start()
 
     getParametersFromGUI();
 
+    m_pVisNF = new VisualNF(NULL);
+    m_pVisNF->show();
+
     return true;
 }
 
