@@ -20,6 +20,7 @@ public:
     void showNegFB();
     void showPosFB();
     void showNeutFB();
+    void example();
 
 private:
     double m_updateTime;

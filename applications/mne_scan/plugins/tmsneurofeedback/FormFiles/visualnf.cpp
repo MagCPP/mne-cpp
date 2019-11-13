@@ -19,6 +19,7 @@ VisualNF::VisualNF(double updatetime, QString negImagePath, QString neutImagePat
     ui->label_visualposNF->setVisible(false);
     ui->label_visualneutNF->setVisible(false);
 
+    m_nextUpdateTime = clock();
 
 }
 
@@ -64,4 +65,24 @@ void VisualNF::showNeutFB()
         m_showNeut = true;
         m_nextUpdateTime = clock()  + m_updateTime * CLOCKS_PER_SEC;
     }
+}
+
+void VisualNF::example()
+{
+    double time = clock() + m_updateTime * CLOCKS_PER_SEC;
+    showPosFB();
+    while(clock() < time) {
+
+    }
+    time = clock() + m_updateTime * CLOCKS_PER_SEC;
+    showNeutFB();
+    while(clock() < time) {
+
+    }
+    time = clock() + m_updateTime * CLOCKS_PER_SEC;
+    showNegFB();
+    while(clock() < time) {
+
+    }
+    time = clock() + m_updateTime * CLOCKS_PER_SEC;
 }

@@ -297,7 +297,13 @@ void TMSGui::on_checkBox_visNeut_clicked(bool checked)
 
 void TMSGui::on_pushButton_example_clicked()
 {
-
+    double wait = getWait();
+    VisualNF *vnf = new VisualNF(wait, getNegImagePath(), getNeutImagePath(), getPosImagePath(), NULL);
+    vnf->show();
+//    vnf->raise();
+    vnf->example();
+    vnf->close();
+    delete vnf;
 }
 
 void TMSGui::on_pushButton_connect_clicked()
