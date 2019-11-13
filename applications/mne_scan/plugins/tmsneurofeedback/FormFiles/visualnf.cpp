@@ -3,11 +3,23 @@
 
 VisualNF::VisualNF(QWidget *parent) :
     QWidget(parent),
+    m_pTMSGui (new TMSGui()),
     ui(new Ui::VisualNF)
 {
     ui->setupUi(this);
-//    QPixmap yes(":/grafics/images/no.png");
-//    ui->label_visualNF->setPixmap(yes);
+    QPixmap Negative(m_pTMSGui->getNegImagePath());
+    QPixmap Positive(m_pTMSGui->getPosImagePath());
+    QPixmap Neutral(m_pTMSGui->getNeutImagePath());
+
+    ui->label_visualnegNF->setPixmap(Negative);
+    ui->label_visualposNF->setPixmap(Positive);
+    ui->label_visualneutNF->setPixmap(Neutral);
+
+    ui->label_visualnegNF->setVisible(true);
+    ui->label_visualposNF->setVisible(false);
+    ui->label_visualneutNF->setVisible(false);
+
+
 }
 
 VisualNF::~VisualNF()
@@ -17,21 +29,21 @@ VisualNF::~VisualNF()
 
 void VisualNF::showNegFB()
 {
-//    ui->label_visualNF->clear();
-    QPixmap Negative(":/grafics/images/Bild2");
-    ui->label_visualNF->setPixmap(Negative);
+    ui->label_visualposNF->setVisible(false);
+    ui->label_visualneutNF->setVisible(false);
+    ui->label_visualnegNF->setVisible(true);
 }
 
 void VisualNF::showPosFB()
 {
-    ui->label_visualNF->clear();
-    QPixmap Positive(":/grafics/images/Bild1");
-    ui->label_visualNF->setPixmap(Positive);
+    ui->label_visualnegNF->setVisible(false);
+    ui->label_visualneutNF->setVisible(false);
+    ui->label_visualposNF->setVisible(true);
 }
 
 void VisualNF::showNeutFB()
 {
-    ui->label_visualNF->clear();
-    QPixmap Neutral(":/grafics/images/Bild3");
-    ui->label_visualNF->setPixmap(Neutral);
+    ui->label_visualposNF->setVisible(false);
+    ui->label_visualnegNF->setVisible(false);
+    ui->label_visualneutNF->setVisible(true);
 }

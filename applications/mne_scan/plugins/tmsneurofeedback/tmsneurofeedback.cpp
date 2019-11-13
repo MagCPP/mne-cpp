@@ -130,19 +130,18 @@ void TmsNeurofeedback::run()
         }
         MatrixXd t_mat = m_pExampleBuffer->pop();
         //TODO visual NF
-        if(t_mat(0,0) == 0.00) {
+        double value = t_mat(0,0);
+        if(value == 0.00) {
             m_pVisNF->showNegFB();
         }
-        if(t_mat(0,0) == 1.00) {
+        else if(value == 1.0) {
             m_pVisNF->showPosFB();
         }
+        else{
+            m_pVisNF->showNeutFB();
+        }
 
-        //        if(m_pPosImageLowTresh < t_mat(0,0) /*< m_pPosImageHighTresh*/) {
-//            m_pVisNF->showPosFB();
-//        }
-//        if(m_pNeutImageLowTresh < t_mat(0,0) < m_pNeutImageHighTresh) {
-//            m_pVisNF->showNeutFB();
-//        }
+
         // Check for Fire Command
         // StaticPower: everything about 0 is meant to Fire
         // DynamicPower: change Power between [0; 1] in scale to [0%; 100%]

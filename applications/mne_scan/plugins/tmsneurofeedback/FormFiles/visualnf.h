@@ -2,6 +2,7 @@
 #define VISUALNF_H
 
 #include <QWidget>
+#include "tmsgui.h"
 
 namespace Ui {
 class VisualNF;
@@ -20,6 +21,8 @@ public:
 
 private:
     Ui::VisualNF *ui;
+    TMSGui *m_pTMSGui;
+
 };
 
 #endif // VISUALNF_H
