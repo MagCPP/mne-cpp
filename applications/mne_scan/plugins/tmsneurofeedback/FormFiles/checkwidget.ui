@@ -14,6 +14,9 @@
    <string>Form</string>
   </property>
   <widget class="QPushButton" name="armedButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -27,6 +30,9 @@
    </property>
   </widget>
   <widget class="QPushButton" name="readyfireButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -40,6 +46,9 @@
    </property>
   </widget>
   <widget class="QPushButton" name="testButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>60</x>

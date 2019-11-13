@@ -37,7 +37,7 @@
     <enum>QTabWidget::North</enum>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tms">
     <attribute name="title">
@@ -60,6 +60,9 @@
           <width>200</width>
           <height>0</height>
          </size>
+        </property>
+        <property name="toolTip">
+         <string>number of shots</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
@@ -84,6 +87,9 @@
       </item>
       <item row="4" column="9">
        <widget class="QSpinBox" name="spinBox_frequency">
+        <property name="toolTip">
+         <string>frequency of shots</string>
+        </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
         </property>
@@ -203,6 +209,9 @@
       </item>
       <item row="8" column="9">
        <widget class="QSpinBox" name="spinBox_dtime">
+        <property name="toolTip">
+         <string>wait after one shot session at least dead time until new shots are possible</string>
+        </property>
         <property name="alignment">
          <set>Qt::AlignCenter</set>
         </property>
@@ -213,7 +222,7 @@
          <number>1000</number>
         </property>
         <property name="value">
-         <number>15</number>
+         <number>3</number>
         </property>
        </widget>
       </item>
@@ -255,13 +264,6 @@
          </size>
         </property>
        </spacer>
-      </item>
-      <item row="10" column="9">
-       <widget class="QPushButton" name="pushButton_resettms">
-        <property name="text">
-         <string>RESET</string>
-        </property>
-       </widget>
       </item>
       <item row="1" column="6">
        <spacer name="horizontalSpacer_2">
@@ -368,6 +370,13 @@
         </property>
        </widget>
       </item>
+      <item row="8" column="1">
+       <widget class="QPushButton" name="pushButton_resettms">
+        <property name="text">
+         <string>RESET</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </widget>
@@ -413,8 +422,14 @@
        </item>
        <item row="11" column="0">
         <widget class="QCheckBox" name="checkBox_visNeg">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>negative</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -427,15 +442,30 @@
        </item>
        <item row="7" column="0">
         <widget class="QCheckBox" name="checkBox_visPos">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>positive</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
        <item row="9" column="0">
         <widget class="QCheckBox" name="checkBox_visNeut">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>neutral</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -480,6 +510,9 @@
        </item>
        <item row="11" column="4">
         <widget class="QLineEdit" name="lineEdit_negative">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="toolTip">
           <string>To change the picture enter the path of the file</string>
          </property>
@@ -602,6 +635,9 @@
        </item>
        <item row="7" column="4">
         <widget class="QLineEdit" name="lineEdit_positiv">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="minimumSize">
           <size>
            <width>500</width>
@@ -618,11 +654,28 @@
        </item>
        <item row="9" column="4">
         <widget class="QLineEdit" name="lineEdit_neutral">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="toolTip">
           <string>To change the picture enter the path of the file</string>
          </property>
          <property name="text">
           <string>:/grafics/images/Bild3.png</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="5">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>High Threshold</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="6">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Low Threshold</string>
          </property>
         </widget>
        </item>
@@ -658,16 +711,6 @@
        <item>
         <property name="text">
          <string>Rapid</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>MagStim</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>BiStim</string>
         </property>
        </item>
       </widget>
@@ -712,12 +755,12 @@
        </property>
        <item>
         <property name="text">
-         <string>115 Volt</string>
+         <string>240 Volt</string>
         </property>
        </item>
        <item>
         <property name="text">
-         <string>240 Volt</string>
+         <string>115 Volt</string>
         </property>
        </item>
       </widget>
@@ -819,7 +862,7 @@
     <item row="2" column="5">
      <widget class="QPushButton" name="pushButton_connect">
       <property name="text">
-       <string>Connect to device</string>
+       <string>Check connection</string>
       </property>
      </widget>
     </item>
@@ -838,37 +881,14 @@
     <string>Device Settings</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_stop">
-   <property name="geometry">
-    <rect>
-     <x>890</x>
-     <y>810</y>
-     <width>201</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>STOP</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_start">
-   <property name="geometry">
-    <rect>
-     <x>890</x>
-     <y>740</y>
-     <width>201</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>START</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton_example">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>560</x>
-     <y>780</y>
+     <x>850</x>
+     <y>760</y>
      <width>201</width>
      <height>71</height>
     </rect>
